@@ -1,4 +1,5 @@
 <script>
+  import Chart from "../lib/Chart.svelte";
 	import { onMount } from 'svelte';
 	let isScrolled = false;
 	// Detect scroll event
@@ -53,6 +54,8 @@
 	onMount(() => {
 		typeWriter();
 	});
+
+  
 </script>
 
 <!-- Large Title Section with Image Background -->
@@ -76,29 +79,29 @@
 >
 	<nav class="flex items-center justify-between px-6 py-4">
 		<!-- Left: Project Title -->
-		<div class={`text-xl font-semibold transition hover:text-blue-500 ${isScrolled ? 'text-pink-500' : 'text-white'}`}>mADAme</div>
+		<div class={`text-2xl font-semibold transition ${isScrolled ? 'text-pink-500' : 'text-white'}`}>MADAME</div>
 
 		<!-- Right: Navigation Links -->
 		<div class="flex space-x-4">
 			<a
 				href="#home"
-				class={`font-semibold transition hover:text-blue-500 ${isScrolled ? 'text-pink-500' : 'text-white'}`}
+				class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
 				>Home</a
 			>
 			<a
 				href="#intro"
-				class={`font-semibold transition hover:text-blue-500 ${isScrolled ? 'text-pink-500' : 'text-white'}`}
+				class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
 				>Intro</a
 			>
 			<a
 				href="#research-questions"
-				class={`font-semibold transition hover:text-blue-500 ${isScrolled ? 'text-pink-500' : 'text-white'}`}
+				class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
 				>Research Questions</a
 			>
-			<a href="#storytelling" class={`font-semibold transition hover:text-blue-500 ${isScrolled ? 'text-pink-500' : 'text-white'}`}
+			<a href="#storytelling" class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
 				>Storytelling</a
 			>
-			<a href="#team" class={`font-semibold transition hover:text-blue-500 ${isScrolled ? 'text-pink-500' : 'text-white'}`}>Our Team</a>
+			<a href="#team" class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}>Our Team</a>
 		</div>
 	</nav>
 </div>
@@ -108,6 +111,7 @@
 	<section id="intro" class="min-h-screen">
 		<h2 class="text-center mb-4 text-3xl font-bold">Intro</h2>
 		<p>Your introduction content goes here...</p>
+    <Chart />
 	</section>
 
 	<section id="research-questions" class="min-h-screen">
