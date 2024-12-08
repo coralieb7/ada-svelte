@@ -1,16 +1,14 @@
 <script>
-  import Chart from "../lib/Chart.svelte";
+	import Chart from '../lib/Chart.svelte';
+  import Plot from "../lib/Plot.svelte";
+  import Ages from "../lib/Ages.svelte";
 	import { onMount } from 'svelte';
 	let isScrolled = false;
 	// Detect scroll event
-	function handleScroll() {
-		if (window.scrollY > 750) {
-			isScrolled = true;
-		} else {
-			isScrolled = false;
-		}
-	}
 	onMount(() => {
+		const handleScroll = () => {
+			isScrolled = window.scrollY > 750;
+		};
 		window.addEventListener('scroll', handleScroll);
 		return () => window.removeEventListener('scroll', handleScroll);
 	});
@@ -54,8 +52,27 @@
 	onMount(() => {
 		typeWriter();
 	});
+  const data = [
+    {
+      x: [1, 2, 3, 4, 5],
+      y: [10, 15, 13, 17, 22],
+      type: "hist",
+      mode: "markers",
+      marker: { color: "blue" },
+    },
+  ];
 
-  
+  const layout = {
+    title: "Example Plot",
+    xaxis: { title: "X Axis" },
+    yaxis: { title: "Y Axis" },
+    responsive: true,
+  };
+
+  const config = {
+    displayModeBar: true,
+    responsive: true,
+  };
 </script>
 
 <!-- Large Title Section with Image Background -->
@@ -67,8 +84,8 @@
 	<div class="absolute inset-0 bg-black opacity-40"></div>
 	<!-- Dark overlay for readability -->
 
-	<div class="relative z-10 flex flex-col gap-4 h-full items-center justify-center">
-		<h1 class="text-center text-10xl font-extrabold text-white sm:text-10xl lg:text-8xl">MADAME</h1>
+	<div class="relative z-10 flex h-full flex-col items-center justify-center gap-4">
+		<h1 class="text-10xl sm:text-10xl text-center font-extrabold text-white lg:text-8xl">MADAME</h1>
 		<p class="mt-4 text-xl text-white" id="anim">{displayedText}</p>
 	</div>
 </section>
@@ -79,7 +96,9 @@
 >
 	<nav class="flex items-center justify-between px-6 py-4">
 		<!-- Left: Project Title -->
-		<div class={`text-2xl font-semibold transition ${isScrolled ? 'text-pink-500' : 'text-white'}`}>MADAME</div>
+		<div class={`text-2xl font-semibold transition ${isScrolled ? 'text-pink-500' : 'text-white'}`}>
+			MADAME
+		</div>
 
 		<!-- Right: Navigation Links -->
 		<div class="flex space-x-4">
@@ -98,10 +117,40 @@
 				class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
 				>Research Questions</a
 			>
-			<a href="#storytelling" class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
-				>Storytelling</a
+			<!-- Datastory Item with Dropdown -->
+			<div class="relative group">
+				<!-- Main Link -->
+				<a
+					href="#datastory"
+					class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
+					>Datastory</a
+				>
+				<!-- Dropdown Menu -->
+				<div
+					class="absolute left-5 mt-2 hidden w-30 rounded-md bg-white shadow-lg group-hover:flex group-hover:flex-col"
+				>
+					<a
+						href="#genres"
+						class="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-500"
+						>Genres</a
+					>
+					<a
+						href="#world"
+						class="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-500"
+						>World</a
+					>
+					<a
+						href="#characters"
+						class="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-500"
+						>Characters</a
+					>
+				</div>
+			</div>
+			<a
+				href="#team"
+				class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
+				>Our Team</a
 			>
-			<a href="#team" class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}>Our Team</a>
 		</div>
 	</nav>
 </div>
@@ -109,19 +158,53 @@
 <!-- Content Sections (below the large title) -->
 <div class="space-y-20 p-6">
 	<section id="intro" class="min-h-screen">
-		<h2 class="text-center mb-4 text-3xl font-bold">Intro</h2>
+		<h2 class="mb-4 text-center text-3xl font-bold">Intro</h2>
 		<p>Your introduction content goes here...</p>
-    <Chart />
 	</section>
 
 	<section id="research-questions" class="min-h-screen">
-		<h2 class="text-center mb-4 text-3xl font-bold">Research Questions</h2>
+		<h2 class="mb-4 text-center text-3xl font-bold">Research Questions</h2>
 		<p>Your research questions content goes here...</p>
 	</section>
 
-	<section id="storytelling" class="min-h-screen">
-		<h2 class="text-center mb-4 text-3xl font-bold">Storytelling</h2>
-		<p>Your storytelling content goes here...</p>
+	<section id="datastory" class="min-h-screen">
+		<h2 class="mb-4 text-center text-3xl font-bold">Datastory</h2>
+		<div>
+			<h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="genres">
+				Genres
+			</h3>
+			<!-- Flex container to split the screen into two columns -->
+			<div class="flex min-h-screen">
+				<!-- Left side: Chart -->
+				<div class="w-1/2 pr-4">
+					<!-- Adjust width as needed -->
+					<Chart />
+				</div>
+
+				<!-- Right side: Additional content -->
+				<div class="w-1/2 pr-4">
+					<!-- Adjust width as needed -->
+					<Chart />
+				</div>
+			</div>
+		</div>
+    <div>
+      <h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="world">World</h3>
+      <div class="flex min-h-screen">
+        <div class="w-1/2 bg-white shadow-md rounded">
+          <Plot {data} {layout} {config} />
+        </div>
+        <div class="w-1/2 bg-white shadow-md rounded">
+          <Ages/>
+        </div>
+        
+      </div>
+    </div>
+    <div>
+      <h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="characters">Characters</h3>
+    </div>
+		<p>Your characters content goes here...</p>
+		<p></p>
 	</section>
 
 	<section id="team" class="min-h bg-gray-100 py-8">

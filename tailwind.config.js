@@ -4,7 +4,8 @@ export default {
 		'./node_modules/layerchart/**/*.{svelte,js}'],
 
 	theme: {
-		extend: {}
+		extend: {
+		}
 	},
 
 	plugins: []

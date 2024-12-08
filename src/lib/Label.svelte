@@ -5,7 +5,7 @@
     export let rank;
     export let i;
     const { names, scales, dimensions } = getContext("Chart");
-    const formatNumber = (d) => format(",.1f")(d * 100) + "%";
+    const formatNumber = (d) => format(",.1f")(d);
     $: x = $scales.x(value);
     $: y = $scales.y(rank) + $dimensions.barMargin / 2;
     $: height = $dimensions.barHeight;

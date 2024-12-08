@@ -1,12 +1,35 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 :root {
-    scroll-padding-top: 4rem;
-  }
-  
+  scroll-padding-top: 4rem;
+}
+
+.group:hover .group-hover\:flex {
+  display: flex;
+}
+
+.group {
+  position: relative;
+}
+
+.group .group-hover\:flex {
+  margin-top: 0; /* Remove gaps */
+  padding: 4px 0;
+  position: absolute;
+  display: none;
+  top: 100%; /* Place directly below the link */
+  left: 0;
+  z-index: 10;
+}
+
+.group:hover .group-hover\:flex {
+  display: flex;
+}
