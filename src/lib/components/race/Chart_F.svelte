@@ -4,13 +4,13 @@
   import { writable } from "svelte/store";
   import { tweened } from "svelte/motion";
   
-  import Timer from "./Timer.svelte";
-  import Bars from "./Bars.svelte";
-  import Axis from "./Axis.svelte";
-  import Labels from "./Labels.svelte";
-  import Ticker from "./Ticker.svelte";
+  import Timer from "/Users/coraliebanuls/Library/CloudStorage/OneDrive-Personal/Documents/EPFL/MA1/ADA/ada-svelte/src/lib/components/race/Timer.svelte";
+  import Bars from "/Users/coraliebanuls/Library/CloudStorage/OneDrive-Personal/Documents/EPFL/MA1/ADA/ada-svelte/src/lib/components/race/Bars.svelte";
+  import Axis from "/Users/coraliebanuls/Library/CloudStorage/OneDrive-Personal/Documents/EPFL/MA1/ADA/ada-svelte/src/lib/components/race/Axis.svelte";
+  import Labels from "/Users/coraliebanuls/Library/CloudStorage/OneDrive-Personal/Documents/EPFL/MA1/ADA/ada-svelte/src/lib/components/race/Labels.svelte";
+  import Ticker from "/Users/coraliebanuls/Library/CloudStorage/OneDrive-Personal/Documents/EPFL/MA1/ADA/ada-svelte/src/lib/components/race/Ticker.svelte";
   
-  import keyframes from "./genres3.json";
+  import keyframes from "../../json/genres3_M.json";
   
   const duration = 300; // ms between keyframes
   const barCount = 8; // how many bars to show

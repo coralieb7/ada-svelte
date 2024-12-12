@@ -1,8 +1,12 @@
 <script>
-	import Chart from '../lib/Chart.svelte';
-  import Plot from "../lib/Plot.svelte";
-  import Ages from "../lib/Ages.svelte";
+	import Axis from '../lib/components/race/Chart.svelte';
+	import Ages from '../lib/components/Ages.svelte';
+	import DirectorsTime from '../lib/components/DirectorsTime.svelte';
+	import BechdelRatings from '../lib/components/BechdelRatings.svelte';
 	import { onMount } from 'svelte';
+	import ChartF from '../lib/components/race/Chart_F.svelte';
+	import Chart from '../lib/components/race/Chart.svelte';
+	import Boxes from '../lib/components/Boxes.svelte';
 	let isScrolled = false;
 	// Detect scroll event
 	onMount(() => {
@@ -13,66 +17,96 @@
 		return () => window.removeEventListener('scroll', handleScroll);
 	});
 
-	// Typewriter logic
-	let currentTextIndex = 0;
-	let displayedText = ' ';
-	const texts = [
-		'Do you love movies?',
-		'What proportion of female characters is portrayed as smart in movies?',
-		'What is the impact of the #MeToo movement on the film industry?',
-		'How do you think the film industry can be more inclusive?',
-		'In your opinion, how are women portrayed in movies?',
-		'What are the prime years for an actress?',
-		'How many female directors do you know?',
-		'Don’t know half of the answers? You are in the right place.'
-	];
+	let displayedText1 = ' ';
+	function typeWriter1() {
+		const text1 =
+			'Imagine this: an actress sits at a table, flipping through a script. She’s been offered a role in a major film, but there’s a catch. Her character has just a few lines—and the most memorable one is: “What do we do now?”. She delivers it to a man in a moment of high tension, waiting for him to decide the next move.';
 
-	// Function to type the next text
-	function typeWriter() {
-		const text = texts[currentTextIndex];
-		let i = 1;
-		displayedText = text.charAt(0);
+		let i1 = 1;
+		displayedText1 = text1.charAt(0);
 
 		// Typing effect
-		const interval = setInterval(() => {
-			if (i < text.length) {
-				displayedText += text.charAt(i);
-				i++;
+		function typeNextChar1() {
+			displayedText1 += text1.charAt(i1);
+
+			// Check for a period and pause if necessary
+			if (text1.charAt(i1) === '.') {
+				i1++; // Increment to the next character
+				setTimeout(typeNextChar1, 500); // Pause for 500ms after a period
 			} else {
-				clearInterval(interval); // Stop the typing when the text is fully typed
-				setTimeout(() => {
-					currentTextIndex = (currentTextIndex + 1) % texts.length;
-					typeWriter(); // Call it again for the next text
-				}, 2000); // Wait for 1 second before typing the next text
+				i1++;
+				setTimeout(typeNextChar1, 50); // Normal typing speed
 			}
-		}, 50); // Speed of typing (adjust if needed)
+		}
+
+		typeNextChar1(); // Start the typing process
 	}
 
 	// Start typing effect on mount
 	onMount(() => {
-		typeWriter();
+		typeWriter1();
 	});
-  const data = [
-    {
-      x: [1, 2, 3, 4, 5],
-      y: [10, 15, 13, 17, 22],
-      type: "hist",
-      mode: "markers",
-      marker: { color: "blue" },
-    },
-  ];
+	let displayedText2 = ' ';
+	// Function to type the next text
+	function typeWriter2() {
+		const text2 =
+			'This line, so popular in movies, encapsulates a troubling trend: women on screen often lack agency, especially in male-directed films. “What Do We Do Now?” is not just the title of our project, but also a call to action—to explore how directors’ genders influence the roles, agency, and portrayal of women in cinema.';
 
-  const layout = {
-    title: "Example Plot",
-    xaxis: { title: "X Axis" },
-    yaxis: { title: "Y Axis" },
-    responsive: true,
-  };
+		displayedText2 = '';
+		let i2 = 0;
+		// Typing effect
+		function typeNextChar2() {
+			displayedText2 += text2.charAt(i2);
 
-  const config = {
-    displayModeBar: true,
-    responsive: true,
-  };
+			// Check for a period and pause if necessary
+			if (text2.charAt(i2) === '.') {
+				i2++; // Increment to the next character
+				setTimeout(typeNextChar2, 500); // Pause for 500ms after a period
+			} else {
+				i2++;
+				setTimeout(typeNextChar2, 50); // Normal typing speed
+			}
+		}
+		setTimeout(() => {
+			typeNextChar2(); // Start the typing process
+		}, 19000);
+	}
+
+	// Start typing effect on mount
+	onMount(() => {
+		typeWriter2();
+	});
+	let displayedText3 = ' ';
+
+	// Function to type the next text
+	function typeWriter3() {
+		const text3 =
+			'Through this project, we use data to uncover patterns in representation, challenge stereotypes, and highlight the stories that directors choose to tell about women.';
+
+		let i3 = 0;
+		displayedText3 = '';
+		// Typing effect
+		function typeNextChar3() {
+			displayedText3 += text3.charAt(i3);
+
+			// Check for a period and pause if necessary
+			if (text3.charAt(i3) === '.') {
+				i3++; // Increment to the next character
+				setTimeout(typeNextChar3, 500); // Pause for 500ms after a period
+			} else {
+				i3++;
+				setTimeout(typeNextChar3, 50); // Normal typing speed
+			}
+		}
+		setTimeout(() => {
+			typeNextChar3(); // Start the typing process
+		}, 37000);
+	}
+
+	// Start typing effect on mount
+	onMount(() => {
+		typeWriter3();
+	});
 </script>
 
 <!-- Large Title Section with Image Background -->
@@ -85,14 +119,33 @@
 	<!-- Dark overlay for readability -->
 
 	<div class="relative z-10 flex h-full flex-col items-center justify-center gap-4">
-		<h1 class="text-10xl sm:text-10xl text-center font-extrabold text-white lg:text-8xl">MADAME</h1>
-		<p class="mt-4 text-xl text-white" id="anim">{displayedText}</p>
+		<h1 class="text-6xl sm:text-6xl text-center font-extrabold text-white lg:text-6xl">
+			"WHAT DO WE DO NOW?"
+		</h1>
+		<p
+			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
+			id="anim"
+		>
+			{displayedText1}
+		</p>
+		<p
+			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
+			id="anim"
+		>
+			{displayedText2}
+		</p>
+		<p
+			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
+			id="anim"
+		>
+			{displayedText3}
+		</p>
 	</div>
 </section>
 
 <!-- Navigation Bar -->
 <div
-	class={`fixed left-0 right-0 top-0 z-20 transition-all duration-300 ${isScrolled ? 'bg-white bg-opacity-80' : 'bg-transparent'}`}
+	class={`fixed left-0 right-0 top-0 z-20 transition-all duration-300 ${isScrolled ? 'bg-white bg-opacity-100' : 'bg-transparent'}`}
 >
 	<nav class="flex items-center justify-between px-6 py-4">
 		<!-- Left: Project Title -->
@@ -118,7 +171,7 @@
 				>Research Questions</a
 			>
 			<!-- Datastory Item with Dropdown -->
-			<div class="relative group">
+			<div class="group relative">
 				<!-- Main Link -->
 				<a
 					href="#datastory"
@@ -127,7 +180,7 @@
 				>
 				<!-- Dropdown Menu -->
 				<div
-					class="absolute left-5 mt-2 hidden w-30 rounded-md bg-white shadow-lg group-hover:flex group-hover:flex-col"
+					class="w-30 absolute left-5 mt-2 hidden rounded-md bg-white shadow-lg group-hover:flex group-hover:flex-col"
 				>
 					<a
 						href="#genres"
@@ -167,44 +220,48 @@
 		<p>Your research questions content goes here...</p>
 	</section>
 
-	<section id="datastory" class="min-h-screen">
+	<section id="datastory" class="flex min-h-screen flex-col">
 		<h2 class="mb-4 text-center text-3xl font-bold">Datastory</h2>
 		<div>
 			<h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="genres">
 				Genres
 			</h3>
-			<!-- Flex container to split the screen into two columns -->
-			<div class="flex min-h-screen">
-				<!-- Left side: Chart -->
-				<div class="w-1/2 pr-4">
-					<!-- Adjust width as needed -->
-					<Chart />
-				</div>
-
-				<!-- Right side: Additional content -->
-				<div class="w-1/2 pr-4">
-					<!-- Adjust width as needed -->
-					<Chart />
+			<div class="flex items-center justify-center">
+				<ChartF />
+			</div>
+			<div class="flex items-center justify-center">
+				<BechdelRatings />
+			</div>
+			<div class="flex items-center justify-center">
+				<DirectorsTime />
+			</div>
+			<div>
+				<h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="world">
+					World
+				</h3>
+				<div class="flex items-center justify-center">
+					<div class="rounded bg-white p-4 shadow-md">
+						<Ages />
+					</div>
 				</div>
 			</div>
+			<div>
+				<h3
+					class="font-custom mb-4 text-xl"
+					style="font-family: 'Roboto', sans-serif;"
+					id="characters"
+				>
+					Characters
+				</h3>
+				<div class="flex items-center justify-center">
+					<div class="rounded bg-white p-4 shadow-md">
+						<Boxes />
+					</div>
+				</div>
+			</div>
+			<p>Your characters content goes here...</p>
+			<p></p>
 		</div>
-    <div>
-      <h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="world">World</h3>
-      <div class="flex min-h-screen">
-        <div class="w-1/2 bg-white shadow-md rounded">
-          <Plot {data} {layout} {config} />
-        </div>
-        <div class="w-1/2 bg-white shadow-md rounded">
-          <Ages/>
-        </div>
-        
-      </div>
-    </div>
-    <div>
-      <h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="characters">Characters</h3>
-    </div>
-		<p>Your characters content goes here...</p>
-		<p></p>
 	</section>
 
 	<section id="team" class="min-h bg-gray-100 py-8">
