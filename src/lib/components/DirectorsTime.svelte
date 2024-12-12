@@ -5,8 +5,7 @@
 
 	onMount(async () => {
 		// Load the data from the JSON file
-		const response = await fetch('src/lib/json/bechdel_ratings.json');
-		const data_json = await response.json();
+		
 
 		var trace1 = {
 			x: [1, 2, 3, 4],

@@ -5,7 +5,7 @@
   
     onMount(async () => {
       // Load the data from the JSON file
-      const response = await fetch('src/lib/json/bechdel_ratings.json');
+      const response = await fetch('/json/bechdel_ratings.json');
       const data_json = await response.json();
   
       var traces1 = {

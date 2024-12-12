@@ -5,7 +5,7 @@
 
   onMount(async () => {
     // Load the data from the JSON file
-    const response = await fetch('src/lib/json/ages.json');
+    const response = await fetch('/json/ages.json');
     const data = await response.json();
 
     const fig = {
