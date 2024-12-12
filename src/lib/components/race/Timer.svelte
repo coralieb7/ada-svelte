@@ -1,6 +1,6 @@
 <script>
     import { createEventDispatcher } from "svelte";
-    import { timer, elapsed } from "/Users/coraliebanuls/Library/CloudStorage/OneDrive-Personal/Documents/EPFL/MA1/ADA/ada-svelte/src/lib/components/race/my-timer.js";
+    import { timer, elapsed } from "./my-timer.js";
     export let currentKeyframe = 0;
     export let keyframeCount = 0;
     export let duration = 1000;

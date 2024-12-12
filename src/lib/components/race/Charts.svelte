@@ -1,7 +1,7 @@
 <script>
   import ChartM from './Chart.svelte';
   import ChartF from './Chart_F.svelte';
-  import Timer from "/Users/coraliebanuls/Library/CloudStorage/OneDrive-Personal/Documents/EPFL/MA1/ADA/ada-svelte/src/lib/components/race/Timer.svelte";
+  import Timer from "./Timer.svelte";
 
   import { onMount } from 'svelte';
 

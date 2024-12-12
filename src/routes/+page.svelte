@@ -5,7 +5,6 @@
 	import BechdelRatings from '../lib/components/BechdelRatings.svelte';
 	import { onMount } from 'svelte';
 	import ChartF from '../lib/components/race/Chart_F.svelte';
-	import Chart from '../lib/components/race/Chart.svelte';
 	import Boxes from '../lib/components/Boxes.svelte';
 	let isScrolled = false;
 	// Detect scroll event
