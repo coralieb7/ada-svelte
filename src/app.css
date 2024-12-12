@@ -3,6 +3,11 @@
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 html {
   scroll-behavior: smooth;
@@ -32,4 +37,116 @@ html {
 
 .group:hover .group-hover\:flex {
   display: flex;
+}
+
+/* Spotlight styles */
+.spotlight-left {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(171, 171, 171, 0.1) 70%);
+  border-radius: 50%;
+  filter: blur(1vw);
+  animation: move-spotlight-left 10s infinite alternate ease-in-out;
+  z-index: 0;
+  top: 37vw;
+  left: 17vw;
+}
+
+.gradient-line-left {
+  position: absolute;
+  width: 110%;
+  height: 50vw;
+  background: linear-gradient(
+    
+    rgba(255, 255, 255, 0.7),
+    rgba(0, 0, 0, 0.1) 85%
+  );
+  z-index: 0;
+  top: 0;
+  left: -55vw;
+  clip-path: polygon(50% 0%, 40% 100%, 60% 100%); /* Cone shape */
+  animation: move-light-left 5s infinite alternate ease-in-out;
+  transform-origin: top left;
+  transform-origin: top;
+  
+}
+/* Gradient lines */
+
+
+.spotlight-right {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(171, 171, 171, 0.1) 70%);
+  border-radius: 50%;
+  filter: blur(1vw);
+  animation: move-spotlight-right 10s infinite alternate ease-in-out;
+  z-index: 0;
+  top: 37vw;
+  right: 17vw;
+}
+
+.gradient-line-right {
+  position: absolute;
+  width: 110%;
+  height: 50vw;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.7),
+    rgba(0, 0, 0, 0.1) 85%
+  );
+  z-index: 0;
+  top: 0;
+  right: -55vw;
+  clip-path: polygon(50% 0%, 40% 100%, 60% 100%); /* Cone shape */
+  animation: move-light-right 5s infinite alternate ease-in-out;
+  transform-origin: top left;
+  transform-origin: top;
+}
+
+@keyframes move-spotlight-left {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20vw, -20vw);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes move-light-left {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(-60deg);
+  }
+}
+
+/* Keyframes for spotlight movement */
+@keyframes move-spotlight-right {
+  0% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(-20vw, -20vw);
+  }
+  
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes move-light-right {
+  from {
+    transform: rotate(30deg);
+  }
+  to {
+    transform: rotate(60deg);
+  }
+}
+/* General styles */
+#home {
+  position: relative;
 }

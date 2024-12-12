@@ -10,7 +10,7 @@
   import Labels from "./Labels.svelte";
   import Ticker from "./Ticker.svelte";
   
-  import keyframes from "../../json/genres3_M.json";
+  import keyframes from "../../json/genres2.json";
   
   const duration = 300; // ms between keyframes
   const barCount = 8; // how many bars to show

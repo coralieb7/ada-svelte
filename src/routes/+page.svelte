@@ -108,34 +108,41 @@
 	});
 </script>
 
-<!-- Large Title Section with Image Background -->
-<section
-	class="relative h-screen bg-cover bg-center"
-	style="background-image: url('/img/home.jpg');"
-	id="home"
->
-	<div class="absolute inset-0 bg-black opacity-40"></div>
-	<!-- Dark overlay for readability -->
+<!-- Large Title Section with Animated Bubbles Background -->
+<!-- Large Title Section with Animated Bubbles Background -->
+<section class="relative h-screen overflow-hidden bg-black" id="home">
+	<!-- Left spotlight -->
+	<div class="spotlight-left-container">
+		<div class="gradient-line gradient-line-left"></div>
+		<div class="spotlight spotlight-left"></div>
+	  </div>
+	
+	  <!-- Right spotlight -->
+	  <div class="spotlight-right-container">
+		<div class="gradient-line gradient-line-right"></div>
+		<div class="spotlight spotlight-right"></div>
+	  </div>
 
+	<!-- Content -->
 	<div class="relative z-10 flex h-full flex-col items-center justify-center gap-4">
-		<h1 class="text-6xl sm:text-6xl text-center font-extrabold text-white lg:text-6xl">
+		<h1
+			class="text-center text-6xl font-extrabold text-white sm:text-6xl lg:text-6xl"
+			style="font-family: 'Limelight'"
+		>
 			"WHAT DO WE DO NOW?"
 		</h1>
 		<p
 			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
-			id="anim"
 		>
 			{displayedText1}
 		</p>
 		<p
 			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
-			id="anim"
 		>
 			{displayedText2}
 		</p>
 		<p
 			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
-			id="anim"
 		>
 			{displayedText3}
 		</p>
@@ -148,7 +155,10 @@
 >
 	<nav class="flex items-center justify-between px-6 py-4">
 		<!-- Left: Project Title -->
-		<div class={`text-2xl font-semibold transition ${isScrolled ? 'text-pink-500' : 'text-white'}`}>
+		<div
+			class={`text-2xl font-semibold transition ${isScrolled ? 'text-pink-500' : 'text-white'}`}
+			style="font-family: 'Limelight'"
+		>
 			MADAME
 		</div>
 
@@ -220,13 +230,13 @@
 	</section>
 
 	<section id="datastory" class="flex min-h-screen flex-col">
-		<h2 class="mb-4 text-center text-3xl font-bold">Datastory</h2>
+		<h2 class="mb-4 text-center font-serif text-3xl" style="font-family: 'Limelight'">MADAME</h2>
 		<div>
 			<h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="genres">
 				Genres
 			</h3>
 			<div class="flex items-center justify-center">
-				<ChartF />
+				<!-- <ChartF /> -->
 			</div>
 			<div class="flex items-center justify-center">
 				<BechdelRatings />
