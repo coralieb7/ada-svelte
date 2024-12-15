@@ -3,7 +3,7 @@
 	import DirectorsTime from '../lib/components/DirectorsTime.svelte';
 	import BechdelRatings from '../lib/components/BechdelRatings.svelte';
 	import { onMount } from 'svelte';
-
+	import Chart from '$lib/components/race/Chart.svelte';
 	import Boxes from '../lib/components/Boxes.svelte';
 	import RendementsOpti from '$lib/components/Rendements_opti.svelte';
 	import RendementsWorst from '$lib/components/Rendements_worst.svelte';
@@ -221,6 +221,7 @@
 		<div>
 			<h3 class="font-custom mb-4 text-xl text-black" id="genres">Genres</h3>
 			<div class="flex flex-row items-center justify-center">
+				<Chart />
 			</div>
 		</div>
 		<div>
