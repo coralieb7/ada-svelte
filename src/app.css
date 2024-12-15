@@ -17,6 +17,7 @@ html {
   scroll-padding-top: 4rem;
 }
 
+/* FOR THE DROPDOWN MENU DATASTORY */
 .group:hover .group-hover\:flex {
   display: flex;
 }
@@ -39,7 +40,7 @@ html {
   display: flex;
 }
 
-/* Spotlight styles */
+/* FOR THE HOME WITH THE SPOTLIGHTS */
 .spotlight-left {
   position: absolute;
   width: 25vw;
@@ -49,10 +50,9 @@ html {
   filter: blur(1vw);
   animation: move-spotlight-left 10s infinite alternate ease-in-out;
   z-index: 0;
-  top: 37vw;
-  left: 17vw;
+  top: 34vw;
+  left: 19vw;
 }
-
 .gradient-line-left {
   position: absolute;
   width: 110%;
@@ -71,9 +71,6 @@ html {
   transform-origin: top;
   
 }
-/* Gradient lines */
-
-
 .spotlight-right {
   position: absolute;
   width: 25vw;
@@ -83,10 +80,9 @@ html {
   filter: blur(1vw);
   animation: move-spotlight-right 10s infinite alternate ease-in-out;
   z-index: 0;
-  top: 37vw;
-  right: 17vw;
+  top: 34vw;
+  right: 19vw;
 }
-
 .gradient-line-right {
   position: absolute;
   width: 110%;
@@ -103,13 +99,12 @@ html {
   transform-origin: top left;
   transform-origin: top;
 }
-
 @keyframes move-spotlight-left {
   0% {
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(20vw, -20vw);
+    transform: translate(17vw, -17vw);
   }
   100% {
     transform: translate(0, 0);
@@ -117,21 +112,19 @@ html {
 }
 @keyframes move-light-left {
   from {
-    transform: rotate(-30deg);
+    transform: rotate(-35deg);
   }
   to {
     transform: rotate(-60deg);
   }
 }
-
-/* Keyframes for spotlight movement */
 @keyframes move-spotlight-right {
   0% {
     transform: translate(0, 0);
   }
   
   50% {
-    transform: translate(-20vw, -20vw);
+    transform: translate(-17vw, -17vw);
   }
   
   100% {
@@ -140,13 +133,83 @@ html {
 }
 @keyframes move-light-right {
   from {
-    transform: rotate(30deg);
+    transform: rotate(35deg);
   }
   to {
     transform: rotate(60deg);
   }
 }
-/* General styles */
 #home {
   position: relative;
+}
+
+/* FOR THE INTRO WITH THE BUBBLE */
+
+.bubble-container-left{
+  top: 28%;
+  left: 20%;
+  width: 55vw;
+  height: 55vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bubble-container-left2{
+  top: 80%;
+  left: 20%;
+  width: 55vw;
+  height: 55vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble-container-right{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 75%;
+  width: 45vw;
+  height: 45vw;
+}
+.bubble-container-left.visible {
+  width: 55vw;
+  height: 55vw;
+  opacity: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(0, 0, 0, 0.1) 70%);
+}
+.bubble-container-right.visible {
+  width: 45vw;
+  height: 45vw;
+  opacity: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(0, 0, 0, 0.1) 70%);
+}
+
+/* Text Inside the Bubble */
+.bubble-content {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 10rem;
 }

@@ -1,127 +1,78 @@
 <script>
-	import Axis from '../lib/components/race/Chart.svelte';
 	import Ages from '../lib/components/Ages.svelte';
 	import DirectorsTime from '../lib/components/DirectorsTime.svelte';
 	import BechdelRatings from '../lib/components/BechdelRatings.svelte';
 	import { onMount } from 'svelte';
-	import ChartF from '../lib/components/race/Chart_F.svelte';
+
 	import Boxes from '../lib/components/Boxes.svelte';
+	import RendementsOpti from '$lib/components/Rendements_opti.svelte';
+	import RendementsWorst from '$lib/components/Rendements_worst.svelte';
+	import AverageRatingsOpti from '$lib/components/AverageRatingsOpti.svelte';
+	import AverageRatingsWorst from '$lib/components/AverageRatingsWorst.svelte';
+
+	
+	// for the scroll
 	let isScrolled = false;
-	// Detect scroll event
+	let firstBubbleVisible = false;
+	let secondBubbleVisible = false;
+	let thirdBubbleVisible = false;
 	onMount(() => {
 		const handleScroll = () => {
 			isScrolled = window.scrollY > 750;
+			firstBubbleVisible = window.scrollY > 800;
+			secondBubbleVisible = window.scrollY > 820;
+			thirdBubbleVisible = window.scrollY > 840;
 		};
 		window.addEventListener('scroll', handleScroll);
 		return () => window.removeEventListener('scroll', handleScroll);
 	});
 
-	let displayedText1 = ' ';
-	function typeWriter1() {
-		const text1 =
-			'Imagine this: an actress sits at a table, flipping through a script. She’s been offered a role in a major film, but there’s a catch. Her character has just a few lines—and the most memorable one is: “What do we do now?”. She delivers it to a man in a moment of high tension, waiting for him to decide the next move.';
-
-		let i1 = 1;
-		displayedText1 = text1.charAt(0);
-
-		// Typing effect
-		function typeNextChar1() {
-			displayedText1 += text1.charAt(i1);
-
-			// Check for a period and pause if necessary
-			if (text1.charAt(i1) === '.') {
-				i1++; // Increment to the next character
-				setTimeout(typeNextChar1, 500); // Pause for 500ms after a period
-			} else {
-				i1++;
-				setTimeout(typeNextChar1, 50); // Normal typing speed
-			}
-		}
-
-		typeNextChar1(); // Start the typing process
-	}
-
-	// Start typing effect on mount
-	onMount(() => {
-		typeWriter1();
-	});
-	let displayedText2 = ' ';
-	// Function to type the next text
-	function typeWriter2() {
-		const text2 =
-			'This line, so popular in movies, encapsulates a troubling trend: women on screen often lack agency, especially in male-directed films. “What Do We Do Now?” is not just the title of our project, but also a call to action—to explore how directors’ genders influence the roles, agency, and portrayal of women in cinema.';
-
-		displayedText2 = '';
-		let i2 = 0;
-		// Typing effect
-		function typeNextChar2() {
-			displayedText2 += text2.charAt(i2);
-
-			// Check for a period and pause if necessary
-			if (text2.charAt(i2) === '.') {
-				i2++; // Increment to the next character
-				setTimeout(typeNextChar2, 500); // Pause for 500ms after a period
-			} else {
-				i2++;
-				setTimeout(typeNextChar2, 50); // Normal typing speed
-			}
-		}
-		setTimeout(() => {
-			typeNextChar2(); // Start the typing process
-		}, 19000);
-	}
-
-	// Start typing effect on mount
-	onMount(() => {
-		typeWriter2();
-	});
-	let displayedText3 = ' ';
+	let currentTextIndex = 0;
+	let displayedText = ' ';
+	const texts = [
+		'How do directors frame women?',
+		'Do female directors rewrite stereotypes?',
+		'Are female characters more than tropes?',
+		'Why do women in films so often ask, "What do we do now?" instead of deciding?'
+	];
 
 	// Function to type the next text
-	function typeWriter3() {
-		const text3 =
-			'Through this project, we use data to uncover patterns in representation, challenge stereotypes, and highlight the stories that directors choose to tell about women.';
+	function typeWriter() {
+		const text = texts[currentTextIndex];
+		let i = 1;
+		displayedText = text.charAt(0);
 
-		let i3 = 0;
-		displayedText3 = '';
 		// Typing effect
-		function typeNextChar3() {
-			displayedText3 += text3.charAt(i3);
-
-			// Check for a period and pause if necessary
-			if (text3.charAt(i3) === '.') {
-				i3++; // Increment to the next character
-				setTimeout(typeNextChar3, 500); // Pause for 500ms after a period
+		const interval = setInterval(() => {
+			if (i < text.length) {
+				displayedText += text.charAt(i);
+				i++;
 			} else {
-				i3++;
-				setTimeout(typeNextChar3, 50); // Normal typing speed
+				clearInterval(interval); // Stop the typing when the text is fully typed
+				setTimeout(() => {
+					currentTextIndex = (currentTextIndex + 1) % texts.length;
+					typeWriter(); // Call it again for the next text
+				}, 2000); // Wait for 1 second before typing the next text
 			}
-		}
-		setTimeout(() => {
-			typeNextChar3(); // Start the typing process
-		}, 37000);
+		}, 50); // Speed of typing (adjust if needed)
 	}
-
-	// Start typing effect on mount
 	onMount(() => {
-		typeWriter3();
+		typeWriter();
 	});
 </script>
 
-<!-- Large Title Section with Animated Bubbles Background -->
-<!-- Large Title Section with Animated Bubbles Background -->
 <section class="relative h-screen overflow-hidden bg-black" id="home">
 	<!-- Left spotlight -->
 	<div class="spotlight-left-container">
-		<div class="gradient-line gradient-line-left"></div>
-		<div class="spotlight spotlight-left"></div>
-	  </div>
-	
-	  <!-- Right spotlight -->
-	  <div class="spotlight-right-container">
-		<div class="gradient-line gradient-line-right"></div>
-		<div class="spotlight spotlight-right"></div>
-	  </div>
+		<div class="gradient-line-left"></div>
+		<div class="spotlight-left"></div>
+	</div>
+
+	<!-- Right spotlight -->
+	<div class="spotlight-right-container">
+		<div class="gradient-line-right"></div>
+		<div class="spotlight-right"></div>
+	</div>
 
 	<!-- Content -->
 	<div class="relative z-10 flex h-full flex-col items-center justify-center gap-4">
@@ -134,25 +85,13 @@
 		<p
 			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
 		>
-			{displayedText1}
-		</p>
-		<p
-			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
-		>
-			{displayedText2}
-		</p>
-		<p
-			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
-		>
-			{displayedText3}
+			{displayedText}
 		</p>
 	</div>
 </section>
 
 <!-- Navigation Bar -->
-<div
-	class={`fixed left-0 right-0 top-0 z-20 transition-all duration-300 ${isScrolled ? 'bg-white bg-opacity-100' : 'bg-transparent'}`}
->
+<div class={`fixed left-0 right-0 top-0 z-20 bg-transparent transition-all duration-300`}>
 	<nav class="flex items-center justify-between px-6 py-4">
 		<!-- Left: Project Title -->
 		<div
@@ -218,58 +157,105 @@
 </div>
 
 <!-- Content Sections (below the large title) -->
-<div class="space-y-20 p-6">
-	<section id="intro" class="min-h-screen">
-		<h2 class="mb-4 text-center text-3xl font-bold">Intro</h2>
-		<p>Your introduction content goes here...</p>
+<div class="space-y-20 bg-white p-6">
+	<section id="intro" class="relative flex min-h-screen items-center justify-center bg-black">
+		<!-- First Bubble -->
+		<div
+			class="bubble-container-left absolute flex items-center justify-center"
+			class:visible={firstBubbleVisible}
+		>
+			<div class="bubble-content">
+				<p class="leading-relaxed text-white">
+					Meet Madame. Sitting at her table, she is holding her very first movie script, a huge
+					opportunity she’s dreamed about for years. Suddenly, as she flips through the pages, one
+					line catches her eye: “WHAT DO WE DO NOW?” …. Why would this easy as pie question disturb
+					her so much? Because she delivers it to a man in a moment of high tension, waiting for him
+					to decide the next move. Disillusioned, Madame wonders: Is this really how it starts? A
+					character with little to say, caught in a moment of indecision, as usual, relying on a man
+					to take charge?
+				</p>
+			</div>
+		</div>
+
+		<!-- Second Bubble -->
+		<div
+			class="bubble-container-right absolute flex items-center justify-center"
+			class:visible={secondBubbleVisible}
+		>
+			<div class="bubble-content">
+				<p class="leading-relaxed text-white">
+					This iconic line is more than just dialogue. It’s a symbol of a deeper issue: women in
+					films are often underrepresented and stereotyped, their roles shaped by limited
+					perspectives. “What Do We Do Now?” isn’t just the title of our project—it’s a question
+					we’re asking to explore how the gender of a movie director influences how women are
+					portrayed on screen.
+				</p>
+			</div>
+		</div>
+		<!-- Third Bubble -->
+		<div
+			class="bubble-container-left2 absolute flex items-center justify-center"
+			class:visible={thirdBubbleVisible}
+		>
+			<div class="bubble-content">
+				<p class="leading-relaxed text-white">
+					Through our analysis, we’ll explore how the gender of a director influences female
+					representation, uncover the stereotypes that still dominate, and track how women’s roles
+					have evolved across time and cultures. Because some questions raised in cinema do not
+					always stay on screen : they reflect real-world dynamics, mirroring how groups of people
+					and behaviors are portrayed in our society.
+				</p>
+			</div>
+		</div>
 	</section>
 
 	<section id="research-questions" class="min-h-screen">
-		<h2 class="mb-4 text-center text-3xl font-bold">Research Questions</h2>
+		<h2 class="mb-4 text-center text-3xl font-bold text-white">Research Questions</h2>
 		<p>Your research questions content goes here...</p>
 	</section>
 
 	<section id="datastory" class="flex min-h-screen flex-col">
-		<h2 class="mb-4 text-center font-serif text-3xl" style="font-family: 'Limelight'">MADAME</h2>
+		<h2 class="mb-4 text-center font-serif text-3xl text-white" style="font-family: 'Limelight'">
+			MADAME
+		</h2>
 		<div>
-			<h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="genres">
-				Genres
-			</h3>
-			<div class="flex items-center justify-center">
-				<!-- <ChartF /> -->
+			<h3 class="font-custom mb-4 text-xl text-black" id="genres">Genres</h3>
+			<div class="flex flex-row items-center justify-center">
 			</div>
-			<div class="flex items-center justify-center">
-				<BechdelRatings />
-			</div>
-			<div class="flex items-center justify-center">
-				<DirectorsTime />
-			</div>
-			<div>
-				<h3 class="font-custom mb-4 text-xl" style="font-family: 'Roboto', sans-serif;" id="world">
-					World
-				</h3>
+		</div>
+		<div>
+			<h3 class="font-custom mb-4 text-xl text-white" id="world">World</h3>
+			<div class="flex flex-col items-center justify-center">
+				<div class="rounded bg-white p-4 shadow-md">
+					<Ages />
+				</div>
 				<div class="flex items-center justify-center">
-					<div class="rounded bg-white p-4 shadow-md">
-						<Ages />
-					</div>
+					<BechdelRatings />
+				</div>
+				<div class="flex items-center justify-center">
+					<DirectorsTime />
+				</div>
+				<div class="flex items-center justify-center">
+					<RendementsOpti />
+				</div>
+				<div class="flex items-center justify-center">
+					<RendementsWorst />
+				</div>
+				<div class="flex items-center justify-center">
+					<AverageRatingsOpti />
+				</div>
+				<div class="flex items-center justify-center">
+					<AverageRatingsWorst />
 				</div>
 			</div>
-			<div>
-				<h3
-					class="font-custom mb-4 text-xl"
-					style="font-family: 'Roboto', sans-serif;"
-					id="characters"
-				>
-					Characters
-				</h3>
-				<div class="flex items-center justify-center">
-					<div class="rounded bg-white p-4 shadow-md">
-						<Boxes />
-					</div>
+		</div>
+		<div>
+			<h3 class="font-custom mb-4 text-xl text-white" id="characters">Characters</h3>
+			<div class="flex items-center justify-center">
+				<div class="rounded bg-white p-4 shadow-md">
+					<Boxes />
 				</div>
 			</div>
-			<p>Your characters content goes here...</p>
-			<p></p>
 		</div>
 	</section>
 

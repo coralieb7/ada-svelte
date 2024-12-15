@@ -1,0 +1,6722 @@
+[
+    [
+        "01-01-1980",
+        [
+            {
+                "name": "Drama",
+                "value": 18.701870187018702,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.761276127612762,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.25082508250825,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.2607260726072615,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 6.6006600660066,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.380638063806381,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 6.050605060506051,
+                "rank": 6
+            },
+            {
+                "name": "Romance",
+                "value": 4.51045104510451,
+                "rank": 7
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.3003300330033,
+                "rank": 8
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 2.9702970297029703,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.9702970297029703,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.6402640264026402,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.2002200220022003,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1980",
+        [
+            {
+                "name": "Drama",
+                "value": 19.5230066010961,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.193605408896023,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.631743079183067,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.456417461008884,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 6.34257242608922,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.116620381816224,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.8965983796160035,
+                "rank": 6
+            },
+            {
+                "name": "Romance",
+                "value": 4.671652262332852,
+                "rank": 7
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.5478220830406464,
+                "rank": 8
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 2.9710818882126024,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.733269759794053,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.473612402857408,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.180249733257115,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1980",
+        [
+            {
+                "name": "Drama",
+                "value": 20.344143015173493,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.625934690179283,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.012661075857883,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.6521088494105065,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 6.084484786171839,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.8526026998260665,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.742591698725957,
+                "rank": 6
+            },
+            {
+                "name": "Romance",
+                "value": 4.832853479561194,
+                "rank": 7
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.795314133077993,
+                "rank": 8
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 2.9718667467222346,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.496242489885136,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.3069607793121762,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.1602794445120295,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1981",
+        [
+            {
+                "name": "Drama",
+                "value": 21.16527942925089,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.058263971462544,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.3935790725327,
+                "rank": 2
+            },
+            {
+                "name": "Horror",
+                "value": 7.8478002378121285,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 5.826397146254459,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.58858501783591,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.58858501783591,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.9940546967895365,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.0428061831153395,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.972651605231867,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.2592152199762188,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.140309155766944,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.140309155766944,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1981",
+        [
+            {
+                "name": "Drama",
+                "value": 20.69325838648074,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.367647941964233,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.223026940030508,
+                "rank": 2
+            },
+            {
+                "name": "Horror",
+                "value": 7.426224191979245,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.008959992313144,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.74592536542596,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.676263226798304,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.757443639726636,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.053615825316182,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.9918687469222545,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.481413420771328,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.2279873647293384,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.1583252261016828,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1981",
+        [
+            {
+                "name": "Drama",
+                "value": 20.22123734371059,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 9.67703191246592,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.052474807528316,
+                "rank": 2
+            },
+            {
+                "name": "Horror",
+                "value": 7.004648146146362,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.191522838371828,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.90326571301601,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.763941435760699,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.520832582663735,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.064425467517025,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.0110858886126426,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.7036116215664374,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.315665573691733,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.176341296436421,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1982",
+        [
+            {
+                "name": "Drama",
+                "value": 19.74921630094044,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.986415882967608,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 8.881922675026123,
+                "rank": 2
+            },
+            {
+                "name": "Horror",
+                "value": 6.583072100313479,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.374085684430512,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.0606060606060606,
+                "rank": 5
+            },
+            {
+                "name": "Thriller",
+                "value": 5.851619644723093,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.284221525600835,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 4.075235109717868,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.0303030303030303,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.9258098223615465,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.4033437826541273,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.19435736677116,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1982",
+        [
+            {
+                "name": "Drama",
+                "value": 20.0971910030564,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.492194368566473,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 8.707991322471864,
+                "rank": 2
+            },
+            {
+                "name": "Horror",
+                "value": 6.389429274449786,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.2143779518211275,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.00539153593816,
+                "rank": 5
+            },
+            {
+                "name": "Thriller",
+                "value": 5.794613167936153,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.7496810885213145,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 3.931542949172398,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.199194517522492,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.9866241974014454,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.3882241866497327,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.248899909394421,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1982",
+        [
+            {
+                "name": "Drama",
+                "value": 20.44516570517236,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.997972854165337,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 8.534059969917603,
+                "rank": 2
+            },
+            {
+                "name": "Horror",
+                "value": 6.195786448586094,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.054670219211743,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.9501770112702586,
+                "rank": 5
+            },
+            {
+                "name": "Thriller",
+                "value": 5.737606691149212,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.215140651441793,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 3.787850788626928,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.3680860047419534,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.0474385724413446,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.373104590645338,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.3034424520176824,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1983",
+        [
+            {
+                "name": "Drama",
+                "value": 20.79314040728832,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.503751339764202,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.360128617363344,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.002143622722401,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 5.894962486602358,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.894962486602358,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 5.680600214362272,
+                "rank": 6
+            },
+            {
+                "name": "Action",
+                "value": 5.680600214362272,
+                "rank": 7
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.644158628081458,
+                "rank": 8
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.536977491961415,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 3.1082529474812435,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.3579849946409435,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.3579849946409435,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1983",
+        [
+            {
+                "name": "Drama",
+                "value": 20.37940521382018,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.075820648776949,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.221076919382758,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.309643609988729,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.10241219405534,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.068467862758666,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 5.891615349968602,
+                "rank": 6
+            },
+            {
+                "name": "Action",
+                "value": 5.416394711815173,
+                "rank": 7
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.956933993737944,
+                "rank": 8
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.512092258727841,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 3.022609907961019,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.284820953657438,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.9114333093940301,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1983",
+        [
+            {
+                "name": "Drama",
+                "value": 19.965670020352047,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.647889957789697,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.082025221402173,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.617143597255057,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.309861901508321,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.241973238914976,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 6.102630485574933,
+                "rank": 6
+            },
+            {
+                "name": "Action",
+                "value": 5.152189209268076,
+                "rank": 7
+            },
+            {
+                "name": "Science Fiction",
+                "value": 4.26970935939443,
+                "rank": 8
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.487207025494267,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.936966868440795,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.211656912673933,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.464881624147117,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1984",
+        [
+            {
+                "name": "Drama",
+                "value": 19.551934826883908,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.219959266802444,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.942973523421588,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 6.924643584521386,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.517311608961303,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.415478615071284,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 6.313645621181263,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.887983706720977,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.582484725050916,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.462321792260693,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.8513238289205702,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.1384928716904277,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.0183299389002036,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1984",
+        [
+            {
+                "name": "Drama",
+                "value": 19.3037363677697,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.122174679397348,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.986447180752007,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.215817435552483,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.85251966591304,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.17301020821266,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 6.074540505863961,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.910031951269643,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.247650367159326,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.2562267605896973,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.7877327055189123,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.190187908344077,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.3822505403065577,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1984",
+        [
+            {
+                "name": "Drama",
+                "value": 19.05553790865549,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.024390091992252,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.029920838082425,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.506991286583582,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.187727722864777,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.930541801354037,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.83543539054666,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.932080195818307,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 3.912816009267737,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.050131728918702,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.7241415821172543,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.2418829449977267,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.746171141712912,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1985",
+        [
+            {
+                "name": "Drama",
+                "value": 18.807339449541285,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.926605504587156,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.073394495412845,
+                "rank": 2
+            },
+            {
+                "name": "Adventure",
+                "value": 7.79816513761468,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 7.522935779816514,
+                "rank": 4
+            },
+            {
+                "name": "Thriller",
+                "value": 5.688073394495413,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.596330275229358,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 4.954128440366973,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.577981651376147,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.8440366972477067,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.6605504587155964,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.293577981651376,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.1100917431192663,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1985",
+        [
+            {
+                "name": "Drama",
+                "value": 18.334022095489985,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.794914180235281,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.05493566961457,
+                "rank": 2
+            },
+            {
+                "name": "Adventure",
+                "value": 7.8113893710224,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 7.477752982340138,
+                "rank": 4
+            },
+            {
+                "name": "Thriller",
+                "value": 5.834090971705651,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.7128688321348875,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.1345841254098135,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.097032812629143,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.0371656059729455,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.884811416921509,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.369892828608425,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.0974185194368684,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1985",
+        [
+            {
+                "name": "Drama",
+                "value": 17.86070474143869,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.663222855883406,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.036476843816294,
+                "rank": 2
+            },
+            {
+                "name": "Adventure",
+                "value": 7.824613604430119,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 7.432570184863763,
+                "rank": 4
+            },
+            {
+                "name": "Thriller",
+                "value": 5.980108548915888,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.829407389040417,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.315039810452655,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.616083973882139,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.2302945146981843,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 3.109072375127421,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.4462076755654736,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.08474529575447,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1986",
+        [
+            {
+                "name": "Drama",
+                "value": 17.38738738738739,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.531531531531531,
+                "rank": 1
+            },
+            {
+                "name": "Action",
+                "value": 8.018018018018019,
+                "rank": 2
+            },
+            {
+                "name": "Adventure",
+                "value": 7.837837837837839,
+                "rank": 3
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.3873873873873865,
+                "rank": 4
+            },
+            {
+                "name": "Thriller",
+                "value": 6.126126126126126,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 5.9459459459459465,
+                "rank": 6
+            },
+            {
+                "name": "Romance",
+                "value": 5.495495495495495,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.135135135135135,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.423423423423423,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.3333333333333335,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.5225225225225225,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.0720720720720722,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1986",
+        [
+            {
+                "name": "Drama",
+                "value": 17.3104160554518,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.764997722106537,
+                "rank": 1
+            },
+            {
+                "name": "Action",
+                "value": 8.045901342168222,
+                "rank": 2
+            },
+            {
+                "name": "Adventure",
+                "value": 7.713972908571797,
+                "rank": 3
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.281292412348805,
+                "rank": 4
+            },
+            {
+                "name": "Thriller",
+                "value": 6.202167218847123,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 6.029095020357928,
+                "rank": 6
+            },
+            {
+                "name": "Romance",
+                "value": 5.5699384849503994,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.144365970418393,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.10303949700296,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.016503397758362,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.4494868180332836,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.0432823609948314,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1986",
+        [
+            {
+                "name": "Drama",
+                "value": 17.23344472351621,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.998463912681546,
+                "rank": 1
+            },
+            {
+                "name": "Action",
+                "value": 8.073784666318424,
+                "rank": 2
+            },
+            {
+                "name": "Adventure",
+                "value": 7.590107979305755,
+                "rank": 3
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.175197437310225,
+                "rank": 4
+            },
+            {
+                "name": "Thriller",
+                "value": 6.278208311568121,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 6.11224409476991,
+                "rank": 6
+            },
+            {
+                "name": "Romance",
+                "value": 5.644381474405303,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.153596805701651,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.782655570582497,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.699673462183391,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.3764511135440443,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.0144926499175906,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1987",
+        [
+            {
+                "name": "Drama",
+                "value": 17.156473391580622,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.231930103256552,
+                "rank": 1
+            },
+            {
+                "name": "Action",
+                "value": 8.101667990468627,
+                "rank": 2
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.466243050039714,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.069102462271644,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.354249404289118,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 6.195393169181891,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.718824463860207,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 5.162827640984909,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.4622716441620334,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.3828435266084194,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.3034154090548054,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.9857029388403495,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1987",
+        [
+            {
+                "name": "Drama",
+                "value": 17.080204234705253,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.479750568464844,
+                "rank": 1
+            },
+            {
+                "name": "Action",
+                "value": 7.886819177339513,
+                "rank": 2
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.438345478549966,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.074156799356835,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.547873950361277,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 6.243113218927624,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.502830527485228,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 4.958166476043133,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.685511446592735,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.4834169372020334,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.2564653559743943,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.9700858269872776,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1987",
+        [
+            {
+                "name": "Drama",
+                "value": 17.003935077829883,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.727571033673138,
+                "rank": 1
+            },
+            {
+                "name": "Action",
+                "value": 7.671970364210398,
+                "rank": 2
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.4104479070602185,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.0792111364420265,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.741498496433435,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 6.2908332686733575,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.286836591110251,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 4.753505311101358,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.908751249023437,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.583990347795648,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.209515302893983,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.9544687151342055,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1988",
+        [
+            {
+                "name": "Drama",
+                "value": 16.927665920954514,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.97539149888143,
+                "rank": 1
+            },
+            {
+                "name": "Horror",
+                "value": 7.457121551081284,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.38255033557047,
+                "rank": 3
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.084265473527218,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 6.935123042505594,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 6.33855331841909,
+                "rank": 6
+            },
+            {
+                "name": "Romance",
+                "value": 5.070842654735272,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.548844146159582,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.131991051454139,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.684563758389262,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.162565249813572,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.9388516032811336,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1988",
+        [
+            {
+                "name": "Drama",
+                "value": 17.40650979092441,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.739767172093794,
+                "rank": 1
+            },
+            {
+                "name": "Horror",
+                "value": 8.057834120473942,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.776638495318585,
+                "rank": 3
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.114818957660121,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 6.629588201176569,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 6.206154887176513,
+                "rank": 6
+            },
+            {
+                "name": "Romance",
+                "value": 5.206693457066313,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.472891982213384,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.0910804540558456,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.4584334520948987,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.0589941171596653,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.7555306984837187,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1988",
+        [
+            {
+                "name": "Drama",
+                "value": 17.885353660894303,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.504142845306156,
+                "rank": 1
+            },
+            {
+                "name": "Horror",
+                "value": 8.6585466898666,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.1707266550667,
+                "rank": 3
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.145372441793023,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 6.324053359847543,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 6.073756455933935,
+                "rank": 6
+            },
+            {
+                "name": "Romance",
+                "value": 5.342544259397354,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.396939818267185,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.0501698566575524,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.232303145800536,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.9554229845057585,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.5722097936863038,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1989",
+        [
+            {
+                "name": "Drama",
+                "value": 18.3641975308642,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.268518518518519,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.25925925925926,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 8.564814814814815,
+                "rank": 3
+            },
+            {
+                "name": "Adventure",
+                "value": 7.175925925925926,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 6.018518518518518,
+                "rank": 5
+            },
+            {
+                "name": "Thriller",
+                "value": 5.941358024691358,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.478395061728395,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 4.320987654320987,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.009259259259259,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.006172839506173,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.8518518518518516,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.3888888888888888,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1989",
+        [
+            {
+                "name": "Drama",
+                "value": 18.40193131716614,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.562570368412294,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.212754917222272,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 8.406149342575459,
+                "rank": 3
+            },
+            {
+                "name": "Adventure",
+                "value": 7.242316993176099,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 6.232805631431061,
+                "rank": 5
+            },
+            {
+                "name": "Thriller",
+                "value": 5.9698929257921245,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.58194880932567,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 4.731041729896254,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.089968768662927,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.1569040183014985,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.7632488422866428,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.3753047258201898,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1989",
+        [
+            {
+                "name": "Drama",
+                "value": 18.439665103468084,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.856622218306066,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.166250575185282,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 8.247483870336104,
+                "rank": 3
+            },
+            {
+                "name": "Adventure",
+                "value": 7.308708060426274,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 6.447092744343603,
+                "rank": 5
+            },
+            {
+                "name": "Thriller",
+                "value": 5.99842782689289,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.6855025569229465,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 5.1410958054715215,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.1706782780665943,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.3076351970968236,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.674645832721434,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.3617205627514906,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1990",
+        [
+            {
+                "name": "Drama",
+                "value": 18.477398889770026,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.15067406819984,
+                "rank": 1
+            },
+            {
+                "name": "Thriller",
+                "value": 9.119746233148295,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 8.088818398096748,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 7.375099127676448,
+                "rank": 4
+            },
+            {
+                "name": "World Cinema",
+                "value": 6.661379857256146,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 6.026962727993656,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.789056304520222,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 5.551149881046788,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.251387787470262,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.4583663758921492,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.5860428231562251,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.3481363996827915,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1990",
+        [
+            {
+                "name": "Drama",
+                "value": 18.740034633996345,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.794326929820302,
+                "rank": 1
+            },
+            {
+                "name": "Thriller",
+                "value": 8.93697367924172,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.8687360749216415,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 7.338501459267292,
+                "rank": 4
+            },
+            {
+                "name": "World Cinema",
+                "value": 6.563368884429267,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.8683152880501925,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.628078352673345,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 5.387841417296499,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.0655510419869776,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.482448332227419,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.710423106593946,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.5518188242783235,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1990",
+        [
+            {
+                "name": "Drama",
+                "value": 19.00267037822266,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.437979791440764,
+                "rank": 1
+            },
+            {
+                "name": "Thriller",
+                "value": 8.754201125335145,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.648653751746536,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 7.301903790858136,
+                "rank": 4
+            },
+            {
+                "name": "World Cinema",
+                "value": 6.465357911602389,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.7096678481067284,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.467100400826468,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 5.224532953546208,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.8797142965036926,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.5065302885626894,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.834803390031667,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.7555012488738555,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1991",
+        [
+            {
+                "name": "Drama",
+                "value": 19.26530612244898,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.081632653061225,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.571428571428571,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.428571428571429,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.26530612244898,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.36734693877551,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.551020408163265,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.3061224489795915,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 5.061224489795919,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.693877551020408,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.5306122448979593,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.9591836734693877,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.9591836734693877,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1991",
+        [
+            {
+                "name": "Drama",
+                "value": 19.10055200531391,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.730067111019492,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.520121853455187,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.73015873015873,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.06014796490987,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.3212167021690835,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.58059048535239,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.277033372271467,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 5.029592981973934,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.777961016056254,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.50076731029112,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.0917565679470442,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.035639845163655,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1991",
+        [
+            {
+                "name": "Drama",
+                "value": 18.93579788817884,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.378501568977759,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.468815135481803,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 8.031746031746032,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.85498980737076,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.275086465562656,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.610160562541515,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.247944295563343,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.997961474151951,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.8620444810921004,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.4709223756842804,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.2243294624247003,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.1120960168579215,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1992",
+        [
+            {
+                "name": "Drama",
+                "value": 18.77104377104377,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.026936026936026,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.417508417508419,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.333333333333332,
+                "rank": 3
+            },
+            {
+                "name": "Adventure",
+                "value": 6.6498316498316505,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 6.228956228956229,
+                "rank": 5
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.63973063973064,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.218855218855219,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 4.966329966329966,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.9461279461279464,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.441077441077441,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.356902356902357,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.1885521885521886,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1992",
+        [
+            {
+                "name": "Drama",
+                "value": 18.493940416388444,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.92522200908092,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.461473726598697,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.31192089075761,
+                "rank": 3
+            },
+            {
+                "name": "Adventure",
+                "value": 7.026073237238853,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 6.32502711456227,
+                "rank": 5
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.698619772434302,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.301241017195234,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 4.969377650994096,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.991882541053296,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.655182204352959,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.1786029728099336,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.9729334141854582,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1992",
+        [
+            {
+                "name": "Drama",
+                "value": 18.216837061733113,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.823507991225814,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.505439035688978,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.290508448181887,
+                "rank": 3
+            },
+            {
+                "name": "Adventure",
+                "value": 7.402314824646056,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 6.421098000168311,
+                "rank": 5
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.757508905137964,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.383626815535248,
+                "rank": 7
+            },
+            {
+                "name": "Romance",
+                "value": 4.972425335658225,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 3.037637135978645,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.8692869676284767,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.000303588717511,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.7573146398187278,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1993",
+        [
+            {
+                "name": "Drama",
+                "value": 17.939733707077785,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.721793973370708,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.549404344779257,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 8.269096005606166,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.778556412053258,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.517168885774352,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.816398037841626,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.466012613875263,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.9754730203223545,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.0833917309039944,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.0833917309039944,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.8220042046250877,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.5416958654519972,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1993",
+        [
+            {
+                "name": "Drama",
+                "value": 17.684411157434322,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.317346534422033,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.381595233684255,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.8791944973141845,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.507092600147293,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.598554330430591,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.793307504154954,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.379415215650896,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.8270113126241885,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.2050197746256512,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.889491264370975,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.9584152439217961,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.433476756819249,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1993",
+        [
+            {
+                "name": "Drama",
+                "value": 17.42908860779086,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.912899095473357,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.213786122589255,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.489292989022204,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.235628788241327,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.67993977508683,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.770216970468281,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.29281781742653,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.6785496049260225,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.3266478183473085,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.6955907978379554,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.0948262832185045,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.3252576481865006,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1994",
+        [
+            {
+                "name": "Drama",
+                "value": 17.173766058147397,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.50845165652468,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.045977011494253,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.099391480730223,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.964164976335361,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.761325219743069,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.747126436781609,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.206220419202164,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.530087897227856,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.4482758620689653,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.501690331304936,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.231237322515213,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.2170385395537524,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1994",
+        [
+            {
+                "name": "Drama",
+                "value": 17.609297569565534,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.601470453995635,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.025500020970412,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.136876999173229,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.046725996243321,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.73978882432324,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.849017967942408,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.973281953647118,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.501063105556927,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.479361413948531,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.4190277246261283,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.1099427181223978,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.2835633620635234,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1994",
+        [
+            {
+                "name": "Drama",
+                "value": 18.044829080983668,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.694489251466587,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.005023030446571,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 7.174362517616235,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 7.12928701615128,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.718252428903409,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.950909499103206,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.740343488092071,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.472038313885997,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.510446965828097,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.33636511794732,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.9886481137295828,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.3500881845732942,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1995",
+        [
+            {
+                "name": "Drama",
+                "value": 18.480360592401805,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 9.787508048937541,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 7.98454603992273,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.21184803605924,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 7.21184803605924,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.69671603348358,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 6.052801030264005,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.507405022537025,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.443013522215067,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.5415325177076626,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.2537025112685125,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.8673535093367677,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.4166130070830651,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1995",
+        [
+            {
+                "name": "Drama",
+                "value": 18.248930278848302,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.152700224996503,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.34956468996507,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.378379619396044,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 7.212542140125729,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.558175531443448,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 6.06670980790403,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.808419268756026,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.558194752786828,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.3560465540936657,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.2280073126533035,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.8875225717303161,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.524839848834813,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1995",
+        [
+            {
+                "name": "Drama",
+                "value": 18.017499965294796,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.517892401055466,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.71458334000741,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.544911202732847,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 7.213236244192218,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.419635029403317,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 6.080618585544054,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.109433514975028,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.6733759833585875,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.1705605904796683,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.2023121140380946,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.9076916341238643,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.6330666905865607,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1996",
+        [
+            {
+                "name": "Drama",
+                "value": 17.786069651741293,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 10.883084577114428,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.07960199004975,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.711442786069651,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 7.213930348258707,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.281094527363185,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 6.0945273631840795,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.410447761194029,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.788557213930348,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.9850746268656714,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.1766169154228856,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.9278606965174128,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.7412935323383085,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1996",
+        [
+            {
+                "name": "Drama",
+                "value": 17.794659542316605,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.184212832945912,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.488585963768193,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.41368913010704,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 7.0291600489448465,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.266325174690326,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 6.03623881999446,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.492095547631819,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.637050827609661,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.976660040179651,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.2086537011910146,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.9371079766775705,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.7951118263509795,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1996",
+        [
+            {
+                "name": "Drama",
+                "value": 17.803249432891917,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.485341088777396,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.897569937486633,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.115935474144429,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.844389749630985,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.251555822017467,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.977950276804841,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.57374333406961,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.485544441288974,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.968245453493631,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.240690486959144,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.946355256837728,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.8489301203636503,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1997",
+        [
+            {
+                "name": "Drama",
+                "value": 17.81183932346723,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.78646934460888,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 10.306553911205075,
+                "rank": 2
+            },
+            {
+                "name": "Romance",
+                "value": 6.8181818181818175,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.659619450317125,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.236786469344609,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.9196617336152215,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.6553911205073994,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.334038054968287,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.9598308668076108,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.272727272727273,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.9556025369978858,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.9027484143763214,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1997",
+        [
+            {
+                "name": "Drama",
+                "value": 17.620474150981316,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.8288287987078,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.823065461098587,
+                "rank": 2
+            },
+            {
+                "name": "Romance",
+                "value": 7.0757655628504335,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.54833881470799,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.196163743576427,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.967175648802697,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.755852031489207,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.558661110621979,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.009945230832556,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.499161355249916,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.9890275918766436,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.9010766972665196,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1997",
+        [
+            {
+                "name": "Drama",
+                "value": 17.429108978495403,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.871188252806721,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.339577010992096,
+                "rank": 2
+            },
+            {
+                "name": "Romance",
+                "value": 7.3333493075190495,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.437058179098855,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.155541017808245,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 6.014689563990173,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.856312942471013,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.783284166275671,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.060059594857501,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.7255954377725597,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.022452646755401,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.899404980156718,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1998",
+        [
+            {
+                "name": "Drama",
+                "value": 17.23774380600949,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.913547706905641,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 8.856088560885608,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.5909330521876655,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.32577754348972,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.1149182920400635,
+                "rank": 5
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 6.062203479177649,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.9567738534528205,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 5.007907221929362,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.110173958882446,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.952029520295203,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.055877701634159,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.8977332630469164,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1998",
+        [
+            {
+                "name": "Drama",
+                "value": 17.46024150658322,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.06539090684815,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.21245471806339,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.404761685664595,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.511449368145267,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.021749351800608,
+                "rank": 5
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.9533559354118655,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.633692959658489,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.768363750612925,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.921329605173501,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.8158999794486723,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.0355892906987494,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.8636592493463233,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1998",
+        [
+            {
+                "name": "Drama",
+                "value": 17.682739207156946,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.21723410679066,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.56882087524117,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.218590319141524,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.697121192800813,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.928580411561152,
+                "rank": 5
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.844508391646083,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.310612065864158,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.528820279296488,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.732485251464556,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.6797704386021417,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.01530087976334,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.8295852356457303,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-1999",
+        [
+            {
+                "name": "Drama",
+                "value": 17.905236907730675,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.369077306733168,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.925187032418952,
+                "rank": 2
+            },
+            {
+                "name": "Romance",
+                "value": 7.032418952618453,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.882793017456359,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.835411471321696,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.7356608478802995,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.987531172069826,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.28927680798005,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.543640897755611,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.543640897755611,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.99501246882793,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.7955112219451372,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-1999",
+        [
+            {
+                "name": "Drama",
+                "value": 17.360169270849106,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.244756410737766,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 10.356470810992592,
+                "rank": 2
+            },
+            {
+                "name": "Romance",
+                "value": 7.068075319229851,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.69311019036511,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.849154029286505,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.636951816670078,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.992496902474266,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.526993993081082,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.5861604689910322,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.5537822918824036,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.1880300059306164,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.8283819349150194,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-1999",
+        [
+            {
+                "name": "Drama",
+                "value": 16.815101633967533,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.120435514742365,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 10.787754589566234,
+                "rank": 2
+            },
+            {
+                "name": "Romance",
+                "value": 7.103731685841249,
+                "rank": 3
+            },
+            {
+                "name": "Thriller",
+                "value": 6.503427363273862,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.862896587251315,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.538242785459857,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.997462632878706,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.7647111781821145,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.6286800402264534,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.563923686009196,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.3810475430333025,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.8612526478849016,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2000",
+        [
+            {
+                "name": "Drama",
+                "value": 16.270033997085964,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.996114618746963,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.219038368139874,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.139388052452647,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.313744536182613,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 5.876639145216124,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.439533754249635,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.002428363283147,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 5.002428363283147,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.6711996114618746,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.5740650801359886,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.5740650801359886,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.8941233608547838,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2000",
+        [
+            {
+                "name": "Drama",
+                "value": 16.56005797205827,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.20219228474962,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 10.897750823503937,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.942227246009998,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.2955055052644155,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 5.939906758020828,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.5682592224607586,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.1324165336347605,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.891684708887529,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.7276782516470273,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.518482802581431,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.4221900726825383,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.7121149800980215,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2000",
+        [
+            {
+                "name": "Drama",
+                "value": 16.85008194703058,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.408269950752278,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 10.576463278868001,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.745066439567348,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.277266474346218,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 6.0031743708255325,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.696984690671881,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.262404703986374,
+                "rank": 7
+            },
+            {
+                "name": "Horror",
+                "value": 4.78094105449191,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.78415689183218,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.4629005250268734,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.2703150652290884,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.5301065993412593,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2001",
+        [
+            {
+                "name": "Drama",
+                "value": 17.14010592200289,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.614347616754934,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 10.255175734232065,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.547905633124699,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.259027443428021,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.066441983630236,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.8257101588830045,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.392392874337988,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.670197400096292,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.8406355320173327,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.407318247472316,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.118440057775638,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.348098218584497,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2001",
+        [
+            {
+                "name": "Drama",
+                "value": 17.175272903185142,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.346358430240928,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 10.61011170730578,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.490321505041858,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.270491800590755,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 6.019502393118972,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.736415409014225,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.393048730010913,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.843474468883157,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.6974622386177396,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.3540955596144277,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.1342658551633256,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.5798382620559226,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2001",
+        [
+            {
+                "name": "Drama",
+                "value": 17.2104398843674,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.07836924372692,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 10.965047680379493,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.432737376959017,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.28195615775349,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.972562802607708,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.647120659145445,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.393704585683838,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.016751537670022,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.5542889452181465,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.30087287175654,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.150091652551013,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.8115783055273482,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2002",
+        [
+            {
+                "name": "Drama",
+                "value": 17.245606865549654,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.810380057212914,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.319983653453209,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.375153248876176,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.293420514916225,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 5.925623212096444,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.557825909276666,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.394360441356763,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 5.190028606456886,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.4111156518185535,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.2476501838986516,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.1659174499387004,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.043318348998774,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2002",
+        [
+            {
+                "name": "Drama",
+                "value": 17.22502573038195,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.713772895654225,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.360982120145428,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.629207415464903,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.341980369137323,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 5.941623129243505,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.567125729018683,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.186620433880976,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.869380332931433,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.564224502298482,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.390597924512729,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.1033708781851486,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.9699184648872097,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2002",
+        [
+            {
+                "name": "Drama",
+                "value": 17.20444459521425,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.617165734095538,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.401980586837649,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.883261582053631,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.390540223358421,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 5.957623046390566,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.576425548760699,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 4.97888042640519,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.548732059405981,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.717333352778411,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.533545665126807,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.0408243064315967,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.896518580775645,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2003",
+        [
+            {
+                "name": "Drama",
+                "value": 17.18386346004655,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.52055857253685,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.442979053529868,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.137315748642359,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.4391000775795195,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.973622963537626,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.5857253685027155,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 4.771140418929402,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.228083785880528,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.8704422032583397,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.6764934057408847,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.978277734678045,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.8231186966640807,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2003",
+        [
+            {
+                "name": "Drama",
+                "value": 17.377764895220288,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.7463064476253,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.267236340936885,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.163582904467311,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.344015436335065,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.874967201576977,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.579738768257,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 4.914582013108002,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.112983818181646,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.7561189779964024,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.5291396819713348,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.0026125068793803,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.8625431115733675,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2003",
+        [
+            {
+                "name": "Drama",
+                "value": 17.571666330394027,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.972054322713747,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.0914936283439,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.1898500602922635,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.248930795090609,
+                "rank": 4
+            },
+            {
+                "name": "Adventure",
+                "value": 5.776311439616327,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.573752168011284,
+                "rank": 6
+            },
+            {
+                "name": "Horror",
+                "value": 5.058023607286602,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.9978838504827645,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.6417957527344647,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.3817859582017844,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.0269472790807157,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.9019675264826545,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2004",
+        [
+            {
+                "name": "Drama",
+                "value": 17.765567765567766,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.197802197802197,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.915750915750916,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.216117216117215,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.153846153846154,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 5.677655677655678,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.567765567765568,
+                "rank": 6
+            },
+            {
+                "name": "Action",
+                "value": 5.201465201465202,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.8827838827838828,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.5274725274725274,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.2344322344322345,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.051282051282051,
+                "rank": 11
+            },
+            {
+                "name": "Family's Films",
+                "value": 1.9413919413919414,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2004",
+        [
+            {
+                "name": "Drama",
+                "value": 17.74362001634729,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.25262111625748,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.720693447966175,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.083472083472083,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.099809281627464,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 5.759392123028487,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.559869423505788,
+                "rank": 6
+            },
+            {
+                "name": "Action",
+                "value": 5.07462234734962,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.724886224886225,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.5802984893893983,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.327546191182555,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.1480539662357843,
+                "rank": 11
+            },
+            {
+                "name": "Family's Films",
+                "value": 1.982966528421074,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2004",
+        [
+            {
+                "name": "Drama",
+                "value": 17.721672267126813,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.307440034712762,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.525635980181436,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.95082695082695,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.045772409408773,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 5.841128568401296,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.551973279246006,
+                "rank": 6
+            },
+            {
+                "name": "Action",
+                "value": 4.947779493234039,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.5669885669885666,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.6331244513062697,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.420660147932875,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.2448258811895174,
+                "rank": 11
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.0245411154502064,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2005",
+        [
+            {
+                "name": "Drama",
+                "value": 17.699724517906336,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.362258953168045,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.330578512396695,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 6.8181818181818175,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 5.991735537190083,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 5.922865013774105,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.5440771349862255,
+                "rank": 6
+            },
+            {
+                "name": "Action",
+                "value": 4.820936639118457,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.4090909090909087,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.6859504132231407,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.5137741046831956,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.3415977961432506,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.066115702479339,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2005",
+        [
+            {
+                "name": "Drama",
+                "value": 17.314561368160277,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.297718041598882,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.71969367024679,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.00473273133765,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.166320444361152,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 5.896836017912642,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.484617376693681,
+                "rank": 6
+            },
+            {
+                "name": "Action",
+                "value": 4.874769001826869,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.4438121231477985,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.5997467781968813,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.4210852170261017,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.285008559506977,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.9416604417039947,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2005",
+        [
+            {
+                "name": "Drama",
+                "value": 16.929398218414217,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.233177130029718,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 11.108808828096885,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.191283644493482,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 6.3409053515322205,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 5.870807022051179,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.425157618401136,
+                "rank": 6
+            },
+            {
+                "name": "Action",
+                "value": 4.928601364535281,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.478533337204688,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.5135431431706223,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.3283963293690073,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.228419322870703,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.81720518092865,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2006",
+        [
+            {
+                "name": "Drama",
+                "value": 16.544235068668158,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.168636218460556,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 11.497923985946981,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.377834557649314,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 6.51549025870329,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.844778026189715,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.365697860108591,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.982433727243692,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.5132545512615776,
+                "rank": 8
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.427339508144363,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.2357074417119134,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.1718300862344297,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.6927499201533056,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2006",
+        [
+            {
+                "name": "Drama",
+                "value": 16.873240045778772,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.20617414564037,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.946532657297988,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.4914730384328765,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 6.87491017246886,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.646518684126477,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.233381906739061,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.7174558181624615,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.581753034174385,
+                "rank": 8
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.545309672096242,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.3863049611412754,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.18747005748962,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.6180832801022038,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2006",
+        [
+            {
+                "name": "Drama",
+                "value": 17.202245022889386,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.243712072820186,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.395141328648993,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.605111519216439,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 7.23433008623443,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.448259342063238,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.10106595336953,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.452477909081231,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.6502515170871925,
+                "rank": 8
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.663279836048121,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.536902480570638,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.2031100287448098,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.5434166400511018,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2007",
+        [
+            {
+                "name": "Drama",
+                "value": 17.53125,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.28125,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 9.84375,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.718750000000001,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 7.593750000000001,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.25,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 4.96875,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.1875,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.71875,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.78125,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.6875,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.21875,
+                "rank": 11
+            },
+            {
+                "name": "Family's Films",
+                "value": 1.46875,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2007",
+        [
+            {
+                "name": "Drama",
+                "value": 17.287843975061808,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.315200741696227,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.1957365903472,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 7.951379931204989,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 7.083353488122111,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.51010426744061,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.236610501988606,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.543789637751263,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.6615809416317315,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.9075902934537248,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.5871089970977104,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.2316121143717083,
+                "rank": 11
+            },
+            {
+                "name": "Family's Films",
+                "value": 1.6456183489197034,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2007",
+        [
+            {
+                "name": "Drama",
+                "value": 17.044437950123616,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.349151483392454,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.5477231806944,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.184009862409976,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 6.572956976244223,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.770208534881221,
+                "rank": 5
+            },
+            {
+                "name": "Action",
+                "value": 5.504471003977211,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.900079275502526,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.6044118832634635,
+                "rank": 8
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 3.033930586907449,
+                "rank": 9
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.486717994195421,
+                "rank": 10
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.244474228743416,
+                "rank": 11
+            },
+            {
+                "name": "Family's Films",
+                "value": 1.8224866978394065,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2008",
+        [
+            {
+                "name": "Drama",
+                "value": 16.801031925185423,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.383102225088681,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.8997097710416,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.416639793614964,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.062560464366333,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.0303128023218315,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 5.772331505965817,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.256368913253789,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.547242824895195,
+                "rank": 8
+            },
+            {
+                "name": "Music and Dance",
+                "value": 3.160270880361174,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.3863269912931315,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.2573363431151243,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.99935504675911,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2008",
+        [
+            {
+                "name": "Drama",
+                "value": 16.69168817796595,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.197073846117448,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.695500293932039,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.652788342701614,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.547972640404623,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.899907783001522,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 5.636783318855316,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.1902792071498265,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.834411598460547,
+                "rank": 8
+            },
+            {
+                "name": "Music and Dance",
+                "value": 3.1093535192382764,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.4111170600418554,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.165633661416007,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.9366855472356244,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2008",
+        [
+            {
+                "name": "Drama",
+                "value": 16.582344430746474,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 12.011045467146216,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.49129081682248,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.888936891788266,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 7.033384816442913,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.769502763681212,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 5.5012351317448145,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.124189501045863,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.1215803720259,
+                "rank": 8
+            },
+            {
+                "name": "Music and Dance",
+                "value": 3.0584361581153785,
+                "rank": 9
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.435907128790579,
+                "rank": 10
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.0739309797168892,
+                "rank": 11
+            },
+            {
+                "name": "Science Fiction",
+                "value": 1.8740160477121388,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2009",
+        [
+            {
+                "name": "Drama",
+                "value": 16.473000683527,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.825017088174983,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.287081339712918,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 9.125085440874916,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 7.518796992481203,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 5.639097744360902,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.365686944634313,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.0580997949419,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.408749145591251,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 3.007518796992481,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.460697197539303,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.9822282980177717,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.8113465481886533,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2009",
+        [
+            {
+                "name": "Drama",
+                "value": 17.222793277433695,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.753707655676317,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.39361067484812,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.868980222937637,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 7.208861849279688,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 5.741452868813255,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.532394483780583,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.287159606163222,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.22482298737823,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.8353326063249726,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.363646799163071,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.0044907549929647,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.837000551343661,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2009",
+        [
+            {
+                "name": "Drama",
+                "value": 17.972585871340392,
+                "rank": 0
+            },
+            {
+                "name": "World Cinema",
+                "value": 11.682398223177653,
+                "rank": 1
+            },
+            {
+                "name": "Comedy",
+                "value": 10.50014000998332,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.612875005000356,
+                "rank": 3
+            },
+            {
+                "name": "Horror",
+                "value": 6.898926706078172,
+                "rank": 4
+            },
+            {
+                "name": "Action",
+                "value": 5.843807993265607,
+                "rank": 5
+            },
+            {
+                "name": "Romance",
+                "value": 5.699102022926852,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.516219417384544,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.04089682916521,
+                "rank": 8
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.6631464156574642,
+                "rank": 9
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.2665964007868387,
+                "rank": 10
+            },
+            {
+                "name": "Music and Dance",
+                "value": 2.026753211968158,
+                "rank": 11
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.8626545544986683,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2010",
+        [
+            {
+                "name": "Drama",
+                "value": 18.722378465247086,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 11.611088790678988,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 10.606669345118522,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.356769787063078,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.588991562876657,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 5.946163117717959,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 5.865809562073122,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.745279228605866,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.8569706709521894,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.490960224989956,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.169546002410607,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.0490156689433507,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.888308557653676,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2010",
+        [
+            {
+                "name": "Drama",
+                "value": 19.681725113512005,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 12.552441341624206,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.930248182659211,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.36058013698208,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.78108503076017,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.021291450863576,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 5.915421158536893,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 5.207452540130549,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.652206388724054,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.7240990063391894,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.4052203474927056,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.0459267639538656,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.6424149101233712,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2010",
+        [
+            {
+                "name": "Drama",
+                "value": 20.64107176177692,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 13.493793892569425,
+                "rank": 1
+            },
+            {
+                "name": "World Cinema",
+                "value": 9.253827020199898,
+                "rank": 2
+            },
+            {
+                "name": "Thriller",
+                "value": 8.364390486901081,
+                "rank": 3
+            },
+            {
+                "name": "Action",
+                "value": 6.9731784986436836,
+                "rank": 4
+            },
+            {
+                "name": "Romance",
+                "value": 6.0964197840091945,
+                "rank": 5
+            },
+            {
+                "name": "Horror",
+                "value": 5.965032755000664,
+                "rank": 6
+            },
+            {
+                "name": "Adventure",
+                "value": 4.6696258516552325,
+                "rank": 7
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.447442106495918,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.9572377876884235,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.640894692574805,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.0428378589643805,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.3965212625930663,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "01-01-2011",
+        [
+            {
+                "name": "Drama",
+                "value": 21.60041841004184,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 14.435146443514643,
+                "rank": 1
+            },
+            {
+                "name": "Thriller",
+                "value": 8.577405857740587,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 8.368200836820083,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 7.165271966527197,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 6.171548117154812,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 6.014644351464435,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.131799163179916,
+                "rank": 7
+            },
+            {
+                "name": "World Cinema",
+                "value": 3.2426778242677825,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 3.190376569037657,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.8765690376569037,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 2.0397489539748954,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.1506276150627615,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "05-01-2011",
+        [
+            {
+                "name": "Drama",
+                "value": 22.213981788372774,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 14.896718106299986,
+                "rank": 1
+            },
+            {
+                "name": "Thriller",
+                "value": 9.18247380508341,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 8.465636585593682,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 7.548210564289879,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 6.577798821752168,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 5.356953047242649,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 4.063231774683454,
+                "rank": 7
+            },
+            {
+                "name": "World Cinema",
+                "value": 3.1240638920830635,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.9352318004515867,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.4565887502778128,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.8217264004174438,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.1135054000341427,
+                "rank": 12
+            }
+        ]
+    ],
+    [
+        "09-01-2011",
+        [
+            {
+                "name": "Drama",
+                "value": 22.827545166703707,
+                "rank": 0
+            },
+            {
+                "name": "Comedy",
+                "value": 15.358289769085326,
+                "rank": 1
+            },
+            {
+                "name": "Thriller",
+                "value": 9.78754175242623,
+                "rank": 2
+            },
+            {
+                "name": "Action",
+                "value": 8.563072334367279,
+                "rank": 3
+            },
+            {
+                "name": "Romance",
+                "value": 7.93114916205256,
+                "rank": 4
+            },
+            {
+                "name": "Horror",
+                "value": 6.9840495263495255,
+                "rank": 5
+            },
+            {
+                "name": "Adventure",
+                "value": 4.6992617430208625,
+                "rank": 6
+            },
+            {
+                "name": "Crime and Mystery",
+                "value": 3.994664386186993,
+                "rank": 7
+            },
+            {
+                "name": "World Cinema",
+                "value": 3.005449959898345,
+                "rank": 8
+            },
+            {
+                "name": "Family's Films",
+                "value": 2.6800870318655163,
+                "rank": 9
+            },
+            {
+                "name": "Science Fiction",
+                "value": 2.0366084628987218,
+                "rank": 10
+            },
+            {
+                "name": "Biographical and Real-Life Inspired",
+                "value": 1.6037038468599922,
+                "rank": 11
+            },
+            {
+                "name": "Music and Dance",
+                "value": 1.076383185005524,
+                "rank": 12
+            }
+        ]
+    ]
+]

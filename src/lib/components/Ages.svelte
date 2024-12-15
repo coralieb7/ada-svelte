@@ -48,7 +48,8 @@
         xaxis: { title: 'Age' },
         yaxis: { title: 'Percentage (%)' },
         legend: { title: 'Actor Gender & Director Gender' },
-        template: 'plotly_white',
+
+        template: 'plotly_dark',
       },
     };
 

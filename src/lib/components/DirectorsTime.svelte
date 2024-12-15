@@ -1,26 +1,32 @@
 <script>
+	import { color } from 'd3';
 	import { onMount } from 'svelte';
 
 	let plotElement;
 
 	onMount(async () => {
 		// Load the data from the JSON file
-		
+		const response = await fetch('/json/female_char_in_time.json');
+    	const data_json = await response.json();
 
 		var trace1 = {
-			x: [1, 2, 3, 4],
-			y: [0, 2, 3, 5],
+			x: Object.keys(data_json.male_directors),
+			y: Object.values(data_json.male_directors),
 			fill: 'tozeroy',
 			type: 'scatter',
-            name: 'Male Directors'
+            name: 'Male Directors',
+			fillcolor: 'rgba(255, 165, 0, 0.3)',
+			line: { color: 'orange' }
 		};
 
 		var trace2 = {
-			x: [1, 2, 3, 4],
-			y: [3, 5, 1, 7],
-			fill: 'tonexty',
+			x: Object.keys(data_json.female_directors),
+			y: Object.values(data_json.female_directors),
+			fill: 'tozeroy',
 			type: 'scatter',
-            name: 'Female Directors'
+            name: 'Female Directors',
+			fillcolor: 'rgba(65, 105, 225, 0.3)',
+			line: { color: 'blue' }
 		};
 
 		var data = [trace1, trace2];
