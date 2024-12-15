@@ -10,7 +10,10 @@
 	import AverageRatingsOpti from '$lib/components/AverageRatingsOpti.svelte';
 	import AverageRatingsWorst from '$lib/components/AverageRatingsWorst.svelte';
 
-	
+	import Emotions from '$lib/components/Emotions.svelte';
+	import EmotionsBechdel from '$lib/components/EmotionsBechdel.svelte';
+	import List from '$lib/components/genres/List.svelte';
+
 	// for the scroll
 	let isScrolled = false;
 	let firstBubbleVisible = false;
@@ -61,7 +64,7 @@
 	});
 </script>
 
-<section class="relative h-screen overflow-hidden bg-black" id="home">
+<section class="relative h-screen overflow-hidden bg-violet-900" id="home">
 	<!-- Left spotlight -->
 	<div class="spotlight-left-container">
 		<div class="gradient-line-left"></div>
@@ -78,7 +81,6 @@
 	<div class="relative z-10 flex h-full flex-col items-center justify-center gap-4">
 		<h1
 			class="text-center text-6xl font-extrabold text-white sm:text-6xl lg:text-6xl"
-			style="font-family: 'Limelight'"
 		>
 			"WHAT DO WE DO NOW?"
 		</h1>
@@ -95,7 +97,7 @@
 	<nav class="flex items-center justify-between px-6 py-4">
 		<!-- Left: Project Title -->
 		<div
-			class={`text-2xl font-semibold transition ${isScrolled ? 'text-pink-500' : 'text-white'}`}
+			class={`text-2xl font-semibold transition ${isScrolled ? 'text-violet-500' : 'text-white'}`}
 			style="font-family: 'Limelight'"
 		>
 			MADAME
@@ -105,17 +107,17 @@
 		<div class="flex space-x-4">
 			<a
 				href="#home"
-				class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
+				class={`font-semibold transition hover:text-yellow-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
 				>Home</a
 			>
 			<a
 				href="#intro"
-				class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
+				class={`font-semibold transition hover:text-emerald-600 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
 				>Intro</a
 			>
 			<a
 				href="#research-questions"
-				class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
+				class={`font-semibold transition hover:text-violet-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
 				>Research Questions</a
 			>
 			<!-- Datastory Item with Dropdown -->
@@ -149,7 +151,7 @@
 			</div>
 			<a
 				href="#team"
-				class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
+				class={`font-semibold transition hover:text-rose-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
 				>Our Team</a
 			>
 		</div>
@@ -157,8 +159,8 @@
 </div>
 
 <!-- Content Sections (below the large title) -->
-<div class="space-y-20 bg-white p-6">
-	<section id="intro" class="relative flex min-h-screen items-center justify-center bg-black">
+<div class="space-y-20 bg-violet-900 p-6">
+	<section id="intro" class="relative flex min-h-screen items-center justify-center bg-violet-900">
 		<!-- First Bubble -->
 		<div
 			class="bubble-container-left absolute flex items-center justify-center"
@@ -218,29 +220,37 @@
 		<h2 class="mb-4 text-center font-serif text-3xl text-white" style="font-family: 'Limelight'">
 			MADAME
 		</h2>
+		<h2 class="text-center">REALISATEUR GRAPH 1</h2>
 		<div>
 			<h3 class="font-custom mb-4 text-xl text-black" id="genres">Genres</h3>
+			<div class="rounded bg-white p-4 shadow-md">
+				<Ages />
+			</div>
+			<div class="flex items-center justify-center">
+				<DirectorsTime />
+			</div>
 			<div class="flex flex-row items-center justify-center">
 				<Chart />
+			</div>
+			<h2 class="text-center">PEUT ETRE LA MAP DU MONDE MAIS A VOIR</h2>
+			<div class="flex items-center justify-center">
+				<List />
 			</div>
 		</div>
 		<div>
 			<h3 class="font-custom mb-4 text-xl text-white" id="world">World</h3>
 			<div class="flex flex-col items-center justify-center">
-				<div class="rounded bg-white p-4 shadow-md">
-					<Ages />
-				</div>
+				
+				
 				<div class="flex items-center justify-center">
 					<BechdelRatings />
 				</div>
+				<h2 class="text-center">INTERACTIF EST CE QUE TON FILM PREF PASSE LE BECHDEL TEST</h2>
 				<div class="flex items-center justify-center">
-					<DirectorsTime />
+					<Emotions />
 				</div>
 				<div class="flex items-center justify-center">
-					<RendementsOpti />
-				</div>
-				<div class="flex items-center justify-center">
-					<RendementsWorst />
+					<EmotionsBechdel />
 				</div>
 				<div class="flex items-center justify-center">
 					<AverageRatingsOpti />
@@ -248,6 +258,15 @@
 				<div class="flex items-center justify-center">
 					<AverageRatingsWorst />
 				</div>
+				<div class="flex items-center justify-center">
+					<RendementsOpti />
+				</div>
+				<div class="flex items-center justify-center">
+					<RendementsWorst />
+				</div>
+				
+				
+				
 			</div>
 		</div>
 		<div>

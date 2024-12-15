@@ -45,7 +45,7 @@ html {
   position: absolute;
   width: 25vw;
   height: 25vw;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(171, 171, 171, 0.1) 70%);
+  background: radial-gradient(circle, rgba(238, 229, 66, 0.7) 0%, rgba(101, 0, 141, 0.1) 90%);
   border-radius: 50%;
   filter: blur(1vw);
   animation: move-spotlight-left 10s infinite alternate ease-in-out;
@@ -59,8 +59,8 @@ html {
   height: 50vw;
   background: linear-gradient(
     
-    rgba(255, 255, 255, 0.7),
-    rgba(0, 0, 0, 0.1) 85%
+  rgba(238, 229, 66, 0.7),
+    rgba(101, 0, 141, 0.1) 85%
   );
   z-index: 0;
   top: 0;
@@ -75,7 +75,7 @@ html {
   position: absolute;
   width: 25vw;
   height: 25vw;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(171, 171, 171, 0.1) 70%);
+  background: radial-gradient(circle, rgba(23, 208, 125, 0.7) 0%, rgba(101, 0, 141, 0.1) 90%);
   border-radius: 50%;
   filter: blur(1vw);
   animation: move-spotlight-right 10s infinite alternate ease-in-out;
@@ -88,8 +88,8 @@ html {
   width: 110%;
   height: 50vw;
   background: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(0, 0, 0, 0.1) 85%
+    rgba(23, 208, 125, 0.7),
+    rgba(101, 0, 141, 0.1) 85%
   );
   z-index: 0;
   top: 0;
@@ -196,14 +196,14 @@ html {
   height: 55vw;
   opacity: 1;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(0, 0, 0, 0.1) 70%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 40%, rgba(0, 0, 0, 0.1) 90%);
 }
 .bubble-container-right.visible {
   width: 45vw;
   height: 45vw;
   opacity: 1;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(0, 0, 0, 0.1) 70%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, rgba(0, 0, 0, 0.1) 80%);
 }
 
 /* Text Inside the Bubble */
