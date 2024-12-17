@@ -14,31 +14,73 @@
 	import EmotionsBechdel from '$lib/components/EmotionsBechdel.svelte';
 	import List from '$lib/components/genres/List.svelte';
 
-	// for the scroll
-	let isScrolled = false;
-	let firstBubbleVisible = false;
-	let secondBubbleVisible = false;
-	let thirdBubbleVisible = false;
-	let researchVisible = false;
+	let showBubbles = false;
+	let navVisible = true;
+	let lastScrollPosition = 0;
+	let researchQuestionsVisible = [false, false, false, false];
+
 	onMount(() => {
 		const handleScroll = () => {
-			if (!firstBubbleVisible && window.scrollY >= 720) {
-				firstBubbleVisible = true;
-			}
-			if (!secondBubbleVisible && window.scrollY >= 810) {
-				secondBubbleVisible = true;
-			}
-			if (!thirdBubbleVisible && window.scrollY >= 840) {
-				thirdBubbleVisible = true;
-			}
-			if (!researchVisible && window.scrollY >= 1600) {
-				researchVisible = true;
+			const introSection = document.querySelector('#intro');
+			const navBar = document.querySelector('nav');
+			const researchQuestionsSection = document.querySelector('#research-questions');
+
+			if (introSection) {
+				const rect = introSection.getBoundingClientRect();
+
+				// Check if intro section is in view
+				const isVisible =
+					rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2;
+
+				// Show bubbles when intro section is in view
+				if (isVisible && !showBubbles) {
+					showBubbles = true;
+				}
+
+				// Handle navigation bar visibility
+				const currentScrollPosition = window.pageYOffset;
+
+				if (currentScrollPosition > lastScrollPosition) {
+					// Scrolling down
+					navVisible = currentScrollPosition < 200; // Hide after scrolling down 100px
+				} else {
+					// Scrolling up
+					navVisible = true;
+				}
+
+				lastScrollPosition = currentScrollPosition;
+
+				// Apply navigation bar visibility
+				if (navBar) {
+					navBar.style.opacity = navVisible ? '1' : '0';
+					navBar.style.visibility = navVisible ? 'visible' : 'hidden';
+				}
+				// New research questions animation logic
+				if (researchQuestionsSection) {
+					const questionsRect = researchQuestionsSection.getBoundingClientRect();
+					const isQuestionsVisible =
+						questionsRect.top <= window.innerHeight * 0.7 &&
+						questionsRect.bottom >= window.innerHeight * 0.3;
+
+					if (isQuestionsVisible) {
+						// Stagger the appearance of questions
+						setTimeout(() => (researchQuestionsVisible[0] = true), 200);
+						setTimeout(() => (researchQuestionsVisible[1] = true), 400);
+						setTimeout(() => (researchQuestionsVisible[2] = true), 600);
+						setTimeout(() => (researchQuestionsVisible[3] = true), 800);
+					}
+				}
 			}
 		};
-		window.addEventListener('scroll', handleScroll);
-		return () => window.removeEventListener('scroll', handleScroll);
-	});
 
+		// Add scroll event listener
+		window.addEventListener('scroll', handleScroll);
+
+		// Cleanup event listener on component destruction
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	});
 	let currentTextIndex = 0;
 	let displayedText = ' ';
 	const texts = [
@@ -64,7 +106,7 @@
 				setTimeout(() => {
 					currentTextIndex = (currentTextIndex + 1) % texts.length;
 					typeWriter(); // Call it again for the next text
-				}, 2000); // Wait for 1 second before typing the next text
+				}, 3000); // Wait for 1 second before typing the next text
 			}
 		}, 50); // Speed of typing (adjust if needed)
 	}
@@ -73,7 +115,7 @@
 	});
 </script>
 
-<section class="relative h-screen overflow-hidden bg-violet-900" id="home">
+<section class="relative h-screen overflow-hidden bg-white" id="home">
 	<!-- Left spotlight -->
 	<div class="spotlight-left-container">
 		<div class="gradient-line-left"></div>
@@ -88,11 +130,11 @@
 
 	<!-- Content -->
 	<div class="relative z-10 flex h-full flex-col items-center justify-center gap-4">
-		<h1 class="text-center text-6xl font-extrabold text-white sm:text-6xl lg:text-6xl">
+		<h1 class="text-center text-6xl font-extrabold text-black sm:text-6xl lg:text-6xl">
 			"WHAT DO WE DO NOW?"
 		</h1>
 		<p
-			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-white sm:text-xl lg:text-2xl"
+			class="mt-4 max-w-4xl text-justify text-lg leading-relaxed text-black sm:text-xl lg:text-2xl"
 		>
 			{displayedText}
 		</p>
@@ -100,39 +142,29 @@
 </section>
 
 <!-- Navigation Bar -->
-<div class={`fixed left-0 right-0 top-0 z-20 bg-transparent transition-all duration-300`}>
+<div
+	class={`fixed left-0 right-0 top-0 z-20 bg-transparent transition-all duration-300 ${navVisible ? 'visible opacity-100' : 'invisible opacity-0'}`}
+>
 	<nav class="flex items-center justify-between px-6 py-4">
 		<!-- Left: Project Title -->
-		<div
-			class={`text-2xl font-semibold transition ${isScrolled ? 'text-violet-500' : 'text-white'}`}
-		>
-			MADAME
-		</div>
+		<a href="#home" class={`text-2xl font-semibold text-black transition`}> MADAME </a>
 
 		<!-- Right: Navigation Links -->
 		<div class="flex space-x-4">
-			<a
-				href="#home"
-				class={`font-semibold transition hover:text-yellow-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
-				>Home</a
+			<a href="#intro" class={`font-semibold text-black transition hover:text-emerald-600`}>Intro</a
 			>
 			<a
-				href="#intro"
-				class={`font-semibold transition hover:text-emerald-600 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
-				>Intro</a
+				href="#research-questions"
+				class={`font-semibold text-black transition hover:text-violet-500`}>Research Questions</a
 			>
-			<a
-				href="#research-questions-datasets"
-				class={`font-semibold transition hover:text-violet-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
-				>Research Questions and Datasets</a
+			<a href="#datasets" class={`font-semibold text-black transition hover:text-violet-500`}
+				>Datasets</a
 			>
 
 			<!-- Datastory Item with Dropdown -->
 			<div class="group relative">
 				<!-- Main Link -->
-				<a
-					href="#datastory"
-					class={`font-semibold transition hover:text-pink-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
+				<a href="#datastory" class={`font-semibold text-black transition hover:text-pink-500`}
 					>Datastory</a
 				>
 				<!-- Dropdown Menu -->
@@ -166,31 +198,25 @@
 					>
 				</div>
 			</div>
-			<a
-				href="#conclusion"
-				class={`font-semibold transition hover:text-violet-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
+			<a href="#conclusion" class={`font-semibold text-black transition hover:text-violet-500`}
 				>Conclusion</a
 			>
-			<a
-				href="#team"
-				class={`font-semibold transition hover:text-rose-500 ${isScrolled ? 'text-pink-300' : 'text-white'}`}
-				>Our Team</a
-			>
+			<a href="#team" class={`font-semibold text-black transition hover:text-rose-500`}>Our Team</a>
 		</div>
 	</nav>
 </div>
 
 <!-- Content Sections (below the large title) -->
-<div class="space-y-20 bg-violet-900 p-6">
-	<section id="intro" class="relative flex min-h-screen justify-center">
-		<h2 class="mb-4 text-3xl font-bold text-white">Introduction</h2>
+<div class="space-y-20 bg-white p-6">
+	<section id="intro" class="relative flex min-h-screen items-center justify-center">
+		<h2 class="mb-4 text-3xl font-bold text-black">Introduction</h2>
 		<!-- First Bubble -->
 		<div
 			class="bubble-container-left absolute flex items-center justify-center"
-			class:visible={firstBubbleVisible}
+			class:visible={showBubbles}
 		>
 			<div class="bubble-content">
-				<p class="leading-relaxed text-white">
+				<p class="leading-relaxed text-black">
 					Meet Madame. <br /> Sitting at her table, she is<br /> holding her very first movie
 					script, a huge<br />
 					opportunity she’s dreamed about for years. Suddenly,<br /> as she flips through the pages,
@@ -206,10 +232,10 @@
 		<!-- Second Bubble -->
 		<div
 			class="bubble-container-right absolute flex items-center justify-center"
-			class:visible={secondBubbleVisible}
+			class:visible={showBubbles}
 		>
 			<div class="bubble-content">
-				<p class="leading-relaxed text-white">
+				<p class="leading-relaxed text-black">
 					This iconic line is <br />more than just dialogue. It’s a <br />symbol of a deeper issue:
 					women in films<br />
 					are often underrepresented and stereotyped,<br /> their roles shaped by limited
@@ -223,10 +249,10 @@
 		<!-- Third Bubble -->
 		<div
 			class="bubble-container-left2 absolute flex items-center justify-center"
-			class:visible={thirdBubbleVisible}
+			class:visible={showBubbles}
 		>
 			<div class="bubble-content">
-				<p class="leading-relaxed text-white">
+				<p class="leading-relaxed text-black">
 					Through our analysis,<br /> we’ll explore how the gender of a <br />director influences
 					female representation,<br /> uncover the stereotypes that still dominate, and <br />track
 					how women’s roles have evolved across<br /> time and cultures. Because some questions<br
@@ -240,38 +266,45 @@
 
 	<!-- Research Questions Section-->
 	<section
-		id="research-questions-datasets"
-		class="relative flex min-h-screen flex-col items-center justify-start gap-16 bg-violet-900"
+		id="research-questions"
+		class="relative flex min-h-screen flex-col items-center justify-center"
 	>
+		<div class="flex w-3/4 flex-col items-center gap-16">
+			<h2 class="mb-4 text-3xl font-bold text-black">Research Questions</h2>
+
+			<div class="w-full">
+				<div class="my-4 h-px bg-black"></div>
+				{#each ['How does the gender of a movie director influence the portrayal of women in cinema?', 'What are the key female stereotypes in movies?', "How have women's roles evolved over time and across cultures?", 'Is the budget difference between movies significant?'] as question, index}
+					<div
+						class="transform transition-all duration-700 ease-out"
+						class:opacity-0={!researchQuestionsVisible[index]}
+						class:translate-x-[-100%]={!researchQuestionsVisible[index]}
+						class:opacity-100={researchQuestionsVisible[index]}
+						class:translate-x-0={researchQuestionsVisible[index]}
+					>
+						{#if index > 0}
+							<div class="my-4 h-px bg-black"></div>
+						{/if}
+						<p class="text-xl text-black">{question}</p>
+					</div>
+				{/each}
+				<div class="my-4 h-px bg-black"></div>
+			</div>
+		</div>
+	</section>
+	<!-- Datasets Section-->
+	<section id="datasets" class="relative flex min-h-screen flex-col items-center justify-center">
 		<!-- First Half of the Screen -->
 		<div class="flex flex-col items-center gap-4">
-			<h2 class="mb-4 text-3xl font-bold text-white">Research Questions</h2>
-			<div
-				class="film-strip film-strip-top flex flex-row items-center justify-center"
-				class:visible={researchVisible}
-				style="background-image: url('/img/film-strip.png');"
-			>
-				<div class="flex flex-row justify-between text-5xl">
-					<p>How does the gender of a movie director influence the portrayal of women in cinema?</p>
-				</div>
-			</div>
-			<div class="flex flex-col items-center gap-4">
-				<!-- Second Half of the Screen -->
-				<h2 class="mb-4 text-3xl font-bold text-white">Datasets</h2>
-				<div
-					class="film-strip film-strip-bottom"
-					class:visible={researchVisible}
-					style="background-image: url('/img/film-strip.png');"
-				></div>
-			</div>
+			<h2 class="mb-4 text-3xl font-bold text-black">Datasets</h2>
 		</div>
 	</section>
 
 	<!-- DataStory Section -->
 	<section id="datastory" class="flex min-h-screen flex-col">
-		<div class="flex flex-col items-center justify-center gap-4 bg-violet-800" id="moviedirectors">
-			<h2 class="mb-4 text-3xl font-bold text-white">Movie Directors</h2>
-			<p class="text-white">
+		<div class="flex flex-col items-center justify-center gap-4" id="moviedirectors">
+			<h2 class="mb-4 text-3xl font-bold text-black">Movie Directors</h2>
+			<p class="text-black">
 				It doesn't take long for the first revelation to appear, stark and undeniable: the gender
 				distribution among film directors is far from balanced. What's more, the gender distribution
 				of the movie directors - 90% male, 10% female - is far more contrasted than that of the
@@ -280,8 +313,8 @@
 		</div>
 
 		<div class="flex flex-col items-center justify-center gap-4" id="femalerepresentation">
-			<h2 class="mb-4 text-3xl font-bold text-white">Female representation in Movies</h2>
-			<p class="text-white">
+			<h2 class="mb-4 text-3xl font-bold text-black">Female representation in Movies</h2>
+			<p class="text-black">
 				Madame’s curiosity grows as she wonders if the gender imbalance among directors has always
 				influenced the portrayal of women in films. She begins to explore historical trends, asking
 				herself whether this disparity is a long-standing issue or a more recent development. As she
@@ -289,12 +322,12 @@
 				barrier that has kept women from reaching key creative roles in filmmaking for decades.
 			</p>
 			<Ages />
-			<p class="text-white">
+			<p class="text-black">
 				Her thoughts expand: Does the director’s gender affect the age of actresses, with female
 				directors offering more opportunities for older women?
 			</p>
 			<DirectorsTime />
-			<p class="text-white">
+			<p class="text-black">
 				Regardless of the movie director’s gender, the peak age, where the highest number of actors.
 				tresses is concentrated, is consistently lower for actresses compared to actors.
 				Additionally, the age range for actresses appears more concentrated, or narrower, while the
@@ -303,20 +336,20 @@
 				regardless of whether the director is male or female. It highlights the persistent
 				disparities in age representation between male and female actors within the film industry.
 			</p>
-			<p class="text-white">
+			<p class="text-black">
 				She also questions whether certain genres are more inclusive of women. Finally, she wonders
 				which countries do the best job of representing women on screen. Perhaps, she thinks with a
 				smile, she was born in the wrong time or place.
 			</p>
 			<div class="flex w-4/5 flex-row"><Chart /> <Chart /></div>
-			<p class="text-white">Looking at the results, Madame finds that:</p>
-			<p class="text-white">
+			<p class="text-black">Looking at the results, Madame finds that:</p>
+			<p class="text-black">
 				Having explored the best times, places, and opportunities for actresses, Madame’s thoughts
 				take a deeper turn. She finds herself wondering if there is a specific genre where women are
 				most likely to be represented on screen. Could there be a particular category where her
 				chances of landing a meaningful role are higher?
 			</p>
-			<p class="text-white">
+			<p class="text-black">
 				DANS UNE BULLE NUAGE Our 35-year-old actress has always dreamed of living in a romance
 				movie, like her all-time favorites The Notebook or Notting Hill. She’s always loved the idea
 				of chance encounters, sweeping love stories, and those big, emotional moments. But as she
@@ -326,43 +359,43 @@
 				It’s a weird feeling, realizing that even her own dreams might be tied to the same
 				stereotypes she’s so tired of seeing in society.
 			</p>
-			<p class="text-white">
+			<p class="text-black">
 				After digging into the data, she finds herself almost laughing at the answer. It’s not what
 				she expected at all. Amused by the irony, she decides to send this little riddle to Miss,
 				her childhood friend, also an actress, eager to see her reaction.
 			</p>
 			<List />
 		</div>
-		<div class="flex flex-col items-center justify-center bg-violet-800" id="bechdeltest">
-			<h2 class="mb-4 text-3xl font-bold text-white">Bechdel Test</h2>
+		<div class="flex flex-col items-center justify-center" id="bechdeltest">
+			<h2 class="mb-4 text-3xl font-bold text-black">Bechdel Test</h2>
 
-			<p class="text-white">
+			<p class="text-black">
 				After a moment of considering the surprising data, Miss replies with a laugh,
 			</p>
 			<div class="bg-cover" style="background-image: url('/img/sms.jpg');"></div>
 			<!-- IMAGE DON'T SHOW -->
-			<p class="text-white">
+			<p class="text-black">
 				Intrigued, she wonders if her friend Miss’s three favorite movies pass the test. Eager to
 				find out, Madame checks them one by one, comparing whether they meet the criteria.
 			</p>
-			<p class="text-white">JEU A FAIRE</p>
-			<p class="text-white">
+			<p class="text-black">JEU A FAIRE</p>
+			<p class="text-black">
 				Excited by this discovery, Madame decided to dive deeper into the data. She starts by
 				exploring which films pass the test.
 			</p>
 			<BechdelRatings />
-			<p class="text-white">
+			<p class="text-black">
 				She quickly uncovers some key results: films directed by women tend to pass the Bechdel Test
 				more often than those directed by men.
 			</p>
-			<p class="text-white">
+			<p class="text-black">
 				Next, she selects all the films that pass the Bechdel Test (score of 3) and begins analyzing
 				the correlation. PARLER MODELE ML POUR PRÉDIRE LE SCORE DU TEST D’UN FILM AVEC LES INFOS
 				QU’ON A
 			</p>
-			<p class="text-white">GRAPH CORRELATION ? AUTRE CHOSE AVEC BECHDEL?</p>
+			<p class="text-black">GRAPH CORRELATION ? AUTRE CHOSE AVEC BECHDEL?</p>
 			<EmotionsBechdel />
-			<p class="text-white">
+			<p class="text-black">
 				As Madame sifts through the data, the results start to reveal some interesting patterns. It
 				becomes clear that films directed by women tend to have ?, and these films also show ?.
 				Eager to dig deeper, Madame then focuses on the emotional tones of these Bechdel-passing
@@ -375,8 +408,8 @@
 			</p>
 		</div>
 		<div class="flex flex-col items-center justify-center" id="tvtropes">
-			<h2 class="mb-4 text-3xl font-bold text-white">TV Tropes</h2>
-			<p class="text-white">
+			<h2 class="mb-4 text-3xl font-bold text-black">TV Tropes</h2>
+			<p class="text-black">
 				But a question remains: what if the stereotypes weren’t just influenced by the director's
 				gender, but were more deeply rooted in societal structures? Madame starts to consider the
 				possibility that these recurring patterns might be shaped by broader cultural norms, not
@@ -385,8 +418,8 @@
 				examining the gender ratio associated with various tropes over a range of X movies, she is
 				able to link these stereotypes to the representation of women. The data reveals that :
 			</p>
-			<p class="text-white">GRAPH DES TVTROPES</p>
-			<p class="text-white">
+			<p class="text-black">GRAPH DES TVTROPES</p>
+			<p class="text-black">
 				To dig deeper, Madame filters the results by the gender ratio of directors, exploring
 				whether certain tropes are more common in films directed by women. She also looks at the
 				balance between female and male characters in these films in order to visualize how women
@@ -400,9 +433,9 @@
 				trends?
 			</p>
 		</div>
-		<div class="flex flex-col items-center justify-center bg-violet-800" id="success">
-			<h2 class="mb-4 text-3xl font-bold text-white">Success</h2>
-			<p class="text-white">
+		<div class="flex flex-col items-center justify-center" id="success">
+			<h2 class="mb-4 text-3xl font-bold text-black">Success</h2>
+			<p class="text-black">
 				With all the data and insights she’s gathered, Madame now has one word echoing in her head:
 				success. Madame has long struggled in the artistic world, finding it difficult to land good
 				roles and achieve recognition and audience validation. She starts to explore how industry
@@ -410,7 +443,7 @@
 				Ratings datasets. and success metrics.
 			</p>
 
-			<p class="text-white">
+			<p class="text-black">
 				She narrows her focus to two groups of films: those that pass the Bechdel Test with strong
 				female representation and those that fail with poor female representation. To do so, she
 				creates two categories of films based on specific conditions. The first group includes
@@ -423,14 +456,14 @@
 			<AverageRatingsWorst />
 			<RendementsOpti />
 			<RendementsWorst />
-			<p class="text-white">The results show that [...]</p>
+			<p class="text-black">The results show that [...]</p>
 		</div>
 	</section>
 
 	<!-- Conclusion Section -->
-	<section id="conclusion" class="relative flex flex-col min-h-screen items-center ">
-		<h2 class="mb-4 text-3xl font-bold text-white">Introduction</h2>
-		<p class="text-white">
+	<section id="conclusion" class="relative flex min-h-screen flex-col items-center">
+		<h2 class="mb-4 text-3xl font-bold text-black">Conclusion</h2>
+		<p class="text-black">
 			Madame’s investigation into the gender dynamics in the film industry has uncovered several key
 			insights: Gender imbalance among directors: Female directors tend to portray more nuanced and
 			diverse female characters compared to their male counterparts. Bechdel Test success: Films
@@ -441,7 +474,7 @@
 			Sucess: Movies with strong female representation tend to perform better both critically and at
 			the box office, offering a glimpse of hope for change.
 		</p>
-		<p class="text-white">
+		<p class="text-black">
 			With this newfound knowledge, Madame KNOWS WHAT TO DO NOW. What if she now did not want to
 			play, but actually direct a movie? She now understands the dynamics at play in the industry
 			and, more importantly, how to break free from them. She’s determined to step outside the
@@ -449,7 +482,7 @@
 			cinema. For her, it’s about telling stories that go beyond norms, with a deeper emotional
 			connection and strong, authentic characters.
 		</p>
-		<p class="text-white">
+		<p class="text-black">
 			This is her moment to take control and create the kind of story she’s always dreamed of, one
 			where women are the heroes, the leaders, and the driving force behind the narrative.
 		</p>

@@ -46,16 +46,10 @@
 			],
 			layout: {
         title: {
-          text: "Actor's Age Distribution",
-          font: {
-            size: 24,
-            color: 'white'
-        }},
+          text: "Actor's Age Distribution"},
 				xaxis: { title: 'Age', color: 'white' },
 				yaxis: { title: 'Percentage (%)', color: 'white' },
-				legend: { title:{text:'Actor Gender & Director Gender', font:{color:'white'}}, font: {color: 'white'}  },
-        paper_bgcolor: '#4c1d95',
-        plot_bgcolor: '#4c1d95',
+				legend: { title:{text:'Actor Gender & Director Gender'} },
         color: 'white'
 			}
 		};

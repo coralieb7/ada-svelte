@@ -45,7 +45,7 @@ html {
   position: absolute;
   width: 25vw;
   height: 25vw;
-  background: radial-gradient(circle, rgba(238, 229, 66, 0.7) 0%, rgba(101, 0, 141, 0.1) 90%);
+  background: radial-gradient(circle, rgba(238, 229, 66, 0.7) 0%, rgba(255, 255, 255, 0.1) 90%);
   border-radius: 50%;
   filter: blur(1vw);
   animation: move-spotlight-left 10s infinite alternate ease-in-out;
@@ -60,7 +60,7 @@ html {
   background: linear-gradient(
     
   rgba(238, 229, 66, 0.7),
-    rgba(101, 0, 141, 0.1) 85%
+    rgba(255, 255, 255, 0.1) 85%
   );
   z-index: 0;
   top: 0;
@@ -75,7 +75,7 @@ html {
   position: absolute;
   width: 25vw;
   height: 25vw;
-  background: radial-gradient(circle, rgba(23, 208, 125, 0.7) 0%, rgba(101, 0, 141, 0.1) 90%);
+  background: radial-gradient(circle, rgba(23, 208, 125, 0.7) 0%, rgba(255, 255, 255, 0.1) 90%);
   border-radius: 50%;
   filter: blur(1vw);
   animation: move-spotlight-right 10s infinite alternate ease-in-out;
@@ -89,7 +89,7 @@ html {
   height: 50vw;
   background: linear-gradient(
     rgba(23, 208, 125, 0.7),
-    rgba(101, 0, 141, 0.1) 85%
+    rgba(255, 255, 255, 0.1) 85%
   );
   z-index: 0;
   top: 0;
@@ -170,7 +170,7 @@ html {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   opacity: 0;
-  transition: all 2s ease-in-out;
+  transition: all 6s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -186,7 +186,7 @@ html {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   opacity: 0;
-  transition: all 3s ease-in-out;
+  transition: all 4s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,14 +196,14 @@ html {
   height: 32vw;
   opacity: 1;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(194, 187, 50, 0.988) 80%, rgba(101, 0, 141, 0.1) 100%);
+  background: radial-gradient(circle, rgba(238, 229, 66, 0.7) 80%, rgba(101, 0, 141, 0.1) 100%);
 }
 .bubble-container-left2.visible {
   width: 27vw;
   height: 27vw;
   opacity: 1;
   border-radius: 50%;
-  background: radial-gradient(circle, rgb(215, 114, 13) 80%, rgba(0, 0, 0, 0.1) 100%);
+  background: radial-gradient(circle, rgb(181, 107, 234) 80%, rgba(0, 0, 0, 0.1) 100%);
 }
 .bubble-container-right.visible {
   width: 28vw;
