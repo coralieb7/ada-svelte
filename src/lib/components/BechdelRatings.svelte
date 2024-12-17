@@ -12,13 +12,15 @@
         x: Object.keys(data_json.male_director),
         y: Object.values(data_json.male_director),
         name: "Male Directors",
-        type: 'bar'
+        type: 'bar',
+        marker: {color: '#17d07d', size: 8}
         };
       var traces2 = {
         x: Object.keys(data_json.female_director),
         y: Object.values(data_json.female_director),
         name: "Female Directors",
-        type: 'bar'
+        type: 'bar',
+        marker: {color: '#b56bea', size: 8}
         };
       var data = [traces2, traces1];
       var layout = {

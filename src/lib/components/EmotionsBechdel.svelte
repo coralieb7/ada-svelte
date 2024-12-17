@@ -14,8 +14,8 @@
 			theta: Object.keys(data_json.male_directors),
 			fill: 'toself',
 			name: 'Men - Bechdel passed',
-			line: { color: '#ffbf00' }, // Yellow color
-			fillcolor: 'rgba(255, 191, 0, 0.4)', // Semi-transparent yellow fill,
+			line: { color: '#2D9884' }, // Yellow color
+			fillcolor: 'rgba(45, 152, 132, 0.4)', // Semi-transparent yellow fill,
 			subplot: 'polar1'
 		};
 
@@ -25,8 +25,8 @@
 			theta: Object.keys(data_json.female_directors),
 			fill: 'toself',
 			name: 'Women - Bechdel passed',
-			line: { color: '#0000ff' }, // Blue color
-			fillcolor: 'rgba(0, 0, 255, 0.4)', // Semi-transparent blue fill
+			line: { color: '#9467bd' }, // Blue color
+			fillcolor: 'rgba(148, 103, 189, 0.4)', // Semi-transparent blue fill
             subplot: 'polar1'
 		};
 
@@ -37,8 +37,8 @@
 			theta: Object.keys(data_json.male_directors_no_bechdel),
 			fill: 'toself',
 			name: 'Men - Bechdel failed',
-			line: { color: '#ff0000' }, // Red color
-			fillcolor: 'rgba(255, 0, 0, 0.4)', // Semi-transparent red fill
+			line: { color: '#17d07d' }, // Red color
+			fillcolor: 'rgba(23, 208, 125, 0.4)', // Semi-transparent red fill
             subplot: 'polar2'
 		};
 
@@ -48,8 +48,8 @@
 			theta: Object.keys(data_json.female_directors_no_bechdel),
 			fill: 'toself',
 			name: 'Women - Bechdel failed',
-			line: { color: '#000080' }, // Dark blue color
-			fillcolor: 'rgba(0, 0, 128, 0.4)', // Semi-transparent dark blue fill
+			line: { color: '#b56bea' }, // Dark blue color
+			fillcolor: 'rgba(181, 107, 234, 0.4)', // Semi-transparent dark blue fill
             subplot: 'polar2'
 		};
 

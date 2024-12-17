@@ -13,7 +13,7 @@
     import keyframes from "../../json/genres3_M.json";
   
     const duration = 300; // ms between keyframes
-    const barCount = 3; // how many bars to show
+    const barCount = 6; // how many bars to show
     const barMargin = 4; // space between bars
     const keyframeCount = keyframes.length; // number of keyframes
     const names = keyframes[0][1].map((d) => d.name); // all data names/labels

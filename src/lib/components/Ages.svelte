@@ -17,7 +17,7 @@
 					x: Object.keys(data.female_female_percentage),
 					y: Object.values(data.female_female_percentage),
 					name: 'Female Actors (Female Directors)',
-					line: { color: 'blue' }
+					line: { color: '#b56bea' }
 				},
 				{
 					type: 'scatter',
@@ -25,7 +25,7 @@
 					x: Object.keys(data.female_male_percentage),
 					y: Object.values(data.female_male_percentage),
 					name: 'Male Actors (Female Directors)',
-					line: { color: 'orange' }
+					line: { color: '#17d07d' }
 				},
 				{
 					type: 'scatter',
@@ -33,7 +33,7 @@
 					x: Object.keys(data.male_female_percentage),
 					y: Object.values(data.male_female_percentage),
 					name: 'Female Actors (Male Directors)',
-					line: { color: 'lightblue', dash: 'dash' }
+					line: { color: '#9467bd' }
 				},
 				{
 					type: 'scatter',
@@ -41,7 +41,7 @@
 					x: Object.keys(data.male_male_percentage),
 					y: Object.values(data.male_male_percentage),
 					name: 'Male Actors (Male Directors)',
-					line: { color: 'orange', dash: 'dash' }
+					line: { color: '#2D9884' }
 				}
 			],
 			layout: {

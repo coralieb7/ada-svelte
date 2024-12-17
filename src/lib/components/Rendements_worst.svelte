@@ -13,7 +13,7 @@
           y: Object.values(data_json.worst_male_rendement),
           name: 'Male Directors',  // Male
           marker: {
-            color: 'orange'
+            color: '#17d07d'
           },
           boxmean: 'sd'  // Show the mean as a line (standard deviation)
         },
@@ -22,7 +22,7 @@
           y: Object.values(data_json.worst_female_rendement),
           name: 'Female Directors',  // Female
           marker: {
-            color: 'blue'
+            color: '#b56bea'
           },
           boxmean: 'sd'  // Show the mean as a line (standard deviation)
         }

@@ -15,8 +15,8 @@
 			fill: 'tozeroy',
 			type: 'scatter',
             name: 'Male Directors',
-			fillcolor: 'rgba(255, 165, 0, 0.3)',
-			line: { color: 'orange' }
+			fillcolor: 'rgba(23, 208, 125, 0.3)',
+			line: { color: '#2D9884' }
 		};
 
 		var trace2 = {
@@ -25,8 +25,8 @@
 			fill: 'tozeroy',
 			type: 'scatter',
             name: 'Female Directors',
-			fillcolor: 'rgba(65, 105, 225, 0.3)',
-			line: { color: 'blue' }
+			fillcolor: 'rgba(181, 107, 234, 0.3)',
+			line: { color: '#9467bd' }
 		};
 
 		var data = [trace1, trace2];

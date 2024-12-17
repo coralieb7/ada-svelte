@@ -44,6 +44,17 @@ html {
   transform: rotate(45deg);
 }
 
+/* Additional bounce animation to emphasize the appearance */
+.animate-bounce {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  75% { transform: translateY(5vw); }
+}
+
 /* FOR THE HOME WITH THE SPOTLIGHTS */
 .spotlight-left {
   position: absolute;
@@ -151,9 +162,40 @@ html {
 
 .bubble-container-left{
   top: 31%;
-  left: 25%;
-  width: 45vw;
-  height: 45vw;
+  left: 23%;
+  width: 38vw;
+  height: 38vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bubble-container-left2{
+  top: 68%;
+  left: 50%;
+  width: 33vw;
+  height: 33vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble-container-right{
+  top: 37%;
+  left: 73%;
+  width: 35vw;
+  height: 35vw;
   position: absolute;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
@@ -164,55 +206,24 @@ html {
   align-items: center;
   justify-content: center;
 }
-.bubble-container-left2{
-  top: 68%;
-  left: 50%;
-  width: 38vw;
-  height: 38vw;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  opacity: 0;
-  transition: all 6s ease-in-out;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bubble-container-right{
-  top: 37%;
-  left: 75%;
-  width: 40vw;
-  height: 40vw;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  opacity: 0;
-  transition: all 4s ease-in-out;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .bubble-container-left.visible {
   width: 38vw;
   height: 38vw;
-  opacity: 1;
+  opacity: 0.8;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(238, 229, 66, 0.7) 80%, rgba(101, 0, 141, 0.1) 100%);
+  background: radial-gradient(circle, rgb(253, 223, 71) 80%, rgba(101, 0, 141, 0.1) 100%);
 }
 .bubble-container-left2.visible {
   width: 33vw;
   height: 33vw;
-  opacity: 1;
+  opacity: 0.9;
   border-radius: 50%;
   background: radial-gradient(circle, rgb(181, 107, 234) 80%, rgba(0, 0, 0, 0.1) 100%);
 }
 .bubble-container-right.visible {
   width: 35vw;
   height: 35vw;
-  opacity: 1;
+  opacity: 0.8;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(23, 208, 125, 0.7) 100%, rgba(0, 0, 0, 0.1) 100%);
 }
