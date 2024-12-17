@@ -46,13 +46,13 @@ html {
 
 /* Additional bounce animation to emphasize the appearance */
 .animate-bounce {
-  animation: bounce 1s;
+  animation: bounce 3s;
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
-  75% { transform: translateY(5vw); }
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-15vw); }
+  75% { transform: translateX(5vw); }
 }
 
 /* FOR THE HOME WITH THE SPOTLIGHTS */

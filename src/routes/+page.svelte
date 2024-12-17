@@ -508,30 +508,29 @@
 		</div>
 	</section>
 
-	<section id="conclusion" class="relative h-min-screen flex flex-col items-center py-16">
+	<section id="conclusion" class="h-min-screen relative flex flex-col items-center">
 		<h2 class="mb-12 text-5xl font-bold text-black">Conclusion</h2>
-
-		{#each conclusionParts as part, index}
-			{#if visibleSections[index]}
-				<div
-					class="mx-auto my-4 max-w-4xl bg-white p-2"
-					class:self-start={index % 2 === 0}
-					class:self-end={index % 2 !== 0}
-					in:fly={{
-						x: index % 2 === 0 ? -100 : 100,
-						duration: 800,
-						easing: quintOut
-					}}
-					class:animate-bounce={visibleSections[index]}
-				>
-					<p class="text-lg leading-relaxed text-black text-justify">{part}</p>
-				</div>
-
-				{#if index < conclusionParts.length - 1}
-					<div class="my-4 h-1 w-2/3 bg-black"></div>
-				{/if}
-			{/if}
-		{/each}
+		<div class="flex w-3/4">
+			<div class="w-full">
+				<div class="my-4 h-px bg-black"></div>
+				{#each conclusionParts as part, index}
+					<div
+						class="transform transition-all duration-700 ease-out"
+						class:opacity-0={!visibleSections[index]}
+						class:translate-x-[-100%]={!visibleSections[index]}
+						class:opacity-100={visibleSections[index]}
+						class:translate-x-0={visibleSections[index]}
+						class:animate-bounce={visibleSections[index]}
+					>
+						{#if index > 0}
+							<div class="my-4 h-px bg-black"></div>
+						{/if}
+						<p class="text-xl text-black">{part}</p>
+					</div>
+				{/each}
+				<div class="my-4 h-px bg-black"></div>
+			</div>
+		</div>
 	</section>
 	<!-- Our Team Section -->
 	<section id="team" class="min-h bg-amber-100 py-8">
