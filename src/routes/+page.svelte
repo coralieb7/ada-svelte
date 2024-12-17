@@ -17,13 +17,13 @@
 	let showBubbles = false;
 	let navVisible = true;
 	let lastScrollPosition = 0;
-	let researchQuestionsVisible = [false, false, false, false];
+	let researchQuestionsVisible = [false, false, false];
 
 	onMount(() => {
 		const handleScroll = () => {
 			const introSection = document.querySelector('#intro');
 			const navBar = document.querySelector('nav');
-			const researchQuestionsSection = document.querySelector('#research-questions');
+			const researchQuestionsSection = document.querySelector('#research-questions-datasets');
 
 			if (introSection) {
 				const rect = introSection.getBoundingClientRect();
@@ -61,13 +61,11 @@
 					const isQuestionsVisible =
 						questionsRect.top <= window.innerHeight * 0.7 &&
 						questionsRect.bottom >= window.innerHeight * 0.3;
-
 					if (isQuestionsVisible) {
 						// Stagger the appearance of questions
 						setTimeout(() => (researchQuestionsVisible[0] = true), 200);
 						setTimeout(() => (researchQuestionsVisible[1] = true), 400);
 						setTimeout(() => (researchQuestionsVisible[2] = true), 600);
-						setTimeout(() => (researchQuestionsVisible[3] = true), 800);
 					}
 				}
 			}
@@ -113,6 +111,15 @@
 	onMount(() => {
 		typeWriter();
 	});
+	let hoveredCircle = null;
+
+	const circleData = [
+		{ text: 'CMU Movie' },
+		{ text: 'Bechdel Test' },
+		{ text: 'TV-Tropes' },
+		{ text: 'IMDb Ratings' },
+		{ text: 'TMDB Ratings' }
+	];
 </script>
 
 <section class="relative h-screen overflow-hidden bg-white" id="home">
@@ -154,11 +161,8 @@
 			<a href="#intro" class={`font-semibold text-black transition hover:text-emerald-600`}>Intro</a
 			>
 			<a
-				href="#research-questions"
-				class={`font-semibold text-black transition hover:text-violet-500`}>Research Questions</a
-			>
-			<a href="#datasets" class={`font-semibold text-black transition hover:text-violet-500`}
-				>Datasets</a
+				href="#research-questions-datasets"
+				class={`font-semibold text-black transition hover:text-violet-500`}>Research Questions and Datasets</a
 			>
 
 			<!-- Datastory Item with Dropdown -->
@@ -208,7 +212,7 @@
 
 <!-- Content Sections (below the large title) -->
 <div class="space-y-20 bg-white p-6">
-	<section id="intro" class="relative flex min-h-screen items-center justify-center">
+	<section id="intro" class="relative flex min-h-screen justify-center">
 		<h2 class="mb-4 text-3xl font-bold text-black">Introduction</h2>
 		<!-- First Bubble -->
 		<div
@@ -266,37 +270,49 @@
 
 	<!-- Research Questions Section-->
 	<section
-		id="research-questions"
+		id="research-questions-datasets"
 		class="relative flex min-h-screen flex-col items-center justify-center"
 	>
-		<div class="flex w-3/4 flex-col items-center gap-16">
-			<h2 class="mb-4 text-3xl font-bold text-black">Research Questions</h2>
+		<div class="flex flex-col items-center justify-start gap-4">
+			<div class="flex w-3/4 flex-col items-center gap-4">
+				<h2 class="mb-4 text-3xl font-bold text-black">Research Questions</h2>
 
-			<div class="w-full">
-				<div class="my-4 h-px bg-black"></div>
-				{#each ['How does the gender of a movie director influence the portrayal of women in cinema?', 'What are the key female stereotypes in movies?', "How have women's roles evolved over time and across cultures?", 'Is the budget difference between movies significant?'] as question, index}
-					<div
-						class="transform transition-all duration-700 ease-out"
-						class:opacity-0={!researchQuestionsVisible[index]}
-						class:translate-x-[-100%]={!researchQuestionsVisible[index]}
-						class:opacity-100={researchQuestionsVisible[index]}
-						class:translate-x-0={researchQuestionsVisible[index]}
-					>
-						{#if index > 0}
-							<div class="my-4 h-px bg-black"></div>
-						{/if}
-						<p class="text-xl text-black">{question}</p>
-					</div>
-				{/each}
-				<div class="my-4 h-px bg-black"></div>
+				<div class="w-full">
+					<div class="my-4 h-px bg-black"></div>
+					{#each ['How does the gender of a movie director influence the portrayal of women in cinema?', 'What are the key female stereotypes in movies?', "How have women's roles evolved over time and across cultures?"] as question, index}
+						<div
+							class="transform transition-all duration-700 ease-out"
+							class:opacity-0={!researchQuestionsVisible[index]}
+							class:translate-x-[-100%]={!researchQuestionsVisible[index]}
+							class:opacity-100={researchQuestionsVisible[index]}
+							class:translate-x-0={researchQuestionsVisible[index]}
+						>
+							{#if index > 0}
+								<div class="my-4 h-px bg-black"></div>
+							{/if}
+							<p class="text-xl text-black">{question}</p>
+						</div>
+					{/each}
+					<div class="my-4 h-px bg-black"></div>
+				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Datasets Section-->
-	<section id="datasets" class="relative flex min-h-screen flex-col items-center justify-center">
-		<!-- First Half of the Screen -->
-		<div class="flex flex-col items-center gap-4">
-			<h2 class="mb-4 text-3xl font-bold text-black">Datasets</h2>
+			<div class="flex flex-col items-center justify-center space-x-4">
+				<h2 class="relative mb-4 text-3xl font-bold text-black">Datasets</h2>
+				<div class="flex items-center justify-center space-x-4">
+					{#each circleData as circle, index}
+						<div
+							role="button"
+							tabindex="0"
+							class="relative flex h-32 w-32 items-center justify-center rounded-full border-4 border-black transition-all duration-300"
+							class:rotate-45={hoveredCircle === index}
+							on:mouseenter={() => (hoveredCircle = index)}
+							on:mouseleave={() => (hoveredCircle = null)}
+						>
+							<span class="font-semibold text-black">{circle.text}</span>
+						</div>
+					{/each}
+				</div>
+			</div>
 		</div>
 	</section>
 

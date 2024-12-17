@@ -40,6 +40,10 @@ html {
   display: flex;
 }
 
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
 /* FOR THE HOME WITH THE SPOTLIGHTS */
 .spotlight-left {
   position: absolute;
@@ -148,8 +152,8 @@ html {
 .bubble-container-left{
   top: 31%;
   left: 25%;
-  width: 38vw;
-  height: 38vw;
+  width: 45vw;
+  height: 45vw;
   position: absolute;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
@@ -163,8 +167,8 @@ html {
 .bubble-container-left2{
   top: 68%;
   left: 50%;
-  width: 32vw;
-  height: 32vw;
+  width: 38vw;
+  height: 38vw;
   position: absolute;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
@@ -179,8 +183,8 @@ html {
 .bubble-container-right{
   top: 37%;
   left: 75%;
-  width: 35vw;
-  height: 35vw;
+  width: 40vw;
+  height: 40vw;
   position: absolute;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
@@ -192,22 +196,22 @@ html {
   justify-content: center;
 }
 .bubble-container-left.visible {
-  width: 32vw;
-  height: 32vw;
+  width: 38vw;
+  height: 38vw;
   opacity: 1;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(238, 229, 66, 0.7) 80%, rgba(101, 0, 141, 0.1) 100%);
 }
 .bubble-container-left2.visible {
-  width: 27vw;
-  height: 27vw;
+  width: 33vw;
+  height: 33vw;
   opacity: 1;
   border-radius: 50%;
   background: radial-gradient(circle, rgb(181, 107, 234) 80%, rgba(0, 0, 0, 0.1) 100%);
 }
 .bubble-container-right.visible {
-  width: 28vw;
-  height: 28vw;
+  width: 35vw;
+  height: 35vw;
   opacity: 1;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(23, 208, 125, 0.7) 100%, rgba(0, 0, 0, 0.1) 100%);
