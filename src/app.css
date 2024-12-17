@@ -146,10 +146,10 @@ html {
 /* FOR THE INTRO WITH THE BUBBLE */
 
 .bubble-container-left{
-  top: 28%;
-  left: 20%;
-  width: 55vw;
-  height: 55vw;
+  top: 31%;
+  left: 25%;
+  width: 38vw;
+  height: 38vw;
   position: absolute;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
@@ -161,10 +161,10 @@ html {
   justify-content: center;
 }
 .bubble-container-left2{
-  top: 80%;
-  left: 20%;
-  width: 55vw;
-  height: 55vw;
+  top: 68%;
+  left: 50%;
+  width: 32vw;
+  height: 32vw;
   position: absolute;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
@@ -177,6 +177,10 @@ html {
 }
 
 .bubble-container-right{
+  top: 37%;
+  left: 75%;
+  width: 35vw;
+  height: 35vw;
   position: absolute;
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.1);
@@ -186,30 +190,74 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 50%;
-  left: 75%;
-  width: 45vw;
-  height: 45vw;
 }
 .bubble-container-left.visible {
-  width: 55vw;
-  height: 55vw;
+  width: 32vw;
+  height: 32vw;
   opacity: 1;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 40%, rgba(0, 0, 0, 0.1) 90%);
+  background: radial-gradient(circle, rgba(194, 187, 50, 0.988) 80%, rgba(101, 0, 141, 0.1) 100%);
+}
+.bubble-container-left2.visible {
+  width: 27vw;
+  height: 27vw;
+  opacity: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(215, 114, 13) 80%, rgba(0, 0, 0, 0.1) 100%);
 }
 .bubble-container-right.visible {
-  width: 45vw;
-  height: 45vw;
+  width: 28vw;
+  height: 28vw;
   opacity: 1;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, rgba(0, 0, 0, 0.1) 80%);
+  background: radial-gradient(circle, rgba(23, 208, 125, 0.7) 100%, rgba(0, 0, 0, 0.1) 100%);
 }
 
-/* Text Inside the Bubble */
 .bubble-content {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem; /* Slightly reduce font size for better fit */
   color: #fff;
-  padding: 10rem;
+  width: 95%; /* Adjust width to fit inside the bubble */
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures text does not overflow */
+}
+
+/* Film Strip Base Style */
+.film-strip {
+  width: 100vw; 
+  height:20vw; /* Adjust for strip width */
+  
+  background-size: cover;
+}
+
+/* Left Film Strip */
+.film-strip-top {
+  top: 0vw;
+  left: -1.5vw
+}
+/* Left Film Strip */
+.film-strip-bottom {
+  top: 0vw;
+}
+
+/* Inner Content Styling */
+.film-strip-content {
+  text-align: center;
+  font-size: 2rem; /* Slightly reduce font size for better fit */
+  color: #fff;
+  width: 95%; /* Adjust width to fit inside the bubble */
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures text does not overflow */
+}
+
+/* Animation Classes (Triggered on Scroll) */
+.film-strip.visible {
+  opacity: 1;
+  transform: translateX(0); /* Slides into place */
 }

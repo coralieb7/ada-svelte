@@ -29,7 +29,7 @@
         title: 'Average Ratings by Director Gender among the Optimal group',
         xaxis: { title: 'Rating' },
         yaxis: { title: 'Percentage %' },
-        template: 'plotly_white'
+        template: 'plotly_dark_custom'
       };
   
       // Render the plot
