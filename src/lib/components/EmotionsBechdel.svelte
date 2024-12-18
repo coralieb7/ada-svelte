@@ -76,8 +76,10 @@
 				angularaxis: { tickmode: 'array', tickvals: ['anger', 'sadness', 'fear', 'neutral', 'disgust', 'joy', 'surprise'] },
                 domain: { x: [0.6, 1], y: [0, 1] }
 			},
-            legend: { x: 0.9, y: 1.1 },
-			margin: { t: 10, b: 50, l: 50, r: 50 }
+            legend: { x: 0.9, y: 1.05 },
+			autosize: false,
+			width: 900,
+			height: 600,
         };
 
 		// Render the plot with subplots

@@ -15,13 +15,13 @@
 	import Emotions from '$lib/components/Emotions.svelte';
 	import EmotionsBechdel from '$lib/components/EmotionsBechdel.svelte';
 	import List from '$lib/components/genres/List.svelte';
+	import Tvtropes from '$lib/components/Tvtropes.svelte';
 
 	let showBubbles = false;
 	let navVisible = true;
 	let lastScrollPosition = 0;
 	let researchQuestionsVisible = [false, false, false];
 	let visibleSections = [false, false, false];
-
 	onMount(() => {
 		const handleScroll = () => {
 			const conclusionSection = document.querySelector('#conclusion');
@@ -129,11 +129,11 @@
 	let hoveredCircle = null;
 
 	const circleData = [
-		{ text: 'CMU Movie' },
-		{ text: 'Bechdel Test' },
-		{ text: 'TV-Tropes' },
-		{ text: 'IMDb Ratings' },
-		{ text: 'TMDB Ratings' }
+		{ text: 'CMU Movie', link: 'https://www.cs.cmu.edu/~ark/personas/' },
+		{ text: 'Bechdel Test', link: 'https://bechdeltest.com/' },
+		{ text: 'TV-Tropes', link: 'https://tvtropes.org/' },
+		{ text: 'IMDb Ratings', link: 'https://developer.imdb.com/non-commercial-datasets/' },
+		{ text: 'TMDB Ratings', link: 'https://ada-svelte.vercel.app' }
 	];
 	const conclusionParts = [
 		"Madame's investigation into the gender dynamics in the film industry has uncovered several key insights: Gender imbalance among directors: Female directors tend to portray more nuanced and diverse female characters compared to their male counterparts. Bechdel Test success: Films that pass the Bechdel Test are more likely to feature strong female representation and emotional depth, especially when directed by women.",
@@ -329,7 +329,14 @@
 							on:mouseenter={() => (hoveredCircle = index)}
 							on:mouseleave={() => (hoveredCircle = null)}
 						>
-							<span class="font-semibold text-black">{circle.text}</span>
+							<a
+								href={circle.link}
+								class="text-center font-semibold text-black"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								{circle.text}
+							</a>
 						</div>
 					{/each}
 				</div>
@@ -340,15 +347,25 @@
 	<!-- DataStory Section -->
 	<section id="datastory" class="flex flex-col items-center justify-center">
 		<div class="max-w-5xl">
-			<div class="flex flex-col gap-10 py-2">
-				<p class="text-5xl font-bold">Datastory</p>
+			<div class="flex flex-col items-center gap-10 py-2">
+				<p class=" text-5xl font-bold">DATASTORY</p>
 			</div>
 
 			<div
-				class="flex flex-col items-center justify-center gap-4 bg-yellow-300 p-8"
+				class="flex flex-col items-center justify-center gap-4 p-8 text-justify"
 				id="moviedirectors"
 			>
-				<h2 class="mb-4 text-3xl font-bold text-black">Movie Directors</h2>
+				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">Movie Directors</h2>
+				<div class="flex flex-row gap-4">
+					<div
+						class="flex h-64 w-80 border border-black bg-cover"
+						style="background-image: url('/img/dir_distribution.jpeg');"
+					></div>
+					<div
+						class="flex h-64 w-80 border border-black bg-cover"
+						style="background-image: url('/img/char_distribution.jpeg');"
+					></div>
+				</div>
 				<p class="text-black">
 					It doesn't take long for the first revelation to appear, stark and undeniable: the gender
 					distribution among film directors is far from balanced. What's more, the gender
@@ -357,7 +374,10 @@
 				</p>
 			</div>
 
-			<div class="flex flex-col items-center justify-center gap-4 p-8" id="femalerepresentation">
+			<div
+				class="flex flex-col items-center justify-center gap-4 p-8 text-justify"
+				id="femalerepresentation"
+			>
 				<h2 class="mb-4 text-3xl font-bold text-black">Female representation in Movies</h2>
 				<p class="text-black">
 					Madame’s curiosity grows as she wonders if the gender imbalance among directors has always
@@ -413,13 +433,19 @@
 				</p>
 				<List />
 			</div>
-			<div class="flex flex-col items-center justify-center gap-4 p-9" id="bechdeltest">
+			<div
+				class="flex flex-col items-center justify-center gap-4 p-9 text-justify"
+				id="bechdeltest"
+			>
 				<h2 class="mb-4 text-3xl font-bold text-black">Bechdel Test</h2>
 
 				<p class="text-black">
 					After a moment of considering the surprising data, Miss replies with a laugh,
 				</p>
-				<div class="bg-cover" style="background-image: url('/img/sms.jpg');"></div>
+				<div
+					class="flex h-80 w-32 border border-black bg-cover"
+					style="background-image: url('/img/sms.jpg');"
+				></div>
 				<!-- IMAGE DON'T SHOW -->
 				<p class="text-black">
 					Intrigued, she wonders if her friend Miss’s three favorite movies pass the test. Eager to
@@ -440,7 +466,6 @@
 					analyzing the correlation. PARLER MODELE ML POUR PRÉDIRE LE SCORE DU TEST D’UN FILM AVEC
 					LES INFOS QU’ON A
 				</p>
-				<p class="text-black">GRAPH CORRELATION ? AUTRE CHOSE AVEC BECHDEL?</p>
 				<EmotionsBechdel />
 				<p class="text-black">
 					As Madame sifts through the data, the results start to reveal some interesting patterns.
@@ -454,8 +479,8 @@
 					women in film but also in shaping the emotional richness of their stories.
 				</p>
 			</div>
-			<div class="flex flex-col items-center justify-center" id="tvtropes">
-				<h2 class="mb-4 text-3xl font-bold text-black">TV Tropes</h2>
+			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="tvtropes">
+				<h2 class="mb-4 text-4xl font-bold text-black">TV Tropes</h2>
 				<p class="text-black">
 					But a question remains: what if the stereotypes weren’t just influenced by the director's
 					gender, but were more deeply rooted in societal structures? Madame starts to consider the
@@ -465,7 +490,7 @@
 					examining the gender ratio associated with various tropes over a range of X movies, she is
 					able to link these stereotypes to the representation of women. The data reveals that :
 				</p>
-				<p class="text-black">GRAPH DES TVTROPES</p>
+				<Tvtropes />
 				<p class="text-black">
 					To dig deeper, Madame filters the results by the gender ratio of directors, exploring
 					whether certain tropes are more common in films directed by women. She also looks at the
@@ -480,8 +505,8 @@
 					industry trends?
 				</p>
 			</div>
-			<div class="flex flex-col items-center justify-center" id="success">
-				<h2 class="mb-4 text-3xl font-bold text-black">Success</h2>
+			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="success">
+				<h2 class="mb-4 text-4xl font-bold text-black">Success</h2>
 				<p class="text-black">
 					With all the data and insights she’s gathered, Madame now has one word echoing in her
 					head: success. Madame has long struggled in the artistic world, finding it difficult to
@@ -489,8 +514,14 @@
 					industry trends affect the box office and public reception of films, using the IMDb
 					Ratings and TMDB Ratings datasets. and success metrics.
 				</p>
-
-				<p class="text-black">
+				<div class="flex max-w-6xl">
+					<div class="flex flex-row items-center justify-center -space-x-20">
+						<!-- First flex container takes 2/3 of the screen width -->
+						<div><AverageRatingsOpti /></div>
+						<div><AverageRatingsWorst /></div>
+					</div>
+				</div>
+				<p class="text-justify text-black">
 					She narrows her focus to two groups of films: those that pass the Bechdel Test with strong
 					female representation and those that fail with poor female representation. To do so, she
 					creates two categories of films based on specific conditions. The first group includes
@@ -499,8 +530,8 @@
 					fail the Bechdel Test (score of 2 or less) and have poor female representation (35% or
 					less), which she labels "horrible."
 				</p>
-				<AverageRatingsOpti />
-				<AverageRatingsWorst />
+				
+
 				<RendementsOpti />
 				<RendementsWorst />
 				<p class="text-black">The results show that [...]</p>
@@ -508,7 +539,7 @@
 		</div>
 	</section>
 
-	<section id="conclusion" class="h-min-screen relative flex flex-col items-center">
+	<section id="conclusion" class="h-min-screen relative flex flex-col items-center p-9">
 		<h2 class="mb-12 text-5xl font-bold text-black">Conclusion</h2>
 		<div class="flex w-3/4">
 			<div class="w-full">
