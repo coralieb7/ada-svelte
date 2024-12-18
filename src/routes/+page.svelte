@@ -14,7 +14,9 @@
 	import AverageRatingsWorst from '$lib/components/AverageRatingsWorst.svelte';
 	import Emotions from '$lib/components/Emotions.svelte';
 	import EmotionsBechdel from '$lib/components/EmotionsBechdel.svelte';
-	import List from '$lib/components/genres/List.svelte';
+	import GenresM from '$lib/components/genres/GenresMale.svelte';
+	import GenresF from '$lib/components/genres/GenresFemale.svelte';
+
 	import Tvtropes from '$lib/components/Tvtropes.svelte';
 
 	let showBubbles = false;
@@ -359,7 +361,7 @@
 				<div class="flex flex-row gap-4">
 					<div
 						class="flex h-64 w-80 border border-black bg-cover"
-						style="background-image: url('/img/dir_distribution.jpeg');"
+						style="background-image: url('/img/G1.png');"
 					></div>
 					<div
 						class="flex h-64 w-80 border border-black bg-cover"
@@ -375,7 +377,7 @@
 			</div>
 
 			<div
-				class="flex flex-col items-center justify-center gap-4 p-8 text-justify"
+				class="flex flex-col items-center justify-center gap-10 p-8 text-justify"
 				id="femalerepresentation"
 			>
 				<h2 class="mb-4 text-3xl font-bold text-black">Female representation in Movies</h2>
@@ -431,7 +433,11 @@
 					what she expected at all. Amused by the irony, she decides to send this little riddle to
 					Miss, her childhood friend, also an actress, eager to see her reaction.
 				</p>
-				<List />
+				<div class='flex flex-row gap-4'>
+					<GenresM />
+					<GenresF />
+				</div>
+				
 			</div>
 			<div
 				class="flex flex-col items-center justify-center gap-4 p-9 text-justify"
