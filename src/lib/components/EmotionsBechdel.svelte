@@ -27,7 +27,7 @@
 			name: 'Women - Bechdel passed',
 			line: { color: '#9467bd' }, // Blue color
 			fillcolor: 'rgba(148, 103, 189, 0.4)', // Semi-transparent blue fill
-            subplot: 'polar1'
+            subplot: 'polar2'
 		};
 
 		// Data for the second subplot (Bechdel failed)
@@ -39,7 +39,7 @@
 			name: 'Men - Bechdel failed',
 			line: { color: '#17d07d' }, // Red color
 			fillcolor: 'rgba(23, 208, 125, 0.4)', // Semi-transparent red fill
-            subplot: 'polar2'
+            subplot: 'polar1'
 		};
 
 		var trace4 = {
@@ -48,7 +48,7 @@
 			theta: Object.keys(data_json.female_directors_no_bechdel),
 			fill: 'toself',
 			name: 'Women - Bechdel failed',
-			line: { color: '#b56bea' }, // Dark blue color
+			line: { color: '#c48bf0' }, // Dark blue color
 			fillcolor: 'rgba(181, 107, 234, 0.4)', // Semi-transparent dark blue fill
             subplot: 'polar2'
 		};

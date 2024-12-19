@@ -44,7 +44,7 @@
   }
 </script>
 
-<div class="max-w-md mx-auto p-6 bg-gray-50 border-2 border-black rounded-lg shadow-md">
+<div class="max-w-md mx-auto p-6 bg-gray-50 border-2 border-orange-500 rounded-lg shadow-md">
   <h2 class="text-xl font-bold mb-4">Top-5 Genres - Female directors</h2>
   
   <ul 
@@ -89,7 +89,7 @@
         class="
             mt-4 
             text-center 
-            {verificationResult.includes('Congrats') ? 'text-green-600' : 'text-red-600'}
+            {verificationResult.includes('Congrats') ? 'text-green-600' : 'text-violet-600'}
         "
     >
         {verificationResult}

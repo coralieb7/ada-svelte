@@ -26,7 +26,7 @@
 			type: 'scatter',
             name: 'Female Directors',
 			fillcolor: 'rgba(181, 107, 234, 0.3)',
-			line: { color: '#9467bd' }
+			line: { color: '#c48bf0' }
 		};
 
 		var data = [trace1, trace2];

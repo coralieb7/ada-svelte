@@ -15,7 +15,7 @@
 					'DirtyCop, CorruptCorporateExecutive, <br>PsychoForHire, TranquilFury, <br>JerkJock, CrazyJealousGuy, <br>HenpeckedHusband, GrumpyOldMan,<br>StupidCrooks, ByronicHero, <br>CulturedBadass, DeanBitterman, <br>DumbMuscle, SelfMadeMan, <br>HitmanWithAHeart, Revenge'
 				],
 				marker: {
-					colors: ['#b56bea', '#17d07d']
+					colors: ['#c48bf0', '#2D9884']
 				},
 				name: 'Male Directors',
 				hole: 0.6,
@@ -34,7 +34,7 @@
 				],
 
 				marker: {
-					colors: ['#b56bea', '#17d07d']
+					colors: ['#c48bf0', '#2D9884']
 				},
 				name: 'Female Directors',
 				hole: 0.6,

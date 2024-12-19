@@ -301,7 +301,7 @@
 				<h2 class="mb-4 text-5xl font-bold text-black">RESEARCH QUESTIONS</h2>
 
 				<div class="w-full">
-					<div class="my-4 h-px bg-black"></div>
+					<div class="my-4 h-px bg-violet-700"></div>
 					{#each ['How does the gender of a movie director influence the portrayal of women in cinema?', 'What are the key female stereotypes in movies?', "How have women's roles evolved over time and across cultures?"] as question, index}
 						<div
 							class="transform transition-all duration-700 ease-out"
@@ -311,12 +311,12 @@
 							class:translate-x-0={researchQuestionsVisible[index]}
 						>
 							{#if index > 0}
-								<div class="my-4 h-px bg-black"></div>
+								<div class="my-4 h-px bg-violet-700"></div>
 							{/if}
 							<p class="text-xl text-black">{question}</p>
 						</div>
 					{/each}
-					<div class="my-4 h-px bg-black"></div>
+					<div class="my-4 h-px bg-violet-700"></div>
 				</div>
 			</div>
 			<div class="flex flex-col items-center justify-center gap-10 space-x-4">
@@ -326,7 +326,7 @@
 						<div
 							role="button"
 							tabindex="0"
-							class="relative flex h-48 w-48 items-center justify-center rounded-full border-2 border-black transition-all duration-300"
+							class="relative flex h-48 w-48 items-center justify-center rounded-full border-2 border-emerald-400 transition-all duration-300"
 							class:rotate-45={hoveredCircle === index}
 							on:mouseenter={() => (hoveredCircle = index)}
 							on:mouseleave={() => (hoveredCircle = null)}
@@ -358,14 +358,14 @@
 				id="moviedirectors"
 			>
 				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">Movie Directors</h2>
-				<div class="flex flex-row gap-4">
+				<div class="flex flex-row gap-10">
 					<div
-						class="flex h-64 w-80 border border-black bg-cover"
+						class="flex h-80 w-80 bg-cover"
 						style="background-image: url('/img/G1.png');"
 					></div>
 					<div
-						class="flex h-64 w-80 border border-black bg-cover"
-						style="background-image: url('/img/char_distribution.jpeg');"
+						class="flex h-80 w-80 bg-cover"
+						style="background-image: url('/img/G2.png');"
 					></div>
 				</div>
 				<p class="text-black">
@@ -570,7 +570,7 @@
 		</div>
 	</section>
 	<!-- Our Team Section -->
-	<section id="team" class="min-h bg-amber-100 py-8">
+	<section id="team" class="min-h bg-amber-200 py-8">
 		<h2 class="mb-4 text-center text-3xl font-bold">Our Team</h2>
 		<!-- Team Member Info Here -->
 		<!-- Team Members -->

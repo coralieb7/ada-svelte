@@ -17,7 +17,7 @@
 					x: Object.keys(data.female_female_percentage),
 					y: Object.values(data.female_female_percentage),
 					name: 'Female Actors (Female Directors)',
-					line: { color: '#b56bea' }
+					line: { color: '#c48bf0' }
 				},
 				{
 					type: 'scatter',
