@@ -21,6 +21,7 @@
 	import MemoryGame from '$lib/components/MemoryGame.svelte';
 	import RatingsBoxOffice from '$lib/components/RatingsBoxOffice.svelte';
 	import Revenue from '$lib/components/Revenue.svelte';
+	import BechdelCategory from '$lib/components/BechdelCategory.svelte';
 
 	let showBubbles = false;
 	let navVisible = true;
@@ -478,6 +479,7 @@
 					She quickly uncovers some key results: films directed by women tend to pass the Bechdel
 					Test more often than those directed by men.
 				</p>
+				<BechdelCategory />
 				<p class="text-xl text-black">
 					Next, she selects all the films that pass the Bechdel Test (score of 3) and begins
 					analyzing the correlation. PARLER MODELE ML POUR PRÉDIRE LE SCORE DU TEST D’UN FILM AVEC

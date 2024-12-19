@@ -34,7 +34,9 @@
             title: 'Representation of Female Characters over time by Director Gender',
             xaxis: { title: 'Years' },
             yaxis: { title: 'Percentage %' },
-            template: 'plotly_white'
+            template: 'plotly_white',
+			width: 1000,
+			height: 500
         };
 
 		// Render the plot
