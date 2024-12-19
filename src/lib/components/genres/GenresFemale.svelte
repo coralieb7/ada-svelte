@@ -20,9 +20,13 @@
 		}
 	});
 
+	function isItemInCorrectPosition(item, index) {
+		return item === correctOrder[index];
+	}
+
 	function verifyOrder() {
 		const currentOrder = Array.from(el.children).map((li) => li.textContent);
-		const isCorrect = currentOrder.every((item, index) => item === correctOrder[index]);
+		const isCorrect = currentOrder.every((item, index) => isItemInCorrectPosition(item, index));
 
 		isVerified = true;
 
@@ -54,9 +58,9 @@
                     shadow-sm
                     transition
                     {isVerified
-					? item === correctOrder[index]
-						? 'border-violet-400 bg-violet-100'
-						: 'border-green-400 bg-green-100'
+					? isItemInCorrectPosition(item, index)
+						? 'border-green-400 bg-green-100'
+						: 'border-red-400 bg-red-100'
 					: 'bg-white'}
                 "
 			>

@@ -27,11 +27,13 @@ html {
 }
 
 .group .group-hover\:flex {
-  margin-top: 0; /* Remove gaps */
+  margin-top: 0;
+  /* Remove gaps */
   padding: 4px 0;
   position: absolute;
   display: none;
-  top: 100%; /* Place directly below the link */
+  top: 100%;
+  /* Place directly below the link */
   left: 0;
   z-index: 10;
 }
@@ -50,9 +52,19 @@ html {
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateX(0); }
-  50% { transform: translateX(-8vw); }
-  75% { transform: translateX(4vw); }
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-8vw);
+  }
+
+  75% {
+    transform: translateX(4vw);
+  }
 }
 
 /* FOR THE HOME WITH THE SPOTLIGHTS */
@@ -60,7 +72,7 @@ html {
   position: absolute;
   width: 25vw;
   height: 25vw;
-  background: radial-gradient(circle, rgba(238, 229, 66, 0.7) 0%, rgba(255, 255, 255, 0.1) 90%);
+  background: radial-gradient(circle, rgba(238, 229, 66, 0.9) 20%, rgba(255, 255, 255, 0.1) 90%);
   border-radius: 50%;
   filter: blur(1vw);
   animation: move-spotlight-left 10s infinite alternate ease-in-out;
@@ -68,29 +80,29 @@ html {
   top: 34vw;
   left: 19vw;
 }
+
 .gradient-line-left {
   position: absolute;
   width: 110%;
   height: 50vw;
-  background: linear-gradient(
-    
-  rgba(238, 229, 66, 0.7),
-    rgba(255, 255, 255, 0.1) 85%
-  );
+  background: linear-gradient(rgba(238, 229, 66, 0.9),
+      rgba(255, 255, 255, 0.1) 85%);
   z-index: 0;
   top: 0;
   left: -55vw;
-  clip-path: polygon(50% 0%, 40% 100%, 60% 100%); /* Cone shape */
+  clip-path: polygon(50% 0%, 40% 100%, 60% 100%);
+  /* Cone shape */
   animation: move-light-left 5s infinite alternate ease-in-out;
   transform-origin: top left;
   transform-origin: top;
-  
+
 }
+
 .spotlight-right {
   position: absolute;
   width: 25vw;
   height: 25vw;
-  background: radial-gradient(circle, rgba(45, 152, 132, 0.7) 0%, rgba(255, 255, 255, 0.1) 90%);
+  background: radial-gradient(circle, rgba(45, 152, 132, 0.9) 20%, rgba(255, 255, 255, 0.1) 90%);
   border-radius: 50%;
   filter: blur(1vw);
   animation: move-spotlight-right 10s infinite alternate ease-in-out;
@@ -98,69 +110,78 @@ html {
   top: 34vw;
   right: 19vw;
 }
+
 .gradient-line-right {
   position: absolute;
   width: 110%;
   height: 50vw;
-  background: linear-gradient(
-    rgba(45, 152, 132, 0.7),
-    rgba(255, 255, 255, 0.1) 85%
-  );
+  background: linear-gradient(rgba(45, 152, 132, 0.9),
+      rgba(255, 255, 255, 0.1) 85%);
   z-index: 0;
   top: 0;
   right: -55vw;
-  clip-path: polygon(50% 0%, 40% 100%, 60% 100%); /* Cone shape */
+  clip-path: polygon(50% 0%, 40% 100%, 60% 100%);
+  /* Cone shape */
   animation: move-light-right 5s infinite alternate ease-in-out;
   transform-origin: top left;
   transform-origin: top;
 }
+
 @keyframes move-spotlight-left {
   0% {
     transform: translate(0, 0);
   }
+
   50% {
     transform: translate(17vw, -17vw);
   }
+
   100% {
     transform: translate(0, 0);
   }
 }
+
 @keyframes move-light-left {
   from {
     transform: rotate(-35deg);
   }
+
   to {
     transform: rotate(-60deg);
   }
 }
+
 @keyframes move-spotlight-right {
   0% {
     transform: translate(0, 0);
   }
-  
+
   50% {
     transform: translate(-17vw, -17vw);
   }
-  
+
   100% {
     transform: translate(0, 0);
   }
 }
+
 @keyframes move-light-right {
   from {
     transform: rotate(35deg);
   }
+
   to {
     transform: rotate(60deg);
   }
 }
+
 #home {
   position: relative;
 }
 
 /* FOR THE INTRO WITH THE BUBBLE */
 
-.bubble-container-left{
+.bubble-container-left {
   top: 31%;
   left: 23%;
   width: 38vw;
@@ -175,7 +196,8 @@ html {
   align-items: center;
   justify-content: center;
 }
-.bubble-container-left2{
+
+.bubble-container-left2 {
   top: 68%;
   left: 50%;
   width: 33vw;
@@ -191,7 +213,7 @@ html {
   justify-content: center;
 }
 
-.bubble-container-right{
+.bubble-container-right {
   top: 37%;
   left: 73%;
   width: 35vw;
@@ -206,6 +228,7 @@ html {
   align-items: center;
   justify-content: center;
 }
+
 .bubble-container-left.visible {
   width: 38vw;
   height: 38vw;
@@ -213,6 +236,7 @@ html {
   border-radius: 50%;
   background: radial-gradient(circle, rgb(253, 223, 71) 80%, rgba(101, 0, 141, 0.1) 100%);
 }
+
 .bubble-container-left2.visible {
   width: 33vw;
   height: 33vw;
@@ -220,6 +244,7 @@ html {
   border-radius: 50%;
   background: radial-gradient(circle, rgb(181, 107, 234) 80%, rgba(0, 0, 0, 0.1) 100%);
 }
+
 .bubble-container-right.visible {
   width: 35vw;
   height: 35vw;
@@ -230,9 +255,11 @@ html {
 
 .bubble-content {
   text-align: center;
-  font-size: 1rem; /* Slightly reduce font size for better fit */
+  font-size: 1rem;
+  /* Slightly reduce font size for better fit */
   color: #fff;
-  width: 95%; /* Adjust width to fit inside the bubble */
+  width: 95%;
+  /* Adjust width to fit inside the bubble */
   height: 95%;
   display: flex;
   align-items: center;
@@ -241,9 +268,10 @@ html {
 
 /* Film Strip Base Style */
 .film-strip {
-  width: 100vw; 
-  height:20vw; /* Adjust for strip width */
-  
+  width: 100vw;
+  height: 20vw;
+  /* Adjust for strip width */
+
   background-size: cover;
 }
 
@@ -252,6 +280,7 @@ html {
   top: 0vw;
   left: -1.5vw
 }
+
 /* Left Film Strip */
 .film-strip-bottom {
   top: 0vw;
@@ -260,18 +289,22 @@ html {
 /* Inner Content Styling */
 .film-strip-content {
   text-align: center;
-  font-size: 2rem; /* Slightly reduce font size for better fit */
+  font-size: 2rem;
+  /* Slightly reduce font size for better fit */
   color: #fff;
-  width: 95%; /* Adjust width to fit inside the bubble */
+  width: 95%;
+  /* Adjust width to fit inside the bubble */
   height: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /* Ensures text does not overflow */
+  overflow: hidden;
+  /* Ensures text does not overflow */
 }
 
 /* Animation Classes (Triggered on Scroll) */
 .film-strip.visible {
   opacity: 1;
-  transform: translateX(0); /* Slides into place */
+  transform: translateX(0);
+  /* Slides into place */
 }
