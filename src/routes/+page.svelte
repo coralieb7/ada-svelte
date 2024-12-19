@@ -547,7 +547,7 @@
 		</div>
 	</section>
 
-	<section id="conclusion" class="h-min-screen relative flex flex-col items-center p-9">
+	<section id="conclusion" class="h-min-screen relative flex flex-col items-center p-2">
 		<h2 class="mb-12 text-5xl font-bold text-black">Conclusion</h2>
 		<div class="flex w-3/4">
 			<div class="w-full">
