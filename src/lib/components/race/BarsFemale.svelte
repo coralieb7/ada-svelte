@@ -1,8 +1,8 @@
 <script>
     import { getContext } from "svelte";
-    import Bar from "./Bar.svelte";
-    import colors from "./colors.json";
-    const { data } = getContext("Chart");
+    import Bar from "./BarFemale.svelte";
+    import colors from "./colorsF.json";
+    const { data } = getContext("ChartFemale");
     const colorCount = colors.length;
     export let barCount;
   </script>

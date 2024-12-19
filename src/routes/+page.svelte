@@ -411,7 +411,7 @@
 					wonders which countries do the best job of representing women on screen. Perhaps, she
 					thinks with a smile, she was born in the wrong time or place.
 				</p>
-				<div class="flex w-4/5 flex-col"><Chart /> <Chart /></div>
+				<div class="flex w-full flex-col"><Chart /> </div>
 				<p class="text-black">Looking at the results, Madame finds that:</p>
 				<p class="text-black">
 					Having explored the best times, places, and opportunities for actresses, Madame’s thoughts

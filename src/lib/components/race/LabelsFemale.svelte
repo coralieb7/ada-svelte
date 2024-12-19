@@ -1,7 +1,7 @@
 <script>
     import { getContext } from "svelte";
-    import Label from "./Label.svelte";
-    const { data } = getContext("Chart");
+    import Label from "./LabelFemale.svelte";
+    const { data } = getContext("ChartFemale");
     export let maxRank = 10;
   </script>
   

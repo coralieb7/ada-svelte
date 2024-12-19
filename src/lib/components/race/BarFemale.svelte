@@ -1,6 +1,6 @@
 <script>
     import { getContext } from "svelte";
-    const { scales, dimensions } = getContext("Chart");
+    const { scales, dimensions } = getContext("ChartFemale");
     export let value;
     export let rank;
     export let fill;
