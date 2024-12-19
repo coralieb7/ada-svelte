@@ -551,7 +551,7 @@
 		<h2 class="mb-12 text-5xl font-bold text-black">Conclusion</h2>
 		<div class="flex w-3/4">
 			<div class="w-full">
-				<div class="my-4 h-px bg-black"></div>
+				<div class="my-4 h-px bg-orange-500"></div>
 				{#each conclusionParts as part, index}
 					<div
 						class="transform transition-all duration-700 ease-out"
@@ -562,12 +562,12 @@
 						class:animate-bounce={visibleSections[index]}
 					>
 						{#if index > 0}
-							<div class="my-4 h-px bg-black"></div>
+							<div class="my-4 h-px bg-orange-400"></div>
 						{/if}
 						<p class="text-xl text-black">{part}</p>
 					</div>
 				{/each}
-				<div class="my-4 h-px bg-black"></div>
+				<div class="my-4 h-px bg-orange-400"></div>
 			</div>
 		</div>
 	</section>

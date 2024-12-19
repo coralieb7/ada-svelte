@@ -47,8 +47,8 @@
 			layout: {
         title: {
           text: "Actor's Age Distribution"},
-				xaxis: { title: 'Age', color: 'white' },
-				yaxis: { title: 'Percentage (%)', color: 'white' },
+				xaxis: { title: 'Age'},
+				yaxis: { title: 'Percentage (%)'},
 				legend: { title:{text:'Actor Gender & Director Gender'} },
         color: 'white'
 			}

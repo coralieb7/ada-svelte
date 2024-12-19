@@ -152,8 +152,6 @@
 </script>
 
 {#if keyframesMale && keyframesFemale}
-	
-
 	<div class="charts-container">
 		<!-- Male chart -->
 		<div class="chart">
@@ -169,10 +167,6 @@
 
 				<div class="labels">
 					<LabelsM {barCount} context="ChartMale" />
-				</div>
-
-				<div class="ticker">
-					<Ticker date={keyframeDateMale} />
 				</div>
 			</figure>
 		</div>
