@@ -153,23 +153,7 @@
 
 {#if keyframesMale && keyframesFemale}
 	<div class="charts-container">
-		<!-- Male chart -->
-		<div class="chart">
-			<h2>Movies Directed by Men</h2>
-			<figure bind:offsetWidth={figureWidthMale} bind:offsetHeight={figureHeightMale}>
-				<div class="bars">
-					<BarsM {barCount} context="ChartMale" />
-				</div>
-
-				<div class="axis">
-					<AxisM context="ChartMale" />
-				</div>
-
-				<div class="labels">
-					<LabelsM {barCount} context="ChartMale" />
-				</div>
-			</figure>
-		</div>
+		
 
 		<!-- Female chart -->
 		<div class="chart">
@@ -189,6 +173,23 @@
 
 				<div class="ticker">
 					<Ticker date={keyframeDateFemale} />
+				</div>
+			</figure>
+		</div>
+    <!-- Male chart -->
+		<div class="chart">
+			<h2>Movies Directed by Men</h2>
+			<figure bind:offsetWidth={figureWidthMale} bind:offsetHeight={figureHeightMale}>
+				<div class="bars">
+					<BarsM {barCount} context="ChartMale" />
+				</div>
+
+				<div class="axis">
+					<AxisM context="ChartMale" />
+				</div>
+
+				<div class="labels">
+					<LabelsM {barCount} context="ChartMale" />
 				</div>
 			</figure>
 		</div>

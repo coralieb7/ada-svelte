@@ -27,10 +27,17 @@
 	let visibleSections = [false, false, false];
 	onMount(() => {
 		const handleScroll = () => {
+			const homeSection = document.querySelector('#home');
 			const conclusionSection = document.querySelector('#conclusion');
 			const introSection = document.querySelector('#intro');
 			const navBar = document.querySelector('nav');
 			const researchQuestionsSection = document.querySelector('#research-questions-datasets');
+			if (homeSection) {
+				const rect = homeSection.getBoundingClientRect();
+				const isVisible =
+					rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2;
+				if (isVisible) navVisible = true;
+			}
 			if (conclusionSection) {
 				const rect = conclusionSection.getBoundingClientRect();
 				const isVisible =
@@ -68,11 +75,11 @@
 
 				lastScrollPosition = currentScrollPosition;
 
-				// Apply navigation bar visibility
-				if (navBar) {
-					navBar.style.opacity = navVisible ? '1' : '0';
-					navBar.style.visibility = navVisible ? 'visible' : 'hidden';
-				}
+				// // Apply navigation bar visibility
+				// if (navBar) {
+				// 	navBar.style.opacity = navVisible ? '1' : '0';
+				// 	navBar.style.visibility = navVisible ? 'visible' : 'hidden';
+				// }
 				// New research questions animation logic
 				if (researchQuestionsSection) {
 					const questionsRect = researchQuestionsSection.getBoundingClientRect();
@@ -173,7 +180,9 @@
 
 <!-- Navigation Bar -->
 <div
-	class={`fixed left-0 right-0 top-0 z-20 bg-transparent transition-all duration-300 ${navVisible ? 'visible opacity-100' : 'invisible opacity-0'}`}
+	class={`fixed left-0 right-0 top-0 z-20 bg-transparent bg-white transition-all duration-300 ${
+		navVisible ? 'bg-opacity-10' : ''
+	}`}
 >
 	<nav class="flex items-center justify-between px-6 py-4">
 		<!-- Left: Project Title -->
@@ -236,15 +245,15 @@
 
 <!-- Content Sections (below the large title) -->
 <div class="space-y-20 bg-white p-6">
-	<section id="intro" class="relative flex min-h-screen justify-center">
-		<h2 class="mb-4 text-5xl font-bold text-black">INTRODUCTION</h2>
+	<section class="relative flex min-h-screen justify-center">
+		<h2 id="intro" class="mb-4 text-5xl font-bold text-black">INTRODUCTION</h2>
 		<!-- First Bubble -->
 		<div
 			class="bubble-container-left absolute flex items-center justify-center"
 			class:visible={showBubbles}
 		>
 			<div class="bubble-content">
-				<p class="leading-relaxed text-black">
+				<p class="text-xl leading-relaxed text-black">
 					Meet Madame. <br /> Sitting at her table, she is<br /> holding her very first movie
 					script, a huge<br />
 					opportunity she’s dreamed about for years. Suddenly,<br /> as she flips through the pages,
@@ -263,7 +272,7 @@
 			class:visible={showBubbles}
 		>
 			<div class="bubble-content">
-				<p class="leading-relaxed text-black">
+				<p class="text-xl leading-relaxed text-black">
 					This iconic line is <br />more than just dialogue. It’s a <br />symbol of a deeper issue:
 					women in films<br />
 					are often underrepresented and stereotyped,<br /> their roles shaped by limited
@@ -280,7 +289,7 @@
 			class:visible={showBubbles}
 		>
 			<div class="bubble-content">
-				<p class="leading-relaxed text-black">
+				<p class="text-xl leading-relaxed text-black">
 					Through our analysis,<br /> we’ll explore how the gender of a <br />director influences
 					female representation,<br /> uncover the stereotypes that still dominate, and <br />track
 					how women’s roles have evolved across<br /> time and cultures. Because some questions<br
@@ -360,16 +369,10 @@
 			>
 				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">Movie Directors</h2>
 				<div class="flex flex-row gap-10">
-					<div
-						class="flex h-80 w-80 bg-cover"
-						style="background-image: url('/img/G1.png');"
-					></div>
-					<div
-						class="flex h-80 w-80 bg-cover"
-						style="background-image: url('/img/G2.png');"
-					></div>
+					<div class="flex h-80 w-80 bg-cover" style="background-image: url('/img/G1.png');"></div>
+					<div class="flex h-80 w-80 bg-cover" style="background-image: url('/img/G2.png');"></div>
 				</div>
-				<p class="text-black">
+				<p class="text-xl text-black">
 					It doesn't take long for the first revelation to appear, stark and undeniable: the gender
 					distribution among film directors is far from balanced. What's more, the gender
 					distribution of the movie directors - 90% male, 10% female - is far more contrasted than
@@ -382,7 +385,7 @@
 				id="femalerepresentation"
 			>
 				<h2 class="mb-4 text-3xl font-bold text-black">Female representation in Movies</h2>
-				<p class="text-black">
+				<p class="text-xl text-black">
 					Madame’s curiosity grows as she wonders if the gender imbalance among directors has always
 					influenced the portrayal of women in films. She begins to explore historical trends,
 					asking herself whether this disparity is a long-standing issue or a more recent
@@ -391,12 +394,12 @@
 					filmmaking for decades.
 				</p>
 				<Ages />
-				<p class="text-black">
+				<p class="text-xl text-black">
 					Her thoughts expand: Does the director’s gender affect the age of actresses, with female
 					directors offering more opportunities for older women?
 				</p>
 				<DirectorsTime />
-				<p class="text-black">
+				<p class="text-xl text-black">
 					Regardless of the movie director’s gender, the peak age, where the highest number of
 					actors. tresses is concentrated, is consistently lower for actresses compared to actors.
 					Additionally, the age range for actresses appears more concentrated, or narrower, while
@@ -406,20 +409,20 @@
 					persistent disparities in age representation between male and female actors within the
 					film industry.
 				</p>
-				<p class="text-black">
+				<p class="text-xl text-black">
 					She also questions whether certain genres are more inclusive of women. Finally, she
 					wonders which countries do the best job of representing women on screen. Perhaps, she
 					thinks with a smile, she was born in the wrong time or place.
 				</p>
-				<div class="flex w-full flex-col"><Chart /> </div>
-				<p class="text-black">Looking at the results, Madame finds that:</p>
-				<p class="text-black">
+				<div class="flex w-full flex-col"><Chart /></div>
+				<p class="text-xl text-black">Looking at the results, Madame finds that:</p>
+				<p class="text-xl text-black">
 					Having explored the best times, places, and opportunities for actresses, Madame’s thoughts
 					take a deeper turn. She finds herself wondering if there is a specific genre where women
 					are most likely to be represented on screen. Could there be a particular category where
 					her chances of landing a meaningful role are higher?
 				</p>
-				<p class="text-black">
+				<p class="text-xl text-black">
 					DANS UNE BULLE NUAGE Our 35-year-old actress has always dreamed of living in a romance
 					movie, like her all-time favorites The Notebook or Notting Hill. She’s always loved the
 					idea of chance encounters, sweeping love stories, and those big, emotional moments. But as
@@ -429,16 +432,16 @@
 					with men. It’s a weird feeling, realizing that even her own dreams might be tied to the
 					same stereotypes she’s so tired of seeing in society.
 				</p>
-				<p class="text-black">
+				<p class="text-xl text-black">
 					After digging into the data, she finds herself almost laughing at the answer. It’s not
 					what she expected at all. Amused by the irony, she decides to send this little riddle to
 					Miss, her childhood friend, also an actress, eager to see her reaction.
 				</p>
-				<div class='flex flex-row gap-4'>
-					<GenresM />
+				<div class="flex flex-row gap-4">
+					
 					<GenresF />
+					<GenresM />
 				</div>
-				
 			</div>
 			<div
 				class="flex flex-col items-center justify-center gap-4 p-9 text-justify"
@@ -446,7 +449,7 @@
 			>
 				<h2 class="mb-4 text-3xl font-bold text-black">Bechdel Test</h2>
 
-				<p class="text-black">
+				<p class="text-xl text-black">
 					After a moment of considering the surprising data, Miss replies with a laugh,
 				</p>
 				<div
@@ -454,28 +457,27 @@
 					style="background-image: url('/img/sms.jpg');"
 				></div>
 				<!-- IMAGE DON'T SHOW -->
-				<p class="text-black">
+				<p class="text-xl text-black">
 					Intrigued, she wonders if her friend Miss’s three favorite movies pass the test. Eager to
 					find out, Madame checks them one by one, comparing whether they meet the criteria.
 				</p>
-				<p class="text-black">JEU A FAIRE</p>
-				<MemoryGame	/>
-				<p class="text-black">
+				<MemoryGame />
+				<p class="text-xl text-black">
 					Excited by this discovery, Madame decided to dive deeper into the data. She starts by
 					exploring which films pass the test.
 				</p>
 				<BechdelRatings />
-				<p class="text-black">
+				<p class="text-xl text-black">
 					She quickly uncovers some key results: films directed by women tend to pass the Bechdel
 					Test more often than those directed by men.
 				</p>
-				<p class="text-black">
+				<p class="text-xl text-black">
 					Next, she selects all the films that pass the Bechdel Test (score of 3) and begins
 					analyzing the correlation. PARLER MODELE ML POUR PRÉDIRE LE SCORE DU TEST D’UN FILM AVEC
 					LES INFOS QU’ON A
 				</p>
 				<EmotionsBechdel />
-				<p class="text-black">
+				<p class="text-xl text-black">
 					As Madame sifts through the data, the results start to reveal some interesting patterns.
 					It becomes clear that films directed by women tend to have ?, and these films also show ?.
 					Eager to dig deeper, Madame then focuses on the emotional tones of these Bechdel-passing
@@ -489,7 +491,7 @@
 			</div>
 			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="tvtropes">
 				<h2 class="mb-4 text-4xl font-bold text-black">TV Tropes</h2>
-				<p class="text-black">
+				<p class="text-xl text-black">
 					But a question remains: what if the stereotypes weren’t just influenced by the director's
 					gender, but were more deeply rooted in societal structures? Madame starts to consider the
 					possibility that these recurring patterns might be shaped by broader cultural norms, not
@@ -499,7 +501,7 @@
 					able to link these stereotypes to the representation of women. The data reveals that :
 				</p>
 				<Tvtropes />
-				<p class="text-black">
+				<p class="text-xl text-black">
 					To dig deeper, Madame filters the results by the gender ratio of directors, exploring
 					whether certain tropes are more common in films directed by women. She also looks at the
 					balance between female and male characters in these films in order to visualize how women
@@ -515,7 +517,7 @@
 			</div>
 			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="success">
 				<h2 class="mb-4 text-4xl font-bold text-black">Success</h2>
-				<p class="text-black">
+				<p class="text-xl text-black">
 					With all the data and insights she’s gathered, Madame now has one word echoing in her
 					head: success. Madame has long struggled in the artistic world, finding it difficult to
 					land good roles and achieve recognition and audience validation. She starts to explore how
@@ -529,7 +531,7 @@
 						<div><AverageRatingsWorst /></div>
 					</div>
 				</div>
-				<p class="text-justify text-black">
+				<p class="text-justify text-xl text-black">
 					She narrows her focus to two groups of films: those that pass the Bechdel Test with strong
 					female representation and those that fail with poor female representation. To do so, she
 					creates two categories of films based on specific conditions. The first group includes
@@ -538,7 +540,6 @@
 					fail the Bechdel Test (score of 2 or less) and have poor female representation (35% or
 					less), which she labels "horrible."
 				</p>
-				
 
 				<RendementsOpti />
 				<RendementsWorst />
