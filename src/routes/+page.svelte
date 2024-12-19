@@ -22,6 +22,9 @@
 	import RatingsBoxOffice from '$lib/components/RatingsBoxOffice.svelte';
 	import Revenue from '$lib/components/Revenue.svelte';
 	import BechdelCategory from '$lib/components/BechdelCategory.svelte';
+	import WordCloud from '$lib/components/WordCloudFemale.svelte';
+	import WordCloudMale from '$lib/components/WordCloudMale.svelte';
+	import WordCloudFemale from '$lib/components/WordCloudFemale.svelte';
 
 	let showBubbles = false;
 	let navVisible = true;
@@ -41,8 +44,7 @@
 					rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2;
 				if (isVisible) {
 					navVisible = true;
-				}
-				else{
+				} else {
 					navVisible = false;
 				}
 			}
@@ -112,6 +114,16 @@
 			window.removeEventListener('scroll', handleScroll);
 		};
 	});
+
+	const wordCloudData = [
+		{ name: 'FinalGirl', value: 100 },
+		{ name: 'BrokenBird', value: 80 },
+		{ name: 'DumbBlonde', value: 60 },
+		{ name: 'BrainlessBeauty', value: 40 },
+		{ name: 'ValleyGirl', value: 20 },
+		{ name: 'ClassyCatBurglar', value: 10 }
+		// ... more data
+	];
 	let currentTextIndex = 0;
 	let displayedText = ' ';
 	const texts = [
@@ -446,7 +458,6 @@
 					Miss, her childhood friend, also an actress, eager to see her reaction.
 				</p>
 				<div class="flex flex-row gap-4">
-					
 					<GenresF />
 					<GenresM />
 				</div>
@@ -509,6 +520,9 @@
 					examining the gender ratio associated with various tropes over a range of X movies, she is
 					able to link these stereotypes to the representation of women. The data reveals that :
 				</p>
+				<div class='flex flex-row '> <WordCloudFemale /> <WordCloudMale /> </div>
+
+				
 				<Tvtropes />
 				<p class="text-xl text-black">
 					To dig deeper, Madame filters the results by the gender ratio of directors, exploring
@@ -536,12 +550,9 @@
 				<div class="flex max-w-6xl">
 					<div class="flex flex-row items-center justify-center -space-x-20">
 						<!-- First flex container takes 2/3 of the screen width -->
-						
-						
 					</div>
-					
 				</div>
-				<div> <RatingsBoxOffice /> </div>
+				<div><RatingsBoxOffice /></div>
 				<p class="text-justify text-xl text-black">
 					She narrows her focus to two groups of films: those that pass the Bechdel Test with strong
 					female representation and those that fail with poor female representation. To do so, she
@@ -552,7 +563,7 @@
 					less), which she labels "horrible."
 				</p>
 
-				<div> <Revenue /> </div>
+				<div><Revenue /></div>
 				<p class="text-black">The results show that [...]</p>
 			</div>
 		</div>

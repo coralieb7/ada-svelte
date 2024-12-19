@@ -11,7 +11,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/kit": "^2.9.0",
+		"@sveltejs/kit": "^2.13.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"autoprefixer": "^10.4.20",
 		"prettier": "^3.3.2",
@@ -24,10 +24,12 @@
 	"dependencies": {
 		"d3": "^7.9.0",
 		"d3-array": "^3.2.4",
+		"d3-cloud": "^1.2.7",
 		"d3-scale": "^4.0.2",
 		"layerchart": "^0.59.6",
 		"plotly.js": "^2.35.2",
 		"plotly.js-dist": "^2.35.2",
-		"sortablejs": "^1.15.6"
+		"sortablejs": "^1.15.6",
+		"wordcloud": "^1.2.3"
 	}
 }
