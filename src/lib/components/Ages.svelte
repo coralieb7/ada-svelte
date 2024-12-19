@@ -45,17 +45,25 @@
 				}
 			],
 			layout: {
-        title: {
-          text: "Actor's Age Distribution"},
-				xaxis: { title: 'Age'},
-				yaxis: { title: 'Percentage (%)'},
-				legend: { title:{text:'Actor Gender & Director Gender'} },
-        color: 'white'
+				title: {
+					text: "Actor's Age Distribution"
+				},
+				xaxis: { title: 'Age' },
+				yaxis: { title: 'Percentage (%)' },
+				legend: { title: { text: 'Actor Gender & Director Gender' } },
+				color: 'white',
+				width: 1050,
+				height: 450,
+
+			},
+			config: {
+				responsive: true
 			}
 		};
+	
 		// Render the plot
 		const Plotly = await import('plotly.js-dist');
-		Plotly.newPlot(plotElement, fig.data, fig.layout);
+		Plotly.newPlot(plotElement, fig.data, fig.layout, fig.config);
 	});
 </script>
 

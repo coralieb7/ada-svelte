@@ -16,7 +16,7 @@
 			name: 'Men - Bechdel passed',
 			line: { color: '#2D9884' }, // Yellow color
 			fillcolor: 'rgba(45, 152, 132, 0.4)', // Semi-transparent yellow fill,
-			subplot: 'polar1'
+			subplot: 'polar2'
 		};
 
 		var trace2 = {
@@ -27,7 +27,7 @@
 			name: 'Women - Bechdel passed',
 			line: { color: '#9467bd' }, // Blue color
 			fillcolor: 'rgba(148, 103, 189, 0.4)', // Semi-transparent blue fill
-            subplot: 'polar2'
+			subplot: 'polar1'
 		};
 
 		// Data for the second subplot (Bechdel failed)
@@ -39,7 +39,7 @@
 			name: 'Men - Bechdel failed',
 			line: { color: '#17d07d' }, // Red color
 			fillcolor: 'rgba(23, 208, 125, 0.4)', // Semi-transparent red fill
-            subplot: 'polar1'
+			subplot: 'polar2'
 		};
 
 		var trace4 = {
@@ -50,7 +50,7 @@
 			name: 'Women - Bechdel failed',
 			line: { color: '#c48bf0' }, // Dark blue color
 			fillcolor: 'rgba(181, 107, 234, 0.4)', // Semi-transparent dark blue fill
-            subplot: 'polar2'
+			subplot: 'polar1'
 		};
 
 		// Create subplots (2 rows, 1 column)
@@ -66,21 +66,30 @@
 				angularaxis: {
 					tickmode: 'array',
 					tickvals: ['anger', 'sadness', 'fear', 'neutral', 'disgust', 'joy', 'surprise']
+				},
+				radialaxis: {
+					range: [0, 0.25] // Set range to [0, 0.25] for both subplots
 				}
 			},
 			polar1: {
-				angularaxis: { tickmode: 'array', tickvals: ['anger', 'sadness', 'fear', 'neutral', 'disgust', 'joy', 'surprise'] },
-                domain: { x: [0.1, 0.5], y: [0, 1] }
+				angularaxis: {
+					tickmode: 'array',
+					tickvals: ['anger', 'sadness', 'fear', 'neutral', 'disgust', 'joy', 'surprise']
+				},
+				domain: { x: [0.1, 0.5], y: [0, 1] }
 			},
 			polar2: {
-				angularaxis: { tickmode: 'array', tickvals: ['anger', 'sadness', 'fear', 'neutral', 'disgust', 'joy', 'surprise'] },
-                domain: { x: [0.6, 1], y: [0, 1] }
+				angularaxis: {
+					tickmode: 'array',
+					tickvals: ['anger', 'sadness', 'fear', 'neutral', 'disgust', 'joy', 'surprise']
+				},
+				domain: { x: [0.4, 1], y: [0, 1] }
 			},
-            legend: { x: 0.9, y: 1.05 },
+			legend: { x: 0.9, y: 1.05 },
 			autosize: false,
-			width: 900,
-			height: 600,
-        };
+			width: 1050,
+			height: 450
+		};
 
 		// Render the plot with subplots
 		const Plotly = await import('plotly.js-dist');

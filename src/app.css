@@ -74,7 +74,7 @@ html {
   height: 25vw;
   background: radial-gradient(circle, rgba(238, 229, 66, 0.9) 20%, rgba(255, 255, 255, 0.1) 90%);
   border-radius: 50%;
-  filter: blur(1vw);
+  filter: blur(0.25vw);
   animation: move-spotlight-left 10s infinite alternate ease-in-out;
   z-index: 0;
   top: 34vw;
@@ -104,7 +104,7 @@ html {
   height: 25vw;
   background: radial-gradient(circle, rgba(45, 152, 132, 0.9) 20%, rgba(255, 255, 255, 0.1) 90%);
   border-radius: 50%;
-  filter: blur(1vw);
+  filter: blur(0.25vw);
   animation: move-spotlight-right 10s infinite alternate ease-in-out;
   z-index: 0;
   top: 34vw;
@@ -235,7 +235,7 @@ html {
   opacity: 0.8;
   border-radius: 50%;
   background: radial-gradient(circle, rgb(253, 223, 71) 80%, rgba(101, 0, 141, 0.1) 100%);
-  border: 0.5vw solid rgb(238, 200, 13); /* Add border with gradient's primary color */
+  border: 0.25vw solid rgb(238, 200, 13); /* Add border with gradient's primary color */
 
 }
 
@@ -245,7 +245,7 @@ html {
   opacity: 0.9;
   border-radius: 50%;
   background: radial-gradient(circle, rgb(181, 107, 234) 80%, rgba(0, 0, 0, 0.1) 100%);
-  border: 0.5vw solid rgb(152, 29, 240); /* Add border with gradient's primary color */
+  border: 0.25vw solid rgb(152, 29, 240); /* Add border with gradient's primary color */
 
 }
 
@@ -255,7 +255,7 @@ html {
   opacity: 0.8;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(45, 152, 132, 0.7) 100%, rgba(0, 0, 0, 0.1) 100%);
-  border: 0.5vw solid rgb(4, 120, 99); /* Add border with gradient's primary color */
+  border: 0.25vw solid rgb(4, 120, 99); /* Add border with gradient's primary color */
 
 }
 

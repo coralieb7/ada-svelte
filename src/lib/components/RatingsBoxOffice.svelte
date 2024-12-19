@@ -17,7 +17,7 @@
 
 		// Define colors and labels for gender mapping
 		const colorMap = {
-			M: '#17d07d',
+			M: '#2D9884',
 			F: '#9467bd'
 		};
 		const genderLabels = {
@@ -38,7 +38,7 @@
 					text: maleDirectorData.map((d) => d.movie_name),
 					mode: 'markers',
 					marker: {
-						size: maleDirectorData.map((d) => Math.sqrt(d.movie_budget) / 1000), // Scaled size for visualization
+						size: maleDirectorData.map((d) => Math.sqrt(d.movie_budget) / 500), // Scaled size for visualization
 						color: colorMap.M,
 						opacity: 0.7
 					},
@@ -66,6 +66,8 @@
 				title: 'Proportional Average Rating of Movies by Director Gender',
 				xaxis: { title: 'Average Rating' },
 				yaxis: { title: 'Box Office Revenue' },
+				width: 1050,
+				height: 500,
 				legend: { title: { text: 'Director Gender' } }
 			}
 		};

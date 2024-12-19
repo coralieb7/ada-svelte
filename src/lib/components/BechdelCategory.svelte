@@ -14,7 +14,7 @@
 					colors: ['#c48bf0', '#8059a4'] // Assign the brightest color to Fail
 				},
 				name: 'Female Directors',
-				domain: { row: 0, column: 1 },
+				domain: { row: 0, column: 0 },
 				textinfo: 'none',
 				hovertemplate:
 					'%{label}<br>' + 'Proportion: %{percent}<br>'
@@ -27,7 +27,7 @@
 					colors: ['#17d07d', '#2D9884'] // Assign the brightest color to Fail
 				},
 				name: 'Male Directors',
-				domain: { row: 0, column: 0 },
+				domain: { row: 0, column: 1 },
 				textinfo: 'none',
 				hovertemplate:
 					'%{label}<br>' + 'Proportion: %{percent}<br>'
@@ -39,8 +39,9 @@
 			title: 'Bechdel Test Fail and Pass',
 			grid: { rows: 1, columns: 2 }, // Grid layout for two charts
 			annotations: [
+				
 				{
-					text: 'Male Directors',
+					text: 'Female Directors',
 					font: { size: 14 },
 					showarrow: false,
 					x: 0.23,
@@ -49,7 +50,7 @@
 					yanchor: 'top'
 				},
 				{
-					text: 'Female Directors',
+					text: 'Male Directors',
 					font: { size: 14 },
 					showarrow: false,
 					x: 0.78,
@@ -59,8 +60,8 @@
 				}
 			],
 			showlegend: false, // Remove the legend
-			height: 500,
-			width: 800
+			width: 1050,
+			height: 450
 		};
 
 		// Load Plotly and render the chart

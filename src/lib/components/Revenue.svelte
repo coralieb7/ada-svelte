@@ -71,11 +71,11 @@
 				legend: {
 					title: { text: 'Categories' }
 				},
-				margin: { l: 150, r: 50, t: 50, b: 150 },
+				margin: { l: 100, r: 50, t: 50, b: 150 },
 				colorway: ['#c48bf0', '#17d07d', '#9467bd', '#2D9884'], // Set consistent colors,
 				autosize: false,
-				width: 800,
-				height: 600
+				width: 1050,
+				height: 500
 			}
 		};
 

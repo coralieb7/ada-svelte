@@ -67,8 +67,8 @@
 				}
 			],
 			showlegend: true, // Show legend below
-			height: 500,
-			width: 800
+			width: 1050,
+			height: 450
 		};
 
 		// Load Plotly and render the chart

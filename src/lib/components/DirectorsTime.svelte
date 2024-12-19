@@ -35,8 +35,8 @@
             xaxis: { title: 'Years' },
             yaxis: { title: 'Percentage %' },
             template: 'plotly_white',
-			width: 1000,
-			height: 500
+			width: 1050,
+			height: 450
         };
 
 		// Render the plot
