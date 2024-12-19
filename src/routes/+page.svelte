@@ -18,6 +18,7 @@
 	import GenresF from '$lib/components/genres/GenresFemale.svelte';
 
 	import Tvtropes from '$lib/components/Tvtropes.svelte';
+	import MemoryGame from '$lib/components/MemoryGame.svelte';
 
 	let showBubbles = false;
 	let navVisible = true;
@@ -458,6 +459,7 @@
 					find out, Madame checks them one by one, comparing whether they meet the criteria.
 				</p>
 				<p class="text-black">JEU A FAIRE</p>
+				<MemoryGame	/>
 				<p class="text-black">
 					Excited by this discovery, Madame decided to dive deeper into the data. She starts by
 					exploring which films pass the test.
