@@ -46,8 +46,8 @@
 	}
 </script>
 
-<div class="mx-auto max-w-md rounded-lg border-2 border-orange-500 bg-gray-50 p-6 shadow-md">
-	<h2 class="mb-4 text-xl font-bold">Top-5 Genres - Female directors</h2>
+<div class="mx-auto max-w-md rounded-lg border-2 border-violet-500 bg-gray-50 p-6 shadow-md">
+	<h2 class="mb-4 text-xl font-bold">Top-5 Genres - Male directors</h2>
 
 	<ul bind:this={el} class="mb-4 space-y-2">
 		{#each items as item, index (item)}
@@ -76,11 +76,11 @@
 		class="
                 w-full
                 rounded
-                bg-yellow-300
+                bg-emerald-300
                 py-2
                 text-white
                 transition
-                hover:bg-yellow-400
+                hover:bg-emerald-400
             "
 		disabled={isVerified}
 	>
