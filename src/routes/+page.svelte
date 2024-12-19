@@ -19,6 +19,8 @@
 
 	import Tvtropes from '$lib/components/Tvtropes.svelte';
 	import MemoryGame from '$lib/components/MemoryGame.svelte';
+	import RatingsBoxOffice from '$lib/components/RatingsBoxOffice.svelte';
+	import Revenue from '$lib/components/Revenue.svelte';
 
 	let showBubbles = false;
 	let navVisible = true;
@@ -36,7 +38,12 @@
 				const rect = homeSection.getBoundingClientRect();
 				const isVisible =
 					rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2;
-				if (isVisible) navVisible = true;
+				if (isVisible) {
+					navVisible = true;
+				}
+				else{
+					navVisible = false;
+				}
 			}
 			if (conclusionSection) {
 				const rect = conclusionSection.getBoundingClientRect();
@@ -65,13 +72,13 @@
 				// Handle navigation bar visibility
 				const currentScrollPosition = window.pageYOffset;
 
-				if (currentScrollPosition > lastScrollPosition) {
-					// Scrolling down
-					navVisible = currentScrollPosition < 200; // Hide after scrolling down 100px
-				} else {
-					// Scrolling up
-					navVisible = true;
-				}
+				// if (currentScrollPosition > lastScrollPosition) {
+				// 	// Scrolling down
+				// 	navVisible = currentScrollPosition < 500; // Hide after scrolling down 100px
+				// } else {
+				// 	// Scrolling up
+				// 	navVisible = true;
+				// }
 
 				lastScrollPosition = currentScrollPosition;
 
@@ -181,7 +188,7 @@
 <!-- Navigation Bar -->
 <div
 	class={`fixed left-0 right-0 top-0 z-20 bg-transparent bg-white transition-all duration-300 ${
-		navVisible ? 'bg-opacity-10' : ''
+		navVisible ? 'bg-opacity-10' : 'bg-opacity-100'
 	}`}
 >
 	<nav class="flex items-center justify-between px-6 py-4">
@@ -527,10 +534,12 @@
 				<div class="flex max-w-6xl">
 					<div class="flex flex-row items-center justify-center -space-x-20">
 						<!-- First flex container takes 2/3 of the screen width -->
-						<div><AverageRatingsOpti /></div>
-						<div><AverageRatingsWorst /></div>
+						
+						
 					</div>
+					
 				</div>
+				<div> <RatingsBoxOffice /> </div>
 				<p class="text-justify text-xl text-black">
 					She narrows her focus to two groups of films: those that pass the Bechdel Test with strong
 					female representation and those that fail with poor female representation. To do so, she
@@ -541,8 +550,7 @@
 					less), which she labels "horrible."
 				</p>
 
-				<RendementsOpti />
-				<RendementsWorst />
+				<div> <Revenue /> </div>
 				<p class="text-black">The results show that [...]</p>
 			</div>
 		</div>
