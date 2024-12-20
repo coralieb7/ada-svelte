@@ -118,10 +118,11 @@
 	let currentTextIndex = 0;
 	let displayedText = ' ';
 	const texts = [
-		'How do directors frame women?',
-		'Do female directors rewrite stereotypes?',
-		'Are female characters more than tropes?',
-		'Why do women in films so often ask, "What do we do now?" instead of deciding?'
+		'Are women side-kicked by the cinema industry?',
+		'How do gender stereotypes manifest in movies?',
+		'Has the celluloid ceiling cracked with the rise of female directors?',
+		'How do directors use gender stereotypes?',
+		'Do movies reinforce, or challenge gender stereotypes?'
 	];
 
 	// Function to type the next text
@@ -157,10 +158,11 @@
 		{ text: 'TMDB Ratings', link: 'https://ada-svelte.vercel.app' }
 	];
 	const conclusionParts = [
-		"Madame's investigation into the gender dynamics in the film industry has uncovered several key insights: Gender imbalance among directors: Female directors tend to portray more nuanced and diverse female characters compared to their male counterparts. Bechdel Test success: Films that pass the Bechdel Test are more likely to feature strong female representation and emotional depth, especially when directed by women.",
-		'Emotional complexity: Stereotypes and societal norms: Common stereotypes in film may be deeply rooted in societal structures, not just industry trends, with certain tropes being more prevalent in films directed by men. Sucess: Movies with strong female representation tend to perform better both critically and at the box office, offering a glimpse of hope for change.',
-		"With this newfound knowledge, Madame KNOWS WHAT TO DO NOW. What if she now did not want to play, but actually direct a movie? She now understands the dynamics at play in the industry and, more importantly, how to break free from them. She's determined to step outside the boundaries of Hollywood trends and defy the stereotypes that have long shaped women's roles in cinema."
-	];
+		"Madame’s journey through cinema has been an eye-opener. Diving into how women are portrayed in films uncovered how much the director’s gender influences characters’ age, roles, and the genres they appear in. Women are underrepresented as both directors and characters, especially in niche genres. Even in female-directed films, stereotypes about age and beauty and men-dependency persist, limiting actresses to narrow roles. Male directors often sideline women entirely, casting them as secondary characters or ignoring them altogether.",
+		"While women directors sometimes challenge these norms with more nuanced portrayals, they are often constrained by industry expectations. This raises a key question: Are women directors truly breaking free from gendered expectations, or are they ‘accidentally’ reinforcing stereotypes by sticking to limited roles and genres? The evidence shows progress, but structural barriers in the industry still limit their impact. Achieving real gender equity in cinema takes more than hiring more women directors. It requires reevaluating how women’s stories are valued and told, moving beyond stereotypes. It is about amplifying diverse voices to reflect the richness and complexity of women’s lives.",
+		"Madame’s realization, that her own preferences have been shaped by cinematic stereotypes, underscores the power of film not just to entertain but to define societal norms and aspirations. To rewrite this narrative, the industry must move beyond stereotypes and commit to authentic, diverse storytelling that reflects the full spectrum of human experience. Madame KNOWS WHAT TO DO NOW: Keep challenging stereotypes, tell richer stories, and ensure every voice gets a chance to shine. The journey has begun, and rewriting the script is a job for all of us."
+
+];
 </script>
 
 <section class="relative h-screen overflow-hidden bg-white" id="home">
@@ -580,12 +582,12 @@
 					<GenresM />
 				</div>
 				<p class=" bg-yellow-200 p-4 text-xl text-black">
-					Overall, while mainstream genres show similar female representation in both male- and
-					female-directed films, niche genres reveal more significant differences. Female directors
-					tend to portray more women in romance, while male directors dominate action genres. These
-					findings suggest that while female directors strive for representation, they still face
-					genre-driven limitations imposed by the film industry.
+					Overall, while the majority of mainstream genres exhibit similar levels of moderate female
+					representation in both male- and female-directed films, niche genres show more pronounced
+					differences. Genres such as LGBT, Adult films, and Romance feature the highest
+					representation of women—genres often associated with themes of love and sexuality.
 				</p>
+
 				<div class="flex w-full">
 					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
 						Excited by her findings, Madame messages her friend Miss:
@@ -655,26 +657,27 @@
 					</h2>
 				</div>
 				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
-					Madame is shocked! There are so few female tropes compared to the male ones! And so many
-					of them sexualize women ! Madame cannot help but think of an article she once came across
-					entitled :
-					<a
+					Madame is shocked! There are so few female tropes compared to the male ones! This scarcity
+					suggests that women are often confined to narrowly defined stereotypical roles in <a
+						href={'https://aclanthology.org/2020.nlpcss-1.23/'}
+						class="text-center font-semibold text-black"
+						target="_blank"
+						>media narratives.
+					</a>
+				</p>
+				<p class="bg-yellow-200 p-4 text-xl text-black">
+					Tropes gendered as female tropes often reduce women to superficial, defining them by their
+					appearance, like blonde, beauty or even by their lack of intelligence such as dumb or
+					brainless. Madame cannot help but thinking of an article that made her angry: <a
 						href={'https://www.elle.com/uk/life-and-culture/news/g32431/hollywood-actresses-meghan-markle-selena-gomez-pretty-hollywood/'}
 						class="text-center font-semibold text-black"
 						target="_blank"
 						>« 9 Hollywood Actresses Who Were Told They Weren't 'Pretty Enough' To Make It In
 						Hollywood »
-					</a>
-					« I guess they were right, she thought. » Could it be because women have very precise stereotypical
-					roles?
-				</p>
-				<p class="bg-yellow-200 p-4 text-xl text-black">
-					It appears the tropes known as feminine are quite often describing women either by their
-					appearance (Beauty, Blonde, Classy) either by their intelligence, or Madame notices, even
-					by their non-intelligence (Dumb, Brainless). Moreover, women are being passive in their
-					tropes (Final girl, Broken bird) and are defined through others (the girl that does not
-					die compared to the others, the girl that had her heart broken). Where men are defined as
-					active through their job (cop, corporate) or their brilliant actions (swordman, hero).
+					</a> « I guess they were right, she thought ». Additionally those tropes often depict women
+					as passive figures, defined in relation to others such as the one who survives in the end or
+					the one whose heart is broken. In contrast, male tropes focus on action and agency emphasizing
+					their professions or their notable achievements.
 				</p>
 				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
 					Madame now bet that those stereotypes were created by men to define women in narrow roles.
@@ -781,14 +784,14 @@
 					quite similar for both genders, especially regarding the anger and sadness emotions. The
 					movies that pass have a tendency for sadness and on the opposite, movies that fail have a
 					tendency for anger. Moreover, movies that fail for female directors have also tendencies
-					to increase the fear and disgust emotions. 
+					to increase the fear and disgust emotions.
 				</p>
 				<p class="bg-yellow-200 p-4 text-xl text-black">
-					Overall, the difference between passing and
-					failing the bechdel is quite similar for both directors genders, especially regarding the
-					anger and sadness emotions. The movies that pass have a tendency for sadness and on the
-					opposite, movies that fail have a tendency for anger. The same observation is highlighted
-					by the study conducted in “The Gender Stereotyping of Emotions.” 
+					Overall, the difference between passing and failing the bechdel is quite similar for both
+					directors genders, especially regarding the anger and sadness emotions. The movies that
+					pass have a tendency for sadness and on the opposite, movies that fail have a tendency for
+					anger. The same observation is highlighted by the study conducted in “The Gender
+					Stereotyping of Emotions.”
 					<a
 						href={'https://doi.org/10.1111/j.1471-6402.2000.tb01024.x'}
 						class="text-center font-semibold text-black"
@@ -865,15 +868,32 @@
 					Once again, the results of Madame’s analysis intrigue her. « Who knew there were such
 					financial disparities amongst movie directors of different genders ? », she thought.
 				</p>
-				<p class="bg-yellow-200 p-4 text-xl text-black">
-					Focusing on female directors, the average rating of a movie does not seem to correlate
-					with the box office revenue. Women directors tend to earn little revenue, less than 200
-					million, no matter the popularity of the movie. On the other hand, the range of box office
-					revenue of movies directed by men seems to extend when better received by the critique.
-					They are more often rewarded economically when appreciated by the critique as they can
-					bring billions of dollars, but also have the most important financial means. In other
-					words, movie budgets often exceed 200 million when directed by men whereas it barely
-					reaches 80 million for the luckier movies directed by females.
+				<div class="flex flex-row gap-4">
+					<p class="bg-yellow-200 p-4 text-xl text-black">
+						Focusing on female directors, the average rating of a movie does not seem to correlate
+						with the box office revenue. Women directors tend to earn little revenue, less than 200
+						million, no matter the popularity of the movie. On the other hand, the range of box
+						office revenue of movies directed by men seems to extend when better received by the
+						critique. They are more often rewarded economically when appreciated by the critique as
+						they can bring billions of dollars, but also have the most important financial means. In
+						other words, movie budgets often exceed 200 million when directed by men whereas it
+						barely reaches 80 million for the luckier movies directed by females.
+					</p>
+					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+						She discovers through parallel analysis that interestingly, movies that fail the Bechdel
+						test tend to be better ranked than the ones who pass the test, regardless of director
+						gender. This statement is even stronger for female directors, for which more than 50% of
+						the movies failing Bechdel received a grade greater than 7/10. Comparing this discovery
+						with her results, she wonders: « Why would female directors breaking societal norms and
+						enhancing the role of actresses be less appreciated ? ».
+					</p>
+				</div>
+
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					This question stayed in her head while she thought of Bechdel’s test limitations: none of
+					the subject, length or meaningfulness of the conversation are taken into account. This may
+					explain why female directors, who instinctively enhance women’s place in movies, would be
+					less rewarded by critiques as bringing something new to the cinematic world.
 				</p>
 			</div>
 		</div>
@@ -911,23 +931,23 @@
 		<div class="grid grid-cols-1 gap-6 text-center md:grid-cols-5">
 			<div>
 				<h3 class="text-lg font-semibold">Mahlia Merville</h3>
-				<p class="text-sm">Role or Title</p>
+				<p class="text-sm">MahLia Model</p>
 			</div>
 			<div>
 				<h3 class="text-lg font-semibold">Pernelle Paget</h3>
-				<p class="text-sm">Role or Title</p>
+				<p class="text-sm">ReadME (and not pickME)</p>
 			</div>
 			<div>
 				<h3 class="text-lg font-semibold">Coralie Banuls</h3>
-				<p class="text-sm">Role or Title</p>
+				<p class="text-sm">WebDev who learnt</p>
 			</div>
 			<div>
 				<h3 class="text-lg font-semibold">Juliette Le Béchec</h3>
-				<p class="text-sm">Role or Title</p>
+				<p class="text-sm">SUCCESSful Redac en Chef</p>
 			</div>
 			<div>
 				<h3 class="text-lg font-semibold">Maximilien Gridel</h3>
-				<p class="text-sm">Role or Title</p>
+				<p class="text-sm">Pro(t) Summaries</p>
 			</div>
 		</div>
 	</section>
