@@ -157,7 +157,7 @@
 
 		<!-- Female chart -->
 		<div class="chart">
-			<h2>Movies Directed by Women</h2>
+			<h2>Female Directors</h2>
 			<figure bind:offsetWidth={figureWidthFemale} bind:offsetHeight={figureHeightFemale}>
 				<div class="bars">
 					<BarsF {barCount} context="ChartFemale" />
@@ -178,7 +178,7 @@
 		</div>
     <!-- Male chart -->
 		<div class="chart">
-			<h2>Movies Directed by Men</h2>
+			<h2>Male Directors</h2>
 			<figure bind:offsetWidth={figureWidthMale} bind:offsetHeight={figureHeightMale}>
 				<div class="bars">
 					<BarsM {barCount} context="ChartMale" />

@@ -114,7 +114,6 @@
 		};
 	});
 
-	
 	let currentTextIndex = 0;
 	let displayedText = ' ';
 	const texts = [
@@ -178,7 +177,7 @@
 
 	<!-- Content -->
 	<div class="relative z-10 flex h-full flex-col items-center justify-center gap-4">
-		<h1 class="text-center text-6xl font-extrabold text-black sm:text-6xl lg:text-6xl">
+		<h1 class="text-center text-7xl font-extrabold text-black sm:text-6xl lg:text-6xl">
 			"WHAT DO WE DO NOW?"
 		</h1>
 		<p
@@ -212,41 +211,31 @@
 			<!-- Datastory Item with Dropdown -->
 			<div class="group relative">
 				<!-- Main Link -->
-				<a href="#datastory" class={`font-semibold text-black transition hover:text-pink-500`}
+				<a href="#datastory" class={`font-semibold text-black transition hover:text-orange-500`}
 					>Datastory</a
 				>
 				<!-- Dropdown Menu -->
 				<div
-					class="w-30 absolute left-5 mt-2 hidden rounded-md bg-white shadow-lg group-hover:flex group-hover:flex-col"
+					class="absolute left-5 mt-2 hidden w-40 rounded-md bg-white shadow-lg group-hover:flex group-hover:flex-col"
 				>
 					<a
 						href="#moviedirectors"
-						class="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-500"
-						>Movie Directors</a
+						class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100 hover:text-orange-500"
+						>Gender Distribution</a
 					>
 					<a
-						href="#femalerepresentation"
-						class="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-500"
-						>Female</a
+						href="#stereotypes"
+						class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100 hover:text-orange-500"
+						>Stereotropes</a
 					>
 					<a
 						href="#bechdeltest"
-						class="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-500"
+						class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100 hover:text-orange-500"
 						>Bechdel Test</a
-					>
-					<a
-						href="#tvtropes"
-						class="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-500"
-						>Tv Tropes</a
-					>
-					<a
-						href="#success"
-						class="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100 hover:text-pink-500"
-						>Success</a
 					>
 				</div>
 			</div>
-			<a href="#conclusion" class={`font-semibold text-black transition hover:text-violet-500`}
+			<a href="#conclusion" class={`font-semibold text-black transition hover:text-yellow-500`}
 				>Conclusion</a
 			>
 			<a href="#team" class={`font-semibold text-black transition hover:text-rose-500`}>Our Team</a>
@@ -257,7 +246,7 @@
 <!-- Content Sections (below the large title) -->
 <div class="space-y-20 bg-white p-6">
 	<section class="relative flex min-h-screen justify-center">
-		<h2 id="intro" class="mb-4 text-5xl font-bold text-black">INTRODUCTION</h2>
+		<h2 id="intro" class="mb-4 text-7xl font-bold text-black">INTRODUCTION</h2>
 		<!-- First Bubble -->
 		<div
 			class="bubble-container-left absolute flex items-center justify-center"
@@ -265,14 +254,15 @@
 		>
 			<div class="bubble-content">
 				<p class="text-xl leading-relaxed text-black">
-					Meet Madame. <br /> Sitting at her table, she is<br /> holding her very first movie
+					Meet Madame. <br /> Sitting at her table, she is <br />holding her very first movie
 					script, a huge<br />
-					opportunity she’s dreamed about for years. Suddenly,<br /> as she flips through the pages,
-					one line catches her eye:<br /> “WHAT DO WE DO NOW?” Why would this easy as pie
+					opportunity she’s dreamed about for years. Suddenly, <br />as she flips through the pages,
+					one line catches her eye: <br />“WHAT DO WE DO NOW?” …. Why would this easy as pie
 					<br />question disturb her so much? Because she delivers it <br />to a man in a moment of
-					high tension, waiting for him to <br />decide the next move. Disillusioned, Madame
-					wonders: <br />Is this really how it starts? A character with little to <br />say, caught
-					in a moment of indecision, as <br />usual, relying on a man to <br />take charge?
+					high tension, waiting for him to<br /> decide the next move. Madame wonders: <br />Is this
+					really how it starts? A character with little to <br />say, caught in a moment of
+					indecision, as usual<br />, relying on a man to take<br />
+					charge?
 				</p>
 			</div>
 		</div>
@@ -284,13 +274,12 @@
 		>
 			<div class="bubble-content">
 				<p class="text-xl leading-relaxed text-black">
-					This iconic line is <br />more than just dialogue. It’s a <br />symbol of a deeper issue:
-					women in films<br />
-					are often underrepresented and stereotyped,<br /> their roles shaped by limited
-					perspectives.<br /> “What Do We Do Now?”<br /> isn’t just the title of our project—it’s a
-					question<br />
-					we are asking to explore how the gender of<br /> a movie director influences how <br />
-					women are portrayed <br />on screen.
+					This line, <br />so popular in movies, is more than <br />just dialogue. It’s a symbol of
+					a deeper <br />issue: women in films are often underrepresented<br /> and stereotyped,
+					their roles shaped by limited perspectives.<br /> “What Do We Do Now?”<br /> is not just
+					the title of our project: it’s a question <br />we’re asking to explore how the gender
+					<br />of a movie director influences how women<br />
+					are portrayed on screen.
 				</p>
 			</div>
 		</div>
@@ -301,12 +290,12 @@
 		>
 			<div class="bubble-content">
 				<p class="text-xl leading-relaxed text-black">
-					Through our analysis,<br /> we’ll explore how the gender of a <br />director influences
-					female representation,<br /> uncover the stereotypes that still dominate, and <br />track
-					how women’s roles have evolved across<br /> time and cultures. Because some questions<br
-					/>
-					raised in cinema do not always stay on screen:<br /> they reflect real-world dynamics,
-					mirroring <br />how groups of people and behaviors are <br />portrayed in our society.
+					Through this project,<br /> we use data to uncover patterns in representation,
+					<br />challenge stereotypes, and highlight <br />the stories that directors choose to tell
+					about women. Because<br />
+					some questions raised in cinema do <br />not always stay on screen : they reflect
+					<br />real-world dynamics, mirroring<br /> how groups of people and behaviors<br /> are portrayed
+					in our society.
 				</p>
 			</div>
 		</div>
@@ -317,13 +306,13 @@
 		id="research-questions-datasets"
 		class="relative flex flex-col items-center justify-center"
 	>
-		<div class="flex min-h-screen flex-col items-center justify-start gap-16">
-			<div class="flex w-3/4 flex-col items-center gap-10">
-				<h2 class="mb-4 text-5xl font-bold text-black">RESEARCH QUESTIONS</h2>
+		<div class="flex min-h-screen flex-col items-center justify-center gap-6">
+			<div class="flex max-w-5xl flex-col items-center justify-center">
+				<h2 class="mb-4 text-7xl font-bold text-black">RESEARCH QUESTIONS</h2>
 
 				<div class="w-full">
 					<div class="my-4 h-px bg-violet-700"></div>
-					{#each ['How does the gender of a movie director influence the portrayal of women in cinema?', 'What are the key female stereotypes in movies?', "How have women's roles evolved over time and across cultures?"] as question, index}
+					{#each ['How does the gender of a movie director influence the portrayal of women in cinema?', 'What are the key female stereotypes in movies?', 'Are female directors better than men at depicting women in movies?'] as question, index}
 						<div
 							class="transform transition-all duration-700 ease-out"
 							class:opacity-0={!researchQuestionsVisible[index]}
@@ -340,8 +329,8 @@
 					<div class="my-4 h-px bg-violet-700"></div>
 				</div>
 			</div>
-			<div class="flex flex-col items-center justify-center gap-10 space-x-4">
-				<h2 class="relative mb-4 text-5xl font-bold text-black">DATASETS</h2>
+			<div class="flex flex-col items-center justify-center gap-8 space-x-4">
+				<h2 class="relative mb-4 text-7xl font-bold text-black">DATASETS</h2>
 				<div class="flex items-center justify-center space-x-4">
 					{#each circleData as circle, index}
 						<div
@@ -371,123 +360,255 @@
 	<section id="datastory" class="flex flex-col items-center justify-center">
 		<div class="max-w-5xl">
 			<div class="flex flex-col items-center gap-10 py-2">
-				<p class=" text-5xl font-bold">DATASTORY</p>
+				<p class=" text-7xl font-bold">DATASTORY</p>
 			</div>
 
 			<div
-				class="flex flex-col items-center justify-center gap-4 p-8 text-justify"
+				class="flex flex-col items-center justify-center gap-10 p-8 text-justify"
 				id="moviedirectors"
 			>
-				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">Movie Directors</h2>
-				<div class="flex flex-row gap-10">
-					<div class="flex h-80 w-80 bg-cover" style="background-image: url('/img/G1.png');"></div>
-					<div class="flex h-80 w-80 bg-cover" style="background-image: url('/img/G2.png');"></div>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame is speechless, stunned. She never expected that her first major role would be
+					reduced to the weak line, "What do we do now?" It feels like a blow to the gut. She can’t
+					help but wonder if this cliché is the result of a male director’s influence. If only the
+					director had been a woman, maybe her character would have been more complex and
+					meaningful. This sparks a realization: are women stereotypes tied to the gender of the
+					director?
+				</p>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					With these questions in mind, Madame sets off on a quest for answers. Fortunately, the
+					Applied Data Analysis (ADA) course she took during her Masters didn't just leave her with
+					good memories; it gave her tools. Dusting off her coding skills, She immersed herself in
+					the cinema data world.
+				</p>
+				<h2 class="mb-4 flex justify-start text-5xl font-bold text-black">
+					Gender Distribution in Cinema
+				</h2>
+				<div class="flex flex-row gap-40">
+					<div class="flex flex-col items-center">
+						<p class="mt-2 text-center text-2xl font-semibold text-yellow-500">Movie Directors</p>
+						<div
+							class="flex h-80 w-80 bg-cover"
+							style="background-image: url('/img/G1.png');"
+						></div>
+					</div>
+
+					<div class="flex flex-col items-center">
+						<p class="mt-2 text-center text-2xl font-semibold text-yellow-500">Characters</p>
+						<div
+							class="flex h-80 w-80 bg-cover"
+							style="background-image: url('/img/G2.png');"
+						></div>
+					</div>
 				</div>
-				<p class="text-xl text-black">
+				<p class="bg-yellow-200 p-4 text-xl text-black">
 					It doesn't take long for the first revelation to appear, stark and undeniable: the gender
 					distribution among film directors is far from balanced. What's more, the gender
 					distribution of the movie directors - 90% male, 10% female - is far more contrasted than
 					that of the actors: 67% of the actors are male, while the remaining 33% are female.
 				</p>
-			</div>
-
-			<div
-				class="flex flex-col items-center justify-center gap-10 p-8 text-justify"
-				id="femalerepresentation"
-			>
-				<h2 class="mb-4 text-3xl font-bold text-black">Female representation in Movies</h2>
-				<p class="text-xl text-black">
-					Madame’s curiosity grows as she wonders if the gender imbalance among directors has always
-					influenced the portrayal of women in films. She begins to explore historical trends,
-					asking herself whether this disparity is a long-standing issue or a more recent
-					development. As she digs deeper, she recalls the idea of the "celluloid ceiling"—an
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame suddenly remembers the "Celluloid Ceiling" concept she read about two weeks ago: an
 					invisible but powerful barrier that has kept women from reaching key creative roles in
-					filmmaking for decades.
+					filmmaking for decades (Lauzen, M. 1998) [signet source]. REFERENCE
+				</p>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame’s curiosity grows as she wonders if the gender imbalance among directors has always
+					influenced the portrayal of women in films. Her thoughts expand: Does the director’s
+					gender affect the age of actresses, with female directors offering more opportunities for
+					older women?
 				</p>
 				<Ages />
-				<p class="text-xl text-black">
-					Her thoughts expand: Does the director’s gender affect the age of actresses, with female
-					directors offering more opportunities for older women?
+				<div class="flex flex-row items-center justify-center gap-4">
+					<p class="bg-yellow-200 p-4 text-xl text-black">
+						Regardless of the movie director’s gender, the peak age, where the highest number of
+						actors.tresses is concentrated, is consistently lower for actresses compared to actors.
+						Additionally, the age range for actresses appears more concentrated, or narrower, while
+						the distribution for actors is broader, spanning a wider range of ages.
+					</p>
+					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+						To Madame, this trend suggests that female actresses face younger and stricter
+						age-related preferences in casting decisions, regardless of whether the director is male
+						or female. It may highlight the trend in the cinema industry only to represent
+						relatively young women, and this can be related to their physical appearance or their
+						secondary role as wives, mothers and lovers.
+					</p>
+				</div>
+
+				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">... through Time ...</h2>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					She begins to explore historical trends, asking herself whether this disparity is a
+					long-standing issue or a more recent development.
 				</p>
 				<DirectorsTime />
-				<p class="text-xl text-black">
-					Regardless of the movie director’s gender, the peak age, where the highest number of
-					actors. tresses is concentrated, is consistently lower for actresses compared to actors.
-					Additionally, the age range for actresses appears more concentrated, or narrower, while
-					the distribution for actors is broader, spanning a wider range of ages. To Madame, this
-					trend suggests that female actors face stricter age-related preferences in casting
-					decisions, regardless of whether the director is male or female. It highlights the
-					persistent disparities in age representation between male and female actors within the
-					film industry.
+				<div class="flex flex-row items-center justify-center gap-4">
+					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+						At first sight, Madame notices that the average female character proportion constantly
+						stands at around 30 to 40%, all director gender combined. She now has evidence that
+						gender distribution is a long-standing problem. However, she observes that female
+						directors portray more women than male directors in their movies. As well, you can
+						notice an interesting trend around the year 1938, where women were more represented in
+						movies directed by men. “Would this be correlated in any way to war?” Madame wonders….
+					</p>
+				</div>
+				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">
+					... accross the World ...
+				</h2>
+
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Then, she wonders which countries do the best job at representing women on screen.
+					Perhaps, she thinks with a smile, she was born in the wrong time or place.
 				</p>
-				<p class="text-xl text-black">
-					She also questions whether certain genres are more inclusive of women. Finally, she
-					wonders which countries do the best job of representing women on screen. Perhaps, she
-					thinks with a smile, she was born in the wrong time or place.
-				</p>
-				<div class="flex w-full flex-col"><Chart /></div>
-				<p class="text-xl text-black">Looking at the results, Madame finds that:</p>
-				<p class="text-xl text-black">
+				<div class="bg-yellow-200 p-4 text-xl text-black">
+					<p>
+						The analysis of female character representation, particularly of average female
+						character proportion per movie, shows clear differences across countries and depending
+						on the gender of the director. For male-directed films, the Philippines (42.4%), Mexico
+						(40.9%), and Japan (40.5%) rank highest, while Russia (28.8%) and Denmark (29.6%) show
+						the lowest proportions. Female-directed films fare best in Sweden, where nearly half of
+						the characters are women, but countries like Denmark (34.8%), Japan, China, and India
+						lag behind.
+					</p>
+					<p>
+						Interestingly, Denmark consistently ranks among the worst for female representation,
+						regardless of the director’s gender. Japan flips its position, ranking high in
+						male-directed movies but falling behind for female-directed ones. If Madame wanted the
+						best chances of starring in a film with strong female representation, she might have
+						been better off in Sweden or the Philippines, far from Denmark’s dismal numbers.
+					</p>
+				</div>
+				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">
+					What about Movie Genres?
+				</h2>
+
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
 					Having explored the best times, places, and opportunities for actresses, Madame’s thoughts
 					take a deeper turn. She finds herself wondering if there is a specific genre where women
 					are most likely to be represented on screen. Could there be a particular category where
 					her chances of landing a meaningful role are higher?
 				</p>
-				<p class="text-xl text-black">
-					DANS UNE BULLE NUAGE Our 35-year-old actress has always dreamed of living in a romance
-					movie, like her all-time favorites The Notebook or Notting Hill. She’s always loved the
-					idea of chance encounters, sweeping love stories, and those big, emotional moments. But as
-					she thinks about the genres that would potentially focus most on women, something clicks:
-					her own dreams and tastes might have been shaped by clichés. Indeed, those romantic ideals
-					she’s held onto come from stories where women are mostly defined by their relationships
-					with men. It’s a weird feeling, realizing that even her own dreams might be tied to the
-					same stereotypes she’s so tired of seeing in society.
+				<div class="flex w-full flex-col"><Chart /></div>
+				<p class="w-full border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame’s look into the top genres in films directed by men and women shows some
+					interesting trends.
 				</p>
-				<p class="text-xl text-black">
-					After digging into the data, she finds herself almost laughing at the answer. It’s not
-					what she expected at all. Amused by the irony, she decides to send this little riddle to
-					Miss, her childhood friend, also an actress, eager to see her reaction.
+				<div class="flex flex-row items-center justify-center gap-4">
+					<p class=" bg-yellow-200 p-4 text-xl text-black">
+						Drama is the number one genre for both men and women directors, though it’s a broad
+						category that might affect how women are portrayed. Comedy and World Cinema show similar
+						patterns across both genders, with women represented fairly equally.
+					</p>
+					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+						One possible explanation for these two observations is that cinematic genres such as
+						Drama, Comedy, and World Cinema are broad categories that encompass a wide range of
+						sub-genres. Hence, considering the way that these subgenres were clustered influences
+						the genre distribution, and considering subgenres separately could lead to more varied
+						portrayals of women within these genres.
+					</p>
+				</div>
+				<div class="flex flex-row items-center justify-center gap-4">
+					<p class=" bg-yellow-200 p-4 text-xl text-black">
+						Romance is consistently in the top six for female-directed films, showing that women
+						directors tend to focus on relationship-driven stories. Action was a top genre for
+						female directors in the 1980s but shifts progressively, ending as the top four for male
+						directors by 2011.
+					</p>
+					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+						To Madame, these results make sense: women directors seem to focus on
+						relationship-driven stories. It’s no wonder her all-time favorite movies, like The
+						Notebook or Notting Hill, are romantic classics. But then, something clicks: has her
+						love for these stories been shaped by the very clichés she’s starting to question? Those
+						love stories she’s dreamed of mostly define women by their relationships with men. And
+						what about Action? It used to be a top genre for female directors, but over the years,
+						it’s shifted to being more male-dominated. What does it say about the kinds of stories
+						women are expected, or “allowed” by the film industry to tell?
+					</p>
+				</div>
+				<div class="flex flex-row items-center justify-center gap-4">
+					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+						At the same time, Madame looks at more “niche” genres, as well as the genres where there
+						is the greatest gaps in female character representation between male and female-directed
+						movies.
+					</p>
+					<p class=" bg-yellow-200 p-4 text-xl text-black">
+						Western and War/Military genres show lower female representation, with female directors
+						producing fewer films in these areas. Documentary films reveal a contrast, with
+						female-directed documentaries increasing female representation by 37%, while
+						male-directed films portray 25% fewer women.
+					</p>
+				</div>
+				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">
+					... but Movie Genres with high proportion of Female Characters?
+				</h2>
+
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Then, after digging into the data about genres where women are portrayed the most, for
+					both men and women-directed movies, she finds herself almost laughing at the answer. It’s
+					not what she expected at all. Amused by the irony, she decides to send this little game to
+					Miss, her childhood friend, also an actress, eager to see her reaction. She needs to
+					classify the 3 genres below by the proportion of female characters, from the highest to
+					the lowest.
 				</p>
 				<div class="flex flex-row gap-4">
 					<GenresF />
 					<GenresM />
 				</div>
-			</div>
-			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="tvtropes">
-				<h2 class="mb-4 text-4xl font-bold text-black">TV Tropes</h2>
+				<p class=" bg-yellow-200 p-4 text-xl text-black">
+					Overall, while mainstream genres show similar female representation in both male- and
+					female-directed films, niche genres reveal more significant differences. Female directors
+					tend to portray more women in romance, while male directors dominate action genres. These
+					findings suggest that while female directors strive for representation, they still face
+					genre-driven limitations imposed by the film industry.
+				</p>
+				<div class="flex w-full">
+					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+						Excited by her findings, Madame messages her friend Miss:
+					</p>
+				</div>
+
 				<div class="flex w-full flex-col space-y-4 p-4">
 					<!-- Left message (received) -->
-					<div class="flex w-full">
+					<div class="flex w-full justify-end">
 						<div
-							class="max-w-[80%] rounded-2xl rounded-tl-none bg-emerald-500 px-4 py-2 text-white"
+							class="max-w-[80%] rounded-2xl rounded-tr-none bg-emerald-500 px-4 py-2 text-white"
 						>
 							<p class="text-md">Want to shoot a LGBT movie together?</p>
 						</div>
 					</div>
 
 					<!-- Right message (sent) -->
-					<div class="flex w-full justify-end">
-						<div class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-500 px-4 py-2 text-white">
+					<div class="flex w-full">
+						<div class="max-w-[80%] rounded-2xl rounded-tl-none bg-orange-400 px-4 py-2 text-white">
 							<p class="text-md">Now that’s an interesting idea!</p>
+							
 						</div>
 					</div>
-					<!-- Left message (received) -->
 					<div class="flex w-full">
-						<div
-							class="max-w-[80%] rounded-2xl rounded-tl-none bg-emerald-500 px-4 py-2 text-white"
-						>
+						<div class="max-w-[80%] rounded-2xl rounded-tl-none bg-orange-400 px-4 py-2 text-white">
 							<p class="text-md">
-								But how will we be portrayed? I don’t want to depend on anyone else or be
-								pigeonholed into stereotypes. No more 'What do we do now?' … I want to be in control
-								of my role.
+								But how will we be portrayed? I don’t want to be
+								categorize into stereotypes. No more 'What do we do now?'.  I'm tired "Brainless Beauty" role ...
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class='flex flex-row gap-4 items-center justify-center'>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					With this realization, Madame refocuses her efforts on understanding the deeper issue of
+					female stereotypes in films. She decides to analyze tropes, the recurring themes and
+					character archetypes commonly used in storytelling.
+				</p>
+			</div>
+
+			<div
+				class="flex flex-col items-center justify-center gap-4 p-9 text-justify"
+				id="stereotypes"
+			>
+				<h2 class="mb-4 text-5xl font-bold text-black">Stereotropes</h2>
+				<p class="bg-yellow-300 p-4 text-xl text-black"> A trope is a recurring theme, motif, or character type in literature, film, and media that serves as a storytelling shortcut. While tropes can help audiences quickly understand a character or situation, they often perpetuate stereotypes.</p>
+				<div class="flex flex-row items-center justify-center gap-4">
 					<WordsM />
 				</div>
-				
+
 				<p class="text-xl text-black">
 					But a question remains: what if the stereotypes weren’t just influenced by the director's
 					gender, but were more deeply rooted in societal structures? Madame starts to consider the
@@ -521,7 +642,7 @@
 				<div class="flex w-full flex-col space-y-4 p-4">
 					<!-- Right message (sent) -->
 					<div class="flex w-full justify-end">
-						<div class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-500 px-4 py-2 text-white">
+						<div class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-400 px-4 py-2 text-white">
 							<p class="text-md">
 								If you’re looking for a tool to analyze stereotypes, have you heard of the Bechdel
 								Test?
@@ -540,9 +661,7 @@
 					</div>
 
 					<div class="flex w-full justify-end">
-						<div
-							class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-500 px-4 py-2 text-white"
-						>
+						<div class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-400 px-4 py-2 text-white">
 							<p class="text-md">
 								It’s simple: 1) The film must have at least two named female characters; 2) They
 								must talk to each other; 3) Their conversation must be about something other than a
@@ -590,7 +709,7 @@
 				</p>
 			</div>
 
-			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="success">
+			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify">
 				<h2 class="mb-4 text-4xl font-bold text-black">Success</h2>
 				<p class="text-xl text-black">
 					With all the data and insights she’s gathered, Madame now has one word echoing in her

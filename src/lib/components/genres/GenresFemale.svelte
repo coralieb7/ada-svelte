@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import Sortable from 'sortablejs';
 
-	const correctOrder = ['LGBT', 'Romance', 'Comedy', 'Drama', 'World Cinema'];
+	const correctOrder = ['LGBT', 'Romance', 'Comedy'];
 
 	let items = [...correctOrder].sort(() => Math.random() - 0.5);
 	let sortableInstance;
@@ -40,8 +40,8 @@
 	}
 </script>
 
-<div class="mx-auto max-w-md rounded-lg border-2 border-orange-500 bg-gray-50 p-6 shadow-md">
-	<h2 class="mb-4 text-xl font-bold">Top-5 Genres - Female directors</h2>
+<div class="mx-auto max-w-md text-center rounded-lg border-2 border-violet-400 bg-gray-50 p-6 shadow-md">
+	<h2 class="mb-4 text-xl font-bold">Top-3 Genres with the most Female Characters - Female directors</h2>
 
 	<ul bind:this={el} class="mb-4 space-y-2">
 		{#each items as item, index (item)}
@@ -55,8 +55,8 @@
                     transition
                     {isVerified
 					? item === correctOrder[index]
-						? 'border-violet-400 bg-violet-100'
-						: 'border-green-400 bg-green-100'
+						? 'border-orange-400 bg-orange-100'
+						: 'border-yellow-400 bg-yellow-100'
 					: 'bg-white'}
                 "
 			>
@@ -70,11 +70,11 @@
 		class="
             w-full
             rounded
-            bg-yellow-300
+            bg-violet-300
             py-2
             text-white
             transition
-            hover:bg-yellow-400
+            hover:bg-violet-400
         "
 		disabled={isVerified}
 	>
@@ -86,7 +86,7 @@
 			class="
                 mt-4
                 text-center
-                {verificationResult.includes('Congrats') ? 'text-green-600' : 'text-violet-600'}
+                {verificationResult.includes('Congrats') ? 'text-yellow-600' : 'text-orange-600'}
             "
 		>
 			{verificationResult}

@@ -5,9 +5,7 @@
 	const correctOrder = [
 		'Erotic and Adult Films',
 		'Romance',
-		'Television Movie',
-		'Independent',
-		'LGBT'
+		'Television Movie'
 	];
 
 	let items = [...correctOrder].sort(() => Math.random() - 0.5);
@@ -46,8 +44,8 @@
 	}
 </script>
 
-<div class="mx-auto max-w-md rounded-lg border-2 border-violet-500 bg-gray-50 p-6 shadow-md">
-	<h2 class="mb-4 text-xl font-bold">Top-5 Genres - Male directors</h2>
+<div class="mx-auto max-w-md text-center rounded-lg border-2 border-green-500 bg-gray-50 p-6 shadow-md">
+	<h2 class="mb-4 text-xl font-bold">Top-3 Genres with the most Female Characters - Male directors</h2>
 
 	<ul bind:this={el} class="mb-4 space-y-2">
 		{#each items as item, index (item)}
@@ -61,8 +59,8 @@
                         transition
                         {isVerified
 					? item === correctOrder[index]
-						? 'border-violet-400 bg-violet-100'
-						: 'border-green-400 bg-green-100'
+						? 'border-orange-400 bg-orange-100'
+						: 'border-yellow-400 bg-yellow-100'
 					: 'bg-white'}
                     "
 			>
@@ -92,7 +90,7 @@
 			class="
                     mt-4
                     text-center
-                    {verificationResult.includes('Congrats') ? 'text-green-600' : 'text-violet-600'}
+                    {verificationResult.includes('Congrats') ? 'text-yellow-600' : 'text-orange-600'}
                 "
 		>
 			{verificationResult}
