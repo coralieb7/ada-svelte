@@ -33,7 +33,7 @@
 					x: Object.keys(data.male_female_percentage),
 					y: Object.values(data.male_female_percentage),
 					name: 'Female Actors (Male Directors)',
-					line: { color: '#9467bd' }
+					line: { color: '#9467bd', dash: 'dash' }
 				},
 				{
 					type: 'scatter',
@@ -41,26 +41,30 @@
 					x: Object.keys(data.male_male_percentage),
 					y: Object.values(data.male_male_percentage),
 					name: 'Male Actors (Male Directors)',
-					line: { color: '#2D9884' }
+					line: { color: '#2D9884', dash: 'dash' }
 				}
 			],
 			layout: {
 				title: {
-					text: "Actor's Age Distribution"
+					text: ' Actors’ age distribution',
+					font: {
+						
+						size: 24
+					},
+					x: 0.5
 				},
 				xaxis: { title: 'Age' },
-				yaxis: { title: 'Percentage (%)' },
+				yaxis: { title: 'Proportion (%) of actors' },
 				legend: { title: { text: 'Actor Gender & Director Gender' } },
 				color: 'white',
 				width: 1050,
-				height: 450,
-
+				height: 450
 			},
 			config: {
 				responsive: true
 			}
 		};
-	
+
 		// Render the plot
 		const Plotly = await import('plotly.js-dist');
 		Plotly.newPlot(plotElement, fig.data, fig.layout, fig.config);

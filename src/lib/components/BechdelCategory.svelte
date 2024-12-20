@@ -7,59 +7,36 @@
 		// Plot data
 		const data = [
 			{
-				type: 'pie',
-				values: [23.69230769230769, 76.3076923076923],
-				labels: ['Fail', 'Pass'], // Swap to have Fail in brighter part
-				marker: {
-					colors: ['#c48bf0', '#8059a4'] // Assign the brightest color to Fail
-				},
+				type: 'bar',
+				y: [23.69230769230769, 76.3076923076923],
+				x: ['Fail', 'Pass'], // Swap to have Fail in brighter part
+				marker: { color: '#2D9884', size: 8 },
 				name: 'Female Directors',
 				domain: { row: 0, column: 0 },
 				textinfo: 'none',
 				hovertemplate:
-					'%{label}<br>' + 'Proportion: %{percent}<br>'
+					'%{x}<br>' + 'Proportion: %{y}<br>'
 			},
 			{
-				type: 'pie',
-				values: [47.1698113208, 52.83018867924528],
-				labels: ['Fail', 'Pass'], // Swap to have Fail in brighter part
-				marker: {
-					colors: ['#17d07d', '#2D9884'] // Assign the brightest color to Fail
-				},
+				type: 'bar',
+				y: [47.1698113208, 52.83018867924528],
+				x: ['Fail', 'Pass'], // Swap to have Fail in brighter part
+				marker: { color: '#c48bf0', size: 8 },
 				name: 'Male Directors',
 				domain: { row: 0, column: 1 },
 				textinfo: 'none',
 				hovertemplate:
-					'%{label}<br>' + 'Proportion: %{percent}<br>'
+					'%{x}<br>' + 'Proportion: %{y}<br>'
 			}
 		];
 
 		// Layout
-		const layout = {
-			title: 'Bechdel Test Fail and Pass',
-			grid: { rows: 1, columns: 2 }, // Grid layout for two charts
-			annotations: [
-				
-				{
-					text: 'Female Directors',
-					font: { size: 14 },
-					showarrow: false,
-					x: 0.23,
-					y: -0.1, // Move below the pie chart
-					xanchor: 'center',
-					yanchor: 'top'
-				},
-				{
-					text: 'Male Directors',
-					font: { size: 14 },
-					showarrow: false,
-					x: 0.78,
-					y: -0.1, // Move below the pie chart
-					xanchor: 'center',
-					yanchor: 'top'
-				}
-			],
-			showlegend: false, // Remove the legend
+		var layout = {
+			barmode: 'group',
+			title: 'Bechdel Test Ratings by Director Gender',
+			xaxis: { title: 'Rating' },
+			yaxis: { title: 'Percentage %' },
+			template: 'plotly_white',
 			width: 1050,
 			height: 450
 		};

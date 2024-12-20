@@ -48,7 +48,14 @@
 
 		// Layout
 		const layout = {
-			title: 'Representation of Gendered Tropes by Director Gender',
+			title: {
+					text: 'Gendered TV tropes’ distribution',
+					font: {
+						
+						size: 24
+					},
+					x: 0.5
+				},
 			grid: { rows: 1, columns: 2 }, // Grid layout for two charts
 			annotations: [
 				{

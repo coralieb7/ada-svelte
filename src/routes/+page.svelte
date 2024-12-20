@@ -24,6 +24,7 @@
 	import BechdelCategory from '$lib/components/BechdelCategory.svelte';
 	import WordsF from '$lib/components/WordsFemale.svelte';
 	import WordsM from '$lib/components/WordsMale.svelte';
+	import BechdelCategoryModel from '$lib/components/BechdelCategoryModel.svelte';
 
 	let showBubbles = false;
 	let navVisible = true;
@@ -232,6 +233,11 @@
 						href="#bechdeltest"
 						class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100 hover:text-orange-500"
 						>Bechdel Test</a
+					>
+					<a
+						href="#success"
+						class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100 hover:text-orange-500"
+						>Success</a
 					>
 				</div>
 			</div>
@@ -488,6 +494,9 @@
 					her chances of landing a meaningful role are higher?
 				</p>
 				<div class="flex w-full flex-col"><Chart /></div>
+				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">
+					Top movie genres through time
+				</h2>
 				<p class="w-full border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
 					Madame’s look into the top genres in films directed by men and women shows some
 					interesting trends.
@@ -620,7 +629,9 @@
 					</p>
 				</div>
 
-				<div class="flex flex-col bg-origin-border border-1 border-orange-300 items-center justify-center gap-4">
+				<div
+					class="border-1 flex flex-col items-center justify-center gap-4 border-orange-300 bg-origin-border"
+				>
 					<WordsM />
 					<h2 class="mb-4 flex justify-start text-2xl font-bold text-black">
 						Gendered Tropes' Distribution
@@ -638,7 +649,11 @@
 					die compared to the others, the girl that had her heart broken). Where men are defined as
 					active through their job (cop, corporate) or their brilliant actions (swordman, hero).
 				</p>
-
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame now bet that those stereotypes were created by men to define women in narrow roles.
+					She wonders whether female directors will challenge these clichés or inadvertently fall
+					into their trap.
+				</p>
 				<Tvtropes />
 				<p class="text-xl text-black">
 					To dig deeper, Madame filters the results by the gender ratio of directors, exploring
@@ -658,7 +673,7 @@
 				class="flex flex-col items-center justify-center gap-4 p-9 text-justify"
 				id="bechdeltest"
 			>
-				<h2 class="mb-4 text-3xl font-bold text-black">Bechdel Test</h2>
+				<h2 class="mb-4 text-5xl font-bold text-black">Bechdel Test</h2>
 				<div class="flex w-full flex-col space-y-4 p-4">
 					<!-- Right message (sent) -->
 					<div class="flex w-full justify-end">
@@ -737,8 +752,8 @@
 				</p>
 			</div>
 
-			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify">
-				<h2 class="mb-4 text-4xl font-bold text-black">Success</h2>
+			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="success">
+				<h2 class="mb-4 text-5xl font-bold text-black">Success</h2>
 				<p class="text-xl text-black">
 					With all the data and insights she’s gathered, Madame now has one word echoing in her
 					head: success. Madame has long struggled in the artistic world, finding it difficult to

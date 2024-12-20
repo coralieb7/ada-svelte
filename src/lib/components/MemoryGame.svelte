@@ -5,60 +5,60 @@
 		{
 			image: '/img/square.png',
 			frontText: 'Midnight Express',
-			backText: 'Fails - No two women in the movie',
+			backText: 'Fails',
 			passes: false
 		},
 		{
 			image: '/img/square.png',
 			frontText: 'Tarzan',
-			backText: 'Fails - Two women in the movie who talk to each other only about a man',
+			backText: 'Fails',
 			passes: false
 		},
 		{
 			image: '/img/square.png',
 			frontText: 'Harry Potter 5',
 			backText:
-				'Passes - Two women in the movie who talk to each other about something besides a man',
+				'Passes',
 			passes: true
 		},
 		{
 			image: '/img/square.png',
 			frontText: 'Superman',
-			backText: 'Fails - No two women talk to each other',
+			backText: 'Fails',
 			passes: false
 		},
 		{
 			image: '/img/square.png',
 			frontText: 'Barbie: Fairytopia',
 			backText:
-				'Passes - Two women in the movie who talk to each other about something besides a man',
+				'Passes',
 			passes: true
 		},
 		{
 			image: '/img/square.png',
 			frontText: 'Kung Fu Panda',
 			backText:
-				'Passes - Two women in the movie who talk to each other about something besides a man',
+				'Passes',
 			passes: true
 		},
 		{
 			image: '/img/square.png',
 			frontText: 'Harry Potter 4',
-			backText: 'Fails - No two women talk to each other',
+			backText: 'Fails',
 			passes: false
 		},
 		{
 			image: '/img/square.png',
 			frontText: 'Titanic',
 			backText:
-				'Passes - Two women in the movie who talk to each other about something besides a man',
+				'Passes',
 			passes: true
 		},
 
 		{
 			image: '/img/square.png',
 			frontText: 'Slumdog Millionaire',
-			backText: 'Fails - No two women talk to each other',
+			backText: 'Fails',
 			passes: false
 		}
 	];
@@ -88,17 +88,17 @@
 					<div
 						class="backface-hidden absolute inset-0 h-full w-full items-center justify-center rounded-lg border-2 border-yellow-300 bg-white p-8 shadow-lg"
 					>
-						<p class="text-sm">{card.frontText}</p>
+						<p class="text-md">{card.frontText}</p>
 					</div>
 
 					<!-- Back of card -->
 					<div
-						class="rotate-y-180 backface-hidden absolute inset-0 h-full w-full transform gap-4 rounded-lg border-2 bg-white p-2 shadow-lg"
+						class="flex flex-col rotate-y-180 backface-hidden absolute inset-0 h-full w-full transform gap-4 rounded-lg border-2 bg-white p-2 shadow-lg"
 						class:border-emerald-300={card.passes}
-						class:border-violet-300={!card.passes}
+						class:border-red-300={!card.passes}
 					>
 						<p class="text-sm">{card.frontText}</p>
-						<p class="text-sm">{card.backText}</p>
+						<p class="text-md font-bold">{card.backText}</p>
 					</div>
 				</div>
 			</button>
