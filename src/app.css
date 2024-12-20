@@ -72,7 +72,7 @@ html {
   position: absolute;
   width: 25vw;
   height: 25vw;
-  background: radial-gradient(circle, rgba(238, 229, 66, 0.9) 20%, rgba(255, 255, 255, 0.1) 90%);
+  background: radial-gradient(circle, rgba(196,	139,	240, 0.9) 20%, rgba(255, 255, 255, 0.1) 90%);
   border-radius: 50%;
   filter: blur(0.25vw);
   animation: move-spotlight-left 10s infinite alternate ease-in-out;
@@ -85,7 +85,7 @@ html {
   position: absolute;
   width: 110%;
   height: 50vw;
-  background: linear-gradient(rgba(238, 229, 66, 0.9),
+  background: linear-gradient(rgba(196,	139,	240, 0.9),
       rgba(255, 255, 255, 0.1) 85%);
   z-index: 0;
   top: 0;
@@ -183,7 +183,7 @@ html {
 
 .bubble-container-left {
   top: 31%;
-  left: 23%;
+  left: 19%;
   width: 38vw;
   height: 38vw;
   position: absolute;
@@ -230,8 +230,8 @@ html {
 }
 
 .bubble-container-left.visible {
-  width: 38vw;
-  height: 38vw;
+  width: 35vw;
+  height: 35vw;
   opacity: 0.8;
   border-radius: 50%;
   background: radial-gradient(circle, rgb(253, 223, 71) 80%, rgba(101, 0, 141, 0.1) 100%);
@@ -240,8 +240,8 @@ html {
 }
 
 .bubble-container-left2.visible {
-  width: 33vw;
-  height: 33vw;
+  width: 31vw;
+  height: 31vw;
   opacity: 0.9;
   border-radius: 50%;
   background: radial-gradient(circle, rgb(181, 107, 234) 80%, rgba(0, 0, 0, 0.1) 100%);
@@ -250,8 +250,8 @@ html {
 }
 
 .bubble-container-right.visible {
-  width: 35vw;
-  height: 35vw;
+  width: 33vw;
+  height: 33vw;
   opacity: 0.8;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(45, 152, 132, 0.7) 100%, rgba(0, 0, 0, 0.1) 100%);
@@ -261,12 +261,12 @@ html {
 
 .bubble-content {
   text-align: center;
-  font-size: 1rem;
+  font-size: calc(1.2vw);
   /* Slightly reduce font size for better fit */
   color: #fff;
-  width: 95%;
+  width: 100%;
   /* Adjust width to fit inside the bubble */
-  height: 95%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

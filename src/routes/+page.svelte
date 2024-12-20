@@ -253,15 +253,15 @@
 			class:visible={showBubbles}
 		>
 			<div class="bubble-content">
-				<p class="text-xl leading-relaxed text-black">
+				<p class="leading-relaxed text-black">
 					Meet Madame. <br /> Sitting at her table, she is <br />holding her very first movie
 					script, a huge<br />
 					opportunity she’s dreamed about for years. Suddenly, <br />as she flips through the pages,
 					one line catches her eye: <br />“WHAT DO WE DO NOW?” …. Why would this easy as pie
-					<br />question disturb her so much? Because she delivers it <br />to a man in a moment of
-					high tension, waiting for him to<br /> decide the next move. Madame wonders: <br />Is this
-					really how it starts? A character with little to <br />say, caught in a moment of
-					indecision, as usual<br />, relying on a man to take<br />
+					<br />question disturb her so much? Because she delivers it to a man<br /> in a moment of
+					high tension, waiting for him to decide the <br />next move. Madame wonders: Is this
+					really how it <br />starts? A character with little to say, caught<br /> in a moment of
+					indecision, as usual,<br /> relying on a man to take<br />
 					charge?
 				</p>
 			</div>
@@ -273,13 +273,12 @@
 			class:visible={showBubbles}
 		>
 			<div class="bubble-content">
-				<p class="text-xl leading-relaxed text-black">
-					This line, <br />so popular in movies, is more than <br />just dialogue. It’s a symbol of
-					a deeper <br />issue: women in films are often underrepresented<br /> and stereotyped,
+				<p class="leading-relaxed text-black">
+					This line, so <br />popular in movies, is more than <br />just dialogue. It’s a symbol of
+					a deeper issue:<br /> women in films are often underrepresented and <br />stereotyped,
 					their roles shaped by limited perspectives.<br /> “What Do We Do Now?”<br /> is not just
-					the title of our project: it’s a question <br />we’re asking to explore how the gender
-					<br />of a movie director influences how women<br />
-					are portrayed on screen.
+					the title of our project: it’s a question we’re <br /> asking to explore how the gender of
+					a movie <br />director influences how women are <br />portrayed on screen.
 				</p>
 			</div>
 		</div>
@@ -289,12 +288,13 @@
 			class:visible={showBubbles}
 		>
 			<div class="bubble-content">
-				<p class="text-xl leading-relaxed text-black">
-					Through this project,<br /> we use data to uncover patterns in representation,
-					<br />challenge stereotypes, and highlight <br />the stories that directors choose to tell
-					about women. Because<br />
-					some questions raised in cinema do <br />not always stay on screen : they reflect
-					<br />real-world dynamics, mirroring<br /> how groups of people and behaviors<br /> are portrayed
+				<p class="leading-relaxed text-black">
+					Through this project,<br /> we use data to uncover patterns in <br />representation,
+					challenge stereotypes, and<br /> highlight the stories that directors choose to tell about<br
+					/>
+					women. Because some questions raised in cinema do <br />not always stay on screen : they
+					reflect real-world <br />dynamics, mirroring how groups of people <br />and behaviors are
+					portrayed<br />
 					in our society.
 				</p>
 			</div>
@@ -570,7 +570,7 @@
 					<!-- Left message (received) -->
 					<div class="flex w-full justify-end">
 						<div
-							class="max-w-[80%] rounded-2xl rounded-tr-none bg-emerald-500 px-4 py-2 text-white"
+							class="max-w-[80%] rounded-2xl rounded-tr-none bg-emerald-400 px-4 py-2 text-white"
 						>
 							<p class="text-md">Want to shoot a LGBT movie together?</p>
 						</div>
@@ -580,14 +580,13 @@
 					<div class="flex w-full">
 						<div class="max-w-[80%] rounded-2xl rounded-tl-none bg-orange-400 px-4 py-2 text-white">
 							<p class="text-md">Now that’s an interesting idea!</p>
-							
 						</div>
 					</div>
 					<div class="flex w-full">
 						<div class="max-w-[80%] rounded-2xl rounded-tl-none bg-orange-400 px-4 py-2 text-white">
 							<p class="text-md">
-								But how will we be portrayed? I don’t want to be
-								categorize into stereotypes. No more 'What do we do now?'.  I'm tired "Brainless Beauty" role ...
+								But how will we be portrayed? I don’t want to be categorize into stereotypes. No
+								more 'What do we do now?'. I'm tired "Brainless Beauty" role ...
 							</p>
 						</div>
 					</div>
@@ -604,19 +603,40 @@
 				id="stereotypes"
 			>
 				<h2 class="mb-4 text-5xl font-bold text-black">Stereotropes</h2>
-				<p class="bg-yellow-300 p-4 text-xl text-black"> A trope is a recurring theme, motif, or character type in literature, film, and media that serves as a storytelling shortcut. While tropes can help audiences quickly understand a character or situation, they often perpetuate stereotypes.</p>
-				<div class="flex flex-row items-center justify-center gap-4">
-					<WordsM />
+				<p class="bg-yellow-200 p-4 text-xl text-black">
+					A trope is a recurring theme, motif, or character type in literature, film, and media that
+					acts as a storytelling shortcut, helping audiences quickly grasp characters or situations
+					while often perpetuating stereotypes.
+				</p>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					For example, Madame had a Final Girl character as role in the movie: the sole survivor at
+					the end of a movie when everyone else has perished. The same most represented trope in our
+					dataset.
+				</p>
+				<div class="flex w-full flex-col">
+					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+						To explore the prevalence of stereotypes in films, Madame analyzes the distribution of
+						these tropes.
+					</p>
 				</div>
 
-				<p class="text-xl text-black">
-					But a question remains: what if the stereotypes weren’t just influenced by the director's
-					gender, but were more deeply rooted in societal structures? Madame starts to consider the
-					possibility that these recurring patterns might be shaped by broader cultural norms, not
-					just the people behind the camera. To explore this further, she turns to TV Tropes, a
-					collection of common themes and character types seen across television and film. After
-					examining the gender ratio associated with various tropes over a range of X movies, she is
-					able to link these stereotypes to the representation of women. The data reveals that :
+				<div class="flex flex-col bg-origin-border border-1 border-orange-300 items-center justify-center gap-4">
+					<WordsM />
+					<h2 class="mb-4 flex justify-start text-2xl font-bold text-black">
+						Gendered Tropes' Distribution
+					</h2>
+				</div>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame is shocked! There are so few female tropes compared to the male ones! Could it be
+					because women have very precise stereotypical roles?
+				</p>
+				<p class="bg-yellow-200 p-4 text-xl text-black">
+					It appears the tropes known as feminine are quite often describing women either by their
+					appearance (Beauty, Blonde, Classy) either by their intelligence, or Madame notices, even
+					by their non-intelligence (Dumb, Brainless). Moreover, women are being passive in their
+					tropes (Final girl, Broken bird) and are defined through others (the girl that does not
+					die compared to the others, the girl that had her heart broken). Where men are defined as
+					active through their job (cop, corporate) or their brilliant actions (swordman, hero).
 				</p>
 
 				<Tvtropes />
@@ -642,26 +662,34 @@
 				<div class="flex w-full flex-col space-y-4 p-4">
 					<!-- Right message (sent) -->
 					<div class="flex w-full justify-end">
-						<div class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-400 px-4 py-2 text-white">
+						<div
+							class="max-w-[80%] rounded-2xl rounded-tr-none bg-emerald-400 px-4 py-2 text-white"
+						>
 							<p class="text-md">
-								If you’re looking for a tool to analyze stereotypes, have you heard of the Bechdel
-								Test?
+								Ugh, it’s so frustrating. Women in movies are way too stereotyped, even in films by
+								women. And they’re always so passive!
 							</p>
 						</div>
 					</div>
 					<!-- Left message (received) -->
 					<div class="flex w-full">
-						<div
-							class="max-w-[80%] rounded-2xl rounded-tl-none bg-emerald-500 px-4 py-2 text-white"
-						>
-							<p class="text-md">
-								It sounds familiar, but I’m not sure what it involves. What’s the test?
-							</p>
+						<div class="max-w-[80%] rounded-2xl rounded-tl-none bg-orange-400 px-4 py-2 text-white">
+							<p class="text-md">I get it… Ever heard of the Bechdel Test?</p>
 						</div>
 					</div>
 
 					<div class="flex w-full justify-end">
-						<div class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-400 px-4 py-2 text-white">
+						<div
+							class="max-w-[80%] rounded-2xl rounded-tr-none bg-emerald-400 px-4 py-2 text-white"
+						>
+							<p class="text-md">
+								It sounds familiar, but I can not remember the details. What is it?
+							</p>
+						</div>
+					</div>
+					<!-- Left message (received) -->
+					<div class="flex w-full">
+						<div class="max-w-[80%] rounded-2xl rounded-tl-none bg-orange-400 px-4 py-2 text-white">
 							<p class="text-md">
 								It’s simple: 1) The film must have at least two named female characters; 2) They
 								must talk to each other; 3) Their conversation must be about something other than a

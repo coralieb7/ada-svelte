@@ -10,8 +10,8 @@
 
 		// Extract data arrays from the JSON
 		const passedMale = Object.values(data.passed_male);
-		const failedMale = Object.values(data.failed_male);
-		const passedFemale = Object.values(data.passed_female);
+		const failedMale = Object.values(data.passed_female);
+		const passedFemale = Object.values(data.failed_male);
 		const failedFemale = Object.values(data.failed_female);
 
 		// Define the Plotly figure

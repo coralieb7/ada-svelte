@@ -55,14 +55,14 @@
 					text: 'Male Directors',
 					font: { size: 14 },
 					showarrow: false,
-					x: 0.15,
+					x: 0.175,
 					y: 0.5
 				},
 				{
 					text: 'Female Directors',
 					font: { size: 14 },
 					showarrow: false,
-					x: 0.87,
+					x: 0.84,
 					y: 0.5
 				}
 			],
