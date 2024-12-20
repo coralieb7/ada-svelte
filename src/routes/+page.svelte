@@ -485,7 +485,6 @@
 					</div>
 				</div>
 				<div class='flex flex-row gap-4 items-center justify-center'>
-					<WordsF />
 					<WordsM />
 				</div>
 				

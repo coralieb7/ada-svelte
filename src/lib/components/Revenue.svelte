@@ -20,16 +20,16 @@
 				{
 					type: 'violin',
 					y: passedMale,
-					// name: 'Male Directors - Passed',
+					name: 'Male Directors - Passed',
 					line: { color: '#2D9884' },
 					box: { visible: true }, // Show box plot within the violin
 					meanline: { visible: true }, // Show mean line
 					spanmode: 'soft'
 				},
-                {
+				{
 					type: 'violin',
 					y: passedFemale,
-					// name: 'Female Directors - Passed',
+					name: 'Female Directors - Passed',
 					line: { color: '#9467bd' },
 					box: { visible: true },
 					meanline: { visible: true },
@@ -38,17 +38,17 @@
 				{
 					type: 'violin',
 					y: failedMale,
-					// name: 'Male Directors - Failed',
+					name: 'Male Directors - Failed',
 					line: { color: '#17d07d' },
 					box: { visible: true },
 					meanline: { visible: true },
 					spanmode: 'soft'
 				},
-				
+
 				{
 					type: 'violin',
 					y: failedFemale,
-					// name: 'Female Directors - Failed',
+					name: 'Female Directors - Failed',
 					line: { color: '#c48bf0' },
 					box: { visible: true },
 					meanline: { visible: true },
@@ -60,7 +60,6 @@
 					text: 'Revenue Distribution by Bechdel Test Results and Director Gender'
 				},
 				xaxis: {
-                    title: 'Bechdel Passed                   Bechdel Failed',
 					tickangle: -35 // Adjust for better label visibility
 				},
 				yaxis: {
