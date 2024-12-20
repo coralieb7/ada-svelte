@@ -444,9 +444,17 @@
 					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
 						To Madame, this trend suggests that female actresses face younger and stricter
 						age-related preferences in casting decisions, regardless of whether the director is male
-						or female. It may highlight the trend in the cinema industry only to represent
-						relatively young women, and this can be related to their physical appearance or their
-						secondary role as wives, mothers and lovers.
+						or female. These results correspond to what she read in an
+						<a
+							href={'https://observatoiredesimages.org/focus-16-linvisibilite-le-super-pouvoir-des-femmes'}
+							class="text-center font-semibold text-black"
+							target="_blank"
+							>article
+						</a>
+						earlier this week, stating that "Women over 50, despite being a demographic majority, are
+						rendered invisible in film and television". The results of her plot indeed show that actresses
+						of a specific age over 50 are represent less than 1% of actresses in the dataset. This can
+						be related to their physical appearance or their secondary role as wives, mothers and lovers.
 					</p>
 				</div>
 
@@ -647,8 +655,18 @@
 					</h2>
 				</div>
 				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
-					Madame is shocked! There are so few female tropes compared to the male ones! Could it be
-					because women have very precise stereotypical roles?
+					Madame is shocked! There are so few female tropes compared to the male ones! And so many
+					of them sexualize women ! Madame cannot help but think of an article she once came across
+					entitled :
+					<a
+						href={'https://www.elle.com/uk/life-and-culture/news/g32431/hollywood-actresses-meghan-markle-selena-gomez-pretty-hollywood/'}
+						class="text-center font-semibold text-black"
+						target="_blank"
+						>« 9 Hollywood Actresses Who Were Told They Weren't 'Pretty Enough' To Make It In
+						Hollywood »
+					</a>
+					« I guess they were right, she thought. » Could it be because women have very precise stereotypical
+					roles?
 				</p>
 				<p class="bg-yellow-200 p-4 text-xl text-black">
 					It appears the tropes known as feminine are quite often describing women either by their
@@ -759,15 +777,24 @@
 					slightly higher intensities in emotions like joy and sadness, suggesting a heightened
 					focus on emotionally resonant storytelling. Overall, the difference between passing and
 					failing the bechdel is quite similar for both directors genders, especially regarding the
+					anger and sadness emotions. The difference between the bechdel ‘pass’ and ‘fail’ movies is
+					quite similar for both genders, especially regarding the anger and sadness emotions. The
+					movies that pass have a tendency for sadness and on the opposite, movies that fail have a
+					tendency for anger. Moreover, movies that fail for female directors have also tendencies
+					to increase the fear and disgust emotions. 
+				</p>
+				<p class="bg-yellow-200 p-4 text-xl text-black">
+					Overall, the difference between passing and
+					failing the bechdel is quite similar for both directors genders, especially regarding the
 					anger and sadness emotions. The movies that pass have a tendency for sadness and on the
 					opposite, movies that fail have a tendency for anger. The same observation is highlighted
-					by the study conducted in “The Gender Stereotyping of Emotions.”
+					by the study conducted in “The Gender Stereotyping of Emotions.” 
 					<a
 						href={'https://doi.org/10.1111/j.1471-6402.2000.tb01024.x'}
 						class="text-center font-semibold text-black"
 						target="_blank"
 						>(Plant, E. A. 2006)
-					</a>
+					</a>, which shows that emotions are gendered.
 				</p>
 			</div>
 
