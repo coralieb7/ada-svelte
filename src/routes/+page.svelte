@@ -413,11 +413,20 @@
 					distribution of the movie directors - 90% male, 10% female - is far more contrasted than
 					that of the actors: 67% of the actors are male, while the remaining 33% are female.
 				</p>
-				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
-					Madame suddenly remembers the "Celluloid Ceiling" concept she read about two weeks ago: an
-					invisible but powerful barrier that has kept women from reaching key creative roles in
-					filmmaking for decades (Lauzen, M. 1998) [signet source]. REFERENCE
-				</p>
+				<div class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					<p>
+						Madame suddenly remembers the "Celluloid Ceiling" concept she read about two weeks ago:
+						an invisible but powerful barrier that has kept women from reaching key creative roles
+						in filmmaking for decades
+					</p>
+					<a
+						href={'https://womenintvfilm.sdsu.edu/wp-content/uploads/2023/01/2022-celluloid-ceiling-report.pdf'}
+						class="text-center font-semibold text-black"
+						target="_blank"
+						>(Lauzen, M. 2022)
+					</a>
+				</div>
+
 				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
 					Madame’s curiosity grows as she wonders if the gender imbalance among directors has always
 					influenced the portrayal of women in films. Her thoughts expand: Does the director’s
@@ -494,7 +503,7 @@
 					her chances of landing a meaningful role are higher?
 				</p>
 				<div class="flex w-full flex-col"><Chart /></div>
-				<h2 class="mb-4 flex justify-start text-3xl font-bold text-black">
+				<h2 class="mb-4 flex justify-start text-2xl font-bold text-black">
 					Top movie genres through time
 				</h2>
 				<p class="w-full border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
@@ -655,25 +664,17 @@
 					into their trap.
 				</p>
 				<Tvtropes />
-				<p class="text-xl text-black">
-					To dig deeper, Madame filters the results by the gender ratio of directors, exploring
-					whether certain tropes are more common in films directed by women. She also looks at the
-					balance between female and male characters in these films in order to visualize how women
-					are represented across different tropes. Les hommes représentent plus les clichés d’hommes
-					que ceux des femmes (ils s’en foutent tellement des femmes qu’ils ne les représentent même
-					pas) Les femmes représentent des femmes clichés ; elles sont contraintes de jouer avec les
-					stéréotypes !!! Certains TV tropes stand out: 20 mec vs 100 meufs pour Classy Cat-burglar,
-					hors tv tropes que utilisé par des movie directeur hommes → Ils utilisent des clichés :
-					Les femmes sont vues comme pernicieuses, gold digger, Now, Madame begins to wonder: could
-					these stereotypes be linked to broader societal norms, or are they merely a reflection of
-					industry trends?
+				<p class="bg-yellow-200 p-4 text-xl text-black">
+					As expected, female directors include more women in their films, where male directors
+					really have the space to develop many men characters. However, they also rely on the same
+					tropes as male directors. It seems these clichés are so deeply rooted that even women
+					struggle to envision intelligent and powerful female characters beyond these stereotypes.
 				</p>
 			</div>
 			<div
 				class="flex flex-col items-center justify-center gap-4 p-9 text-justify"
 				id="bechdeltest"
 			>
-				<h2 class="mb-4 text-5xl font-bold text-black">Bechdel Test</h2>
 				<div class="flex w-full flex-col space-y-4 p-4">
 					<!-- Right message (sent) -->
 					<div class="flex w-full justify-end">
@@ -713,72 +714,140 @@
 						</div>
 					</div>
 				</div>
-				<p class="text-xl text-black">
-					After a moment of considering the surprising data, Miss replies with a laugh,
+				<h2 class="mb-4 text-5xl font-bold text-black">Bechdel Test</h2>
+
+				<p class="bg-yellow-200 p-4 text-xl text-black">
+					The Bechdel Test, created by cartoonist Alison Bechdel in her 1985 comic strip Dykes to
+					Watch Out For, evaluates gender representation in films. While it doesn’t measure the
+					quality of a film, it highlights whether women have meaningful roles beyond their
+					relationships with men.
 				</p>
 
-				<!-- IMAGE DON'T SHOW -->
-				<p class="text-xl text-black">
-					Intrigued, she wonders if her friend Miss’s three favorite movies pass the test. Eager to
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Intrigued, she wonders if her friend Miss’s nine favorite movies pass the test. Eager to
 					find out, Madame checks them one by one, comparing whether they meet the criteria.
 				</p>
 				<MemoryGame />
-				<p class="text-xl text-black">
-					Excited by this discovery, Madame decided to dive deeper into the data. She starts by
-					exploring which films pass the test.
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame then studies the proportion of male- and female-directed films that pass the
+					Bechdel Test, clustering them into "BEST" (those that pass: 3/3) and "WORST" (those that
+					don’t: 0/3, 1/3, 2/3). By analyzing these patterns, she hopes to uncover which directors
+					are more likely to break away from stereotypical portrayals of women in cinema.
 				</p>
 				<BechdelRatings />
-				<p class="text-xl text-black">
-					She quickly uncovers some key results: films directed by women tend to pass the Bechdel
-					Test more often than those directed by men.
+
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					As Madame sifts through the data, the results start to reveal some intriguing patterns. It
+					becomes clear that films directed by women tend to have a higher success rate in passing
+					the Bechdel Test, with a notable proportion achieving the maximum score of 3. Furthermore,
+					she almost laughs after noticing that the proportion of movies which score 1 to the test
+					is higher than the one for a score of 2 : Would this mean that directors tend to not to
+					represent any women rather than to make them talk in the movie ?
 				</p>
 				<BechdelCategory />
-				<p class="text-xl text-black">
-					Next, she selects all the films that pass the Bechdel Test (score of 3) and begins
-					analyzing the correlation. PARLER MODELE ML POUR PRÉDIRE LE SCORE DU TEST D’UN FILM AVEC
-					LES INFOS QU’ON A
+
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					In order to dig deeper, Madame focuses on the emotional tones of movies, comparing both
+					‘pass’ and ‘fail’ ones. She compares the emotional range of films with a fully successful
+					Bechdel Test (score of 3), separated by whether the director is male or female.
 				</p>
 				<EmotionsBechdel />
-				<p class="text-xl text-black">
-					As Madame sifts through the data, the results start to reveal some interesting patterns.
-					It becomes clear that films directed by women tend to have ?, and these films also show ?.
-					Eager to dig deeper, Madame then focuses on the emotional tones of these Bechdel-passing
-					films. She compares the emotional range of films with a fully successful Bechdel Test
-					(score of 3), separated by whether the director is male or female. Looking at emotional
-					breadth between the two groups, she notices that films directed by women actually seem to
-					explore the same array of emotions as the one of films directed by men. Madame is now more
-					convinced that the director's gender plays a significant role not just in the inclusion of
-					women in film but also in shaping the emotional richness of their stories.
+				<p class="bg-yellow-200 p-4 text-xl text-black">
+					Looking at emotional breadth between the two groups, we can notice that films directed by
+					women actually seem to explore the same diverse array of emotions as films directed by
+					men. However, the distribution highlights subtle variations: female-directed films display
+					slightly higher intensities in emotions like joy and sadness, suggesting a heightened
+					focus on emotionally resonant storytelling. Overall, the difference between passing and
+					failing the bechdel is quite similar for both directors genders, especially regarding the
+					anger and sadness emotions. The movies that pass have a tendency for sadness and on the
+					opposite, movies that fail have a tendency for anger. The same observation is highlighted
+					by the study conducted in “The Gender Stereotyping of Emotions.”
+					<a
+						href={'https://doi.org/10.1111/j.1471-6402.2000.tb01024.x'}
+						class="text-center font-semibold text-black"
+						target="_blank"
+						>(Plant, E. A. 2006)
+					</a>
 				</p>
 			</div>
 
 			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="success">
 				<h2 class="mb-4 text-5xl font-bold text-black">Success</h2>
-				<p class="text-xl text-black">
-					With all the data and insights she’s gathered, Madame now has one word echoing in her
-					head: success. Madame has long struggled in the artistic world, finding it difficult to
-					land good roles and achieve recognition and audience validation. She starts to explore how
-					industry trends affect the box office and public reception of films, using the IMDb
-					Ratings and TMDB Ratings datasets. and success metrics.
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame’s phone vibrates. She grabs it, excited at the idea of receiving a new screenplay
+					proposal. Ugh, the dreams of winning an Oscar vanish as she sees it’s a call from her
+					landlord. “Shoot,” she mutters, “I’m short on rent again this month.” She wonders aloud,
+					“Will I earn more money if I act in a movie that passes the Bechdel Test?”
 				</p>
-				<div class="flex max-w-6xl">
-					<div class="flex flex-row items-center justify-center -space-x-20">
-						<!-- First flex container takes 2/3 of the screen width -->
-					</div>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Surfing the web, she stumbles upon an article written by Johann Valentowitsch entitled: "<a
+						href={'https://link.springer.com/article/10.1007/s11002-022-09652-5?.com'}
+						class="text-center font-semibold text-black"
+						target="_blank"
+						>(Hollywood Caught in Two Worlds?)
+					</a> The Impact of the Bechdel Test on the International Box Office Performance of Cinematic
+					Films."
+				</p>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					“Hollywood continues to rely heavily on male stereotypes for fear of losing international
+					revenue,” the article states. “I knew it!” Madame exclaims. Her eyes dart across the
+					screen. « on average […] films passing the test achieve significantly higher box office
+					takings." Madame is thrilled, but the article lacks details regarding gender
+					representation.
+				</p>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Taking matters into her own hands, she grabs her computer and proceeds to further analyze
+					her dataset.
+				</p>
+				<div class="flex flex-row gap-4">
+					<p class="bg-yellow-200 p-4 text-xl text-black">
+						After a closer look at director demographics, a striking tendency emerges: around 14,1%
+						of movies passing the Bechdel test are directed by women whereas only 5% of the movies
+						failing the Bechdel test have female directors.
+					</p>
+					<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+						« Obviously, this result is biased as the majority of director gender in my data set.
+						But still, female directors tend to break gender stereotypes and create more meaningful
+						interactions between female characters »."
+					</p>
 				</div>
-				<div><RatingsBoxOffice /></div>
-				<p class="text-justify text-xl text-black">
-					She narrows her focus to two groups of films: those that pass the Bechdel Test with strong
-					female representation and those that fail with poor female representation. To do so, she
-					creates two categories of films based on specific conditions. The first group includes
-					movies that pass the Bechdel Test and have significant female representation among the
-					cast (over 35%), which she labels "wonderful". The second group consists of films that
-					fail the Bechdel Test (score of 2 or less) and have poor female representation (35% or
-					less), which she labels "horrible."
-				</p>
 
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Eager for more insights, Madame digs deeper into the dataset to explore financial success,
+					by eliminating outliers to improve readability of the graph.
+				</p>
 				<div><Revenue /></div>
-				<p class="text-black">The results show that [...]</p>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame did not expect such results. « Maybe Hollywood is not that different from the rest
+					of the world after all », she thinks.
+				</p>
+				<p class="bg-yellow-200 p-4 text-xl text-black">
+					Independently of the movie director gender, movies passing the Bechdel Test exhibit a
+					broader and higher revenue range, on average slightly even more when directed by women.
+					The difference is even stronger when focusing solely on women directors. As a latter of
+					fact, meaningful interaction between women approximately increases the box office revenue
+					from 27 to 47 million dollars.
+				</p>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Madame’s attention then focused on a specific statement : « films with high production
+					costs, gender balance is not a primary determinant of box office earnings ». « Mmmh,
+					interesting » she thought. « Movie budget, that’s a parameter I had not considered yet.. »
+				</p>
+				<div><RatingsBoxOffice /></div>
+				<p class="border-2 border-yellow-200 bg-origin-border p-4 text-xl italic text-black">
+					Once again, the results of Madame’s analysis intrigue her. « Who knew there were such
+					financial disparities amongst movie directors of different genders ? », she thought.
+				</p>
+				<p class="bg-yellow-200 p-4 text-xl text-black">
+					Focusing on female directors, the average rating of a movie does not seem to correlate
+					with the box office revenue. Women directors tend to earn little revenue, less than 200
+					million, no matter the popularity of the movie. On the other hand, the range of box office
+					revenue of movies directed by men seems to extend when better received by the critique.
+					They are more often rewarded economically when appreciated by the critique as they can
+					bring billions of dollars, but also have the most important financial means. In other
+					words, movie budgets often exceed 200 million when directed by men whereas it barely
+					reaches 80 million for the luckier movies directed by females.
+				</p>
 			</div>
 		</div>
 	</section>

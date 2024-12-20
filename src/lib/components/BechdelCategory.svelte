@@ -33,9 +33,15 @@
 		// Layout
 		var layout = {
 			barmode: 'group',
-			title: 'Bechdel Test Ratings by Director Gender',
+			title: {
+				text: 'Bechdel Pass and Fail Distribution',
+				font: {
+					size: 24
+				},
+				x: 0.5
+			},
 			xaxis: { title: 'Rating' },
-			yaxis: { title: 'Percentage %' },
+			yaxis: { title: 'Proportion (%) of movies' },
 			template: 'plotly_white',
 			width: 1050,
 			height: 450

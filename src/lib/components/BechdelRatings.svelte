@@ -29,9 +29,16 @@
 		var data = [traces2, traces1];
 		var layout = {
 			barmode: 'group',
-			title: 'Bechdel Test Ratings by Director Gender',
-			xaxis: { title: 'Rating' },
-			yaxis: { title: 'Percentage %' },
+			title: {
+					text: 'Bechdel Test movie results',
+					font: {
+						
+						size: 24
+					},
+					x: 0.5
+				},
+			xaxis: { title: 'Result' },
+			yaxis: { title: 'Proportion (%) of movies' },
 			template: 'plotly_white',
 			width: 1050,
 			height: 450

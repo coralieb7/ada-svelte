@@ -6,59 +6,64 @@
 			image: '/img/square.png',
 			frontText: 'Midnight Express',
 			backText: 'Fails',
+			grade: '0/3',
 			passes: false
 		},
 		{
 			image: '/img/square.png',
-			frontText: 'Tarzan',
+			frontText: 'Ratatouille',
 			backText: 'Fails',
+			grade: '1/3',
 			passes: false
-		},
-		{
-			image: '/img/square.png',
-			frontText: 'Harry Potter 5',
-			backText:
-				'Passes',
-			passes: true
-		},
-		{
-			image: '/img/square.png',
-			frontText: 'Superman',
-			backText: 'Fails',
-			passes: false
-		},
-		{
-			image: '/img/square.png',
-			frontText: 'Barbie: Fairytopia',
-			backText:
-				'Passes',
-			passes: true
-		},
-		{
-			image: '/img/square.png',
-			frontText: 'Kung Fu Panda',
-			backText:
-				'Passes',
-			passes: true
 		},
 		{
 			image: '/img/square.png',
 			frontText: 'Harry Potter 4',
 			backText: 'Fails',
+			grade: '1/3',
+			passes: false
+		},
+		{
+			image: '/img/square.png',
+			frontText: 'Pulp Fiction',
+			backText: 'Passes',
+			grade: '3/3',
+			passes: true
+		},
+		{
+			image: '/img/square.png',
+			frontText: 'Barbie: Fairytopia',
+			backText: 'Passes',
+			grade: '3/3',
+			passes: true
+		},
+		{
+			image: '/img/square.png',
+			frontText: 'The Grand Budapest Hotel',
+			backText: 'Fails',
+			grade: '1/3',
+			passes: false
+		},
+		{
+			image: '/img/square.png',
+			frontText: 'Oppenheimer',
+			backText: 'Fails',
+			grade: '2/3',
 			passes: false
 		},
 		{
 			image: '/img/square.png',
 			frontText: 'Titanic',
-			backText:
-				'Passes',
+			backText: 'Passes',
+			grade: '3/3',
 			passes: true
 		},
 
 		{
 			image: '/img/square.png',
-			frontText: 'Slumdog Millionaire',
+			frontText: 'The Avengers',
 			backText: 'Fails',
+			grade: '1/3',
 			passes: false
 		}
 	];
@@ -86,19 +91,20 @@
 				>
 					<!-- Front of card -->
 					<div
-						class="backface-hidden absolute inset-0 h-full w-full items-center justify-center rounded-lg border-2 border-yellow-300 bg-white p-8 shadow-lg"
+						class="backface-hidden absolute inset-0 h-full w-full items-center justify-center rounded-lg border-2 border-yellow-300 bg-white p-9 shadow-lg"
 					>
-						<p class="text-md">{card.frontText}</p>
+						<p class="text-md font-semibold">{card.frontText}</p>
 					</div>
 
 					<!-- Back of card -->
 					<div
-						class="flex flex-col rotate-y-180 backface-hidden absolute inset-0 h-full w-full transform gap-4 rounded-lg border-2 bg-white p-2 shadow-lg"
+						class="rotate-y-180 backface-hidden absolute inset-0 flex h-full w-full transform flex-col gap-4 rounded-lg border-2 bg-white p-4 shadow-lg"
 						class:border-emerald-300={card.passes}
 						class:border-red-300={!card.passes}
 					>
 						<p class="text-sm">{card.frontText}</p>
 						<p class="text-md font-bold">{card.backText}</p>
+						<p class="text-md">{card.grade}</p>
 					</div>
 				</div>
 			</button>

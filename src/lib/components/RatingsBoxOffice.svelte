@@ -63,9 +63,16 @@
 				}
 			],
 			layout: {
-				title: 'Proportional Average Rating of Movies by Director Gender',
+				title: {
+					text: 'Average film rating by Box Office Revenue and Budget',
+					font: {
+						
+						size: 24
+					},
+					x: 0.5
+				},
 				xaxis: { title: 'Average Rating' },
-				yaxis: { title: 'Box Office Revenue' },
+				yaxis: { title: 'Box Office Revenue ($)' },
 				width: 1050,
 				height: 500,
 				legend: { title: { text: 'Director Gender' } }

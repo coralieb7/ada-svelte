@@ -57,13 +57,18 @@
 			],
 			layout: {
 				title: {
-					text: 'Revenue Distribution by Bechdel Test Results and Director Gender'
+					text: 'Movie revenue distribution by Bechdel Test’s result ',
+					font: {
+						
+						size: 24
+					},
+					x: 0.5
 				},
 				xaxis: {
 					tickangle: -35 // Adjust for better label visibility
 				},
 				yaxis: {
-					title: 'Revenue',
+					title: 'Revenue ($)',
 					tickprefix: '$', // Add dollar sign for y-axis labels
 					zeroline: true
 				},

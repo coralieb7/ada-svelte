@@ -25,8 +25,8 @@
 			theta: Object.keys(data_json.female_directors),
 			fill: 'toself',
 			name: 'Women - Bechdel passed',
-			line: { color: '#9467bd' }, // Blue color
-			fillcolor: 'rgba(148, 103, 189, 0.4)', // Semi-transparent blue fill
+			line: { color: '#17d07d' }, // Blue color
+			fillcolor: 'rgba(23, 208, 125, 0.4)', // Semi-transparent blue fill
 			subplot: 'polar1'
 		};
 
@@ -37,8 +37,8 @@
 			theta: Object.keys(data_json.male_directors_no_bechdel),
 			fill: 'toself',
 			name: 'Men - Bechdel failed',
-			line: { color: '#17d07d' }, // Red color
-			fillcolor: 'rgba(23, 208, 125, 0.4)', // Semi-transparent red fill
+			line: { color: '#FF5F1F' }, // Red color
+			fillcolor: 'rgba(255, 95, 31, 0.4)', // Semi-transparent red fill
 			subplot: 'polar2'
 		};
 
@@ -48,8 +48,8 @@
 			theta: Object.keys(data_json.female_directors_no_bechdel),
 			fill: 'toself',
 			name: 'Women - Bechdel failed',
-			line: { color: '#c48bf0' }, // Dark blue color
-			fillcolor: 'rgba(181, 107, 234, 0.4)', // Semi-transparent dark blue fill
+			line: { color: '#FFAC1C' }, // Dark blue color
+			fillcolor: 'rgba(255, 172, 28, 0.4)', // Semi-transparent dark blue fill
 			subplot: 'polar1'
 		};
 
@@ -57,7 +57,13 @@
 		var data = [trace1, trace2, trace3, trace4];
 
 		var layout = {
-			title: 'Emotion Distribution by Gender for Bechdel Test Results',
+			title: {
+				text: "Emotions' distribution according to Bechdel Test's result",
+				font: {
+					size: 24
+				},
+				x: 0.5
+			},
 			subplot_titles: ['Bechdel Passed', 'Bechdel Failed'],
 			grid: { rows: 1, columns: 2, pattern: 'independent' },
 			showlegend: true,
