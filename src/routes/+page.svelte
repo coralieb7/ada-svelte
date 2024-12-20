@@ -22,9 +22,8 @@
 	import RatingsBoxOffice from '$lib/components/RatingsBoxOffice.svelte';
 	import Revenue from '$lib/components/Revenue.svelte';
 	import BechdelCategory from '$lib/components/BechdelCategory.svelte';
-	import WordCloud from '$lib/components/WordCloudFemale.svelte';
-	import WordCloudMale from '$lib/components/WordCloudMale.svelte';
-	import WordCloudFemale from '$lib/components/WordCloudFemale.svelte';
+	import WordsF from '$lib/components/WordsFemale.svelte';
+	import WordsM from '$lib/components/WordsMale.svelte';
 
 	let showBubbles = false;
 	let navVisible = true;
@@ -115,15 +114,7 @@
 		};
 	});
 
-	const wordCloudData = [
-		{ name: 'FinalGirl', value: 100 },
-		{ name: 'BrokenBird', value: 80 },
-		{ name: 'DumbBlonde', value: 60 },
-		{ name: 'BrainlessBeauty', value: 40 },
-		{ name: 'ValleyGirl', value: 20 },
-		{ name: 'ClassyCatBurglar', value: 10 }
-		// ... more data
-	];
+	
 	let currentTextIndex = 0;
 	let displayedText = ' ';
 	const texts = [
@@ -462,19 +453,109 @@
 					<GenresM />
 				</div>
 			</div>
+			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="tvtropes">
+				<h2 class="mb-4 text-4xl font-bold text-black">TV Tropes</h2>
+				<div class="flex w-full flex-col space-y-4 p-4">
+					<!-- Left message (received) -->
+					<div class="flex w-full">
+						<div
+							class="max-w-[80%] rounded-2xl rounded-tl-none bg-emerald-500 px-4 py-2 text-white"
+						>
+							<p class="text-md">Want to shoot a LGBT movie together?</p>
+						</div>
+					</div>
+
+					<!-- Right message (sent) -->
+					<div class="flex w-full justify-end">
+						<div class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-500 px-4 py-2 text-white">
+							<p class="text-md">Now that’s an interesting idea!</p>
+						</div>
+					</div>
+					<!-- Left message (received) -->
+					<div class="flex w-full">
+						<div
+							class="max-w-[80%] rounded-2xl rounded-tl-none bg-emerald-500 px-4 py-2 text-white"
+						>
+							<p class="text-md">
+								But how will we be portrayed? I don’t want to depend on anyone else or be
+								pigeonholed into stereotypes. No more 'What do we do now?' … I want to be in control
+								of my role.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class='flex flex-row gap-4 items-center justify-center'>
+					<WordsF />
+					<WordsM />
+				</div>
+				
+				<p class="text-xl text-black">
+					But a question remains: what if the stereotypes weren’t just influenced by the director's
+					gender, but were more deeply rooted in societal structures? Madame starts to consider the
+					possibility that these recurring patterns might be shaped by broader cultural norms, not
+					just the people behind the camera. To explore this further, she turns to TV Tropes, a
+					collection of common themes and character types seen across television and film. After
+					examining the gender ratio associated with various tropes over a range of X movies, she is
+					able to link these stereotypes to the representation of women. The data reveals that :
+				</p>
+
+				<Tvtropes />
+				<p class="text-xl text-black">
+					To dig deeper, Madame filters the results by the gender ratio of directors, exploring
+					whether certain tropes are more common in films directed by women. She also looks at the
+					balance between female and male characters in these films in order to visualize how women
+					are represented across different tropes. Les hommes représentent plus les clichés d’hommes
+					que ceux des femmes (ils s’en foutent tellement des femmes qu’ils ne les représentent même
+					pas) Les femmes représentent des femmes clichés ; elles sont contraintes de jouer avec les
+					stéréotypes !!! Certains TV tropes stand out: 20 mec vs 100 meufs pour Classy Cat-burglar,
+					hors tv tropes que utilisé par des movie directeur hommes → Ils utilisent des clichés :
+					Les femmes sont vues comme pernicieuses, gold digger, Now, Madame begins to wonder: could
+					these stereotypes be linked to broader societal norms, or are they merely a reflection of
+					industry trends?
+				</p>
+			</div>
 			<div
 				class="flex flex-col items-center justify-center gap-4 p-9 text-justify"
 				id="bechdeltest"
 			>
 				<h2 class="mb-4 text-3xl font-bold text-black">Bechdel Test</h2>
+				<div class="flex w-full flex-col space-y-4 p-4">
+					<!-- Right message (sent) -->
+					<div class="flex w-full justify-end">
+						<div class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-500 px-4 py-2 text-white">
+							<p class="text-md">
+								If you’re looking for a tool to analyze stereotypes, have you heard of the Bechdel
+								Test?
+							</p>
+						</div>
+					</div>
+					<!-- Left message (received) -->
+					<div class="flex w-full">
+						<div
+							class="max-w-[80%] rounded-2xl rounded-tl-none bg-emerald-500 px-4 py-2 text-white"
+						>
+							<p class="text-md">
+								It sounds familiar, but I’m not sure what it involves. What’s the test?
+							</p>
+						</div>
+					</div>
 
+					<div class="flex w-full justify-end">
+						<div
+							class="max-w-[80%] rounded-2xl rounded-tr-none bg-orange-500 px-4 py-2 text-white"
+						>
+							<p class="text-md">
+								It’s simple: 1) The film must have at least two named female characters; 2) They
+								must talk to each other; 3) Their conversation must be about something other than a
+								man. Not many films pass!
+							</p>
+						</div>
+					</div>
+				</div>
 				<p class="text-xl text-black">
 					After a moment of considering the surprising data, Miss replies with a laugh,
 				</p>
-				<div
-					class="flex h-80 w-32 border border-black bg-cover"
-					style="background-image: url('/img/sms.jpg');"
-				></div>
+
 				<!-- IMAGE DON'T SHOW -->
 				<p class="text-xl text-black">
 					Intrigued, she wonders if her friend Miss’s three favorite movies pass the test. Eager to
@@ -509,35 +590,7 @@
 					women in film but also in shaping the emotional richness of their stories.
 				</p>
 			</div>
-			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="tvtropes">
-				<h2 class="mb-4 text-4xl font-bold text-black">TV Tropes</h2>
-				<p class="text-xl text-black">
-					But a question remains: what if the stereotypes weren’t just influenced by the director's
-					gender, but were more deeply rooted in societal structures? Madame starts to consider the
-					possibility that these recurring patterns might be shaped by broader cultural norms, not
-					just the people behind the camera. To explore this further, she turns to TV Tropes, a
-					collection of common themes and character types seen across television and film. After
-					examining the gender ratio associated with various tropes over a range of X movies, she is
-					able to link these stereotypes to the representation of women. The data reveals that :
-				</p>
-				<div class='flex flex-row '> <WordCloudFemale /> <WordCloudMale /> </div>
 
-				
-				<Tvtropes />
-				<p class="text-xl text-black">
-					To dig deeper, Madame filters the results by the gender ratio of directors, exploring
-					whether certain tropes are more common in films directed by women. She also looks at the
-					balance between female and male characters in these films in order to visualize how women
-					are represented across different tropes. Les hommes représentent plus les clichés d’hommes
-					que ceux des femmes (ils s’en foutent tellement des femmes qu’ils ne les représentent même
-					pas) Les femmes représentent des femmes clichés ; elles sont contraintes de jouer avec les
-					stéréotypes !!! Certains TV tropes stand out: 20 mec vs 100 meufs pour Classy Cat-burglar,
-					hors tv tropes que utilisé par des movie directeur hommes → Ils utilisent des clichés :
-					Les femmes sont vues comme pernicieuses, gold digger, Now, Madame begins to wonder: could
-					these stereotypes be linked to broader societal norms, or are they merely a reflection of
-					industry trends?
-				</p>
-			</div>
 			<div class="flex flex-col items-center justify-center gap-4 p-9 text-justify" id="success">
 				<h2 class="mb-4 text-4xl font-bold text-black">Success</h2>
 				<p class="text-xl text-black">

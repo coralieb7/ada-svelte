@@ -17,7 +17,7 @@
 
 		// Define colors and labels for gender mapping
 		const colorMap = {
-			M: '#2D9884',
+			M: '#17d07d',
 			F: '#9467bd'
 		};
 		const genderLabels = {
@@ -38,7 +38,7 @@
 					text: maleDirectorData.map((d) => d.movie_name),
 					mode: 'markers',
 					marker: {
-						size: maleDirectorData.map((d) => Math.sqrt(d.movie_budget) / 500), // Scaled size for visualization
+						size: maleDirectorData.map((d) => Math.sqrt(d.movie_budget) / 750), // Scaled size for visualization
 						color: colorMap.M,
 						opacity: 0.7
 					},
