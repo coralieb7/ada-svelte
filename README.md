@@ -1,38 +1,90 @@
-# sv
+# Applied Data Analysis Project — Interactive Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This repository contains the interactive website developed for the course  
+**EPFL — Applied Data Analysis (CS-401)**.
 
-## Creating a project
+Live website: https://ada-svelte.vercel.app/  
+Course website: https://epfl-ada.github.io/teaching/fall2025/cs401/  
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
+## Project Overview
+
+As part of the Applied Data Analysis course, students are required to conduct a full data science project: from data collection to analysis, visualization, and communication.
+
+This website presents our project in an interactive and accessible format, showcasing:
+- The **research question**
+- The **data collection and preprocessing pipeline**
+- The **exploratory data analysis (EDA)**
+- The **statistical and/or machine learning methods**
+- The **key findings and insights**
+
+The goal is to communicate results clearly and reproducibly, following best practices in data storytelling.
+
+---
+
+## About the Course
+
+The Applied Data Analysis (CS-401) course focuses on the full data science pipeline, including:
+- Data acquisition and cleaning  
+- Statistical analysis and inference  
+- Machine learning (supervised & unsupervised)  
+- Data visualization and communication  
+
+Students work in teams on a semester-long project using real-world datasets.
+
+---
+
+## Website Features
+
+This project is implemented as an interactive web application using **Svelte** and deployed on **Vercel**.
+
+Key features:
+- Interactive visualizations  
+- Clear narrative structure for data storytelling  
+- Reproducible insights from the analysis  
+- Fast and modern frontend framework  
+
+---
+
+## Tech Stack
+
+- **Framework:** Svelte / SvelteKit  
+- **Visualization:** D3.js / Plotly
+- **Deployment:** Vercel  
+- **Data processing:** Python (pandas, numpy, scikit-learn, etc.)  
+
+---
+
+## Repository Structure
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+ada-svelte/
+├── src/ # Svelte application source code
+├── static/ # Static assets
+├── data/ # Processed datasets
+├── package.json # Project dependencies
+└── README.md
 ```
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+---
+
+## Getting Started
+
+To run the project locally:
 
 ```bash
+# Clone the repository
+git clone https://github.com/coralieb7/ada-svelte.git
+
+# Navigate into the project
+cd ada-svelte
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Then open:
+http://localhost:5173/
